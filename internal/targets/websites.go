@@ -51,10 +51,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://apparat.lenobl.ru":           {},
 	"https://mosreg.ru":                   {},
 	"https://ulgov.ru":                    {},
-	"https://cheladmin.ru":                {},
 	"https://transport.cheladmin.ru": {},
 	"https://stavregion.ru": {},
-	"https://www.mk.ru":                   {},
 	"https://rg.ru":                       {},
 
 	// Business corporations
@@ -95,7 +93,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://api.sberbank.ru/prod/tokens/v2/oidc":                    {},
 	"https://www.vtb.ru":                                             {},
 	"https://api.vtb.ru":                                             {},
-	"https://www.gazprombank.ru":                                     {},
 	"https://www.moex.com":                                           {},
 	"https://iss.moex.com/iss/reference":                             {},
 	"https://messaging.moex.com/init":                                {},
@@ -122,7 +119,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://online.mkb.ru":                                          {},
 	"https://id.tinkoff.ru/auth/step":                                {},
 	"https://178.248.236.218":                                        {},
-	"https://auth.tcsbank.ru":                                        {},
 
 	//The state
 	"https://mil.ru":                           {},
@@ -134,7 +130,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://otpravka.pochta.ru": {},
 	"https://passport.pochta.ru/oauth2/authorize": {},
 	"https://tariff.pochta.ru": {},
-	"https://zakaznoe.pochta.ru": {},
 
 	// Embassies
 	// Do not duplicate the IPs: https://github.com/erkexzcx/stoppropaganda/pull/110#issuecomment-1059960305
@@ -156,10 +151,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://ds1.mirconnect.ru":           {},
 	"https://ds2.mirconnect.ru":           {},
 	"https://wats.mirconnect.ru":          {},
-	"https://mironline.ru":                {},
-	"https://www.nspk.ru": {},
 	"https://nspk.com":                    {},
-	"https://api.koronapay.com":           {},
 	"https://etpgpb.ru":                   {},
 	"https://passport.etpgpb.ru":          {},
 	"https://bki-okb.ru":                  {},
@@ -236,7 +228,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://acron.ru":                                            {},
 
 	// Food delivery services
-	"https://www.delivery-club.ru": {},
 	"https://sbermarket.ru":        {},
 	"https://chibbis.ru":           {},
 	"https://samokat.ru":           {},
