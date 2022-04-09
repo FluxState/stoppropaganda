@@ -402,5 +402,5 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.amediateka.ru": {},
 	"https://www.okko.tv": {},
 	"https://www.ontvtime.ru": {},
-	"https://wink.ru",
+	"https://wink.ru": {},
 }
