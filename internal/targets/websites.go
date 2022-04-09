@@ -195,7 +195,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://parus-s.ru":                 {},
 	"http://www.icentr.ru":               {},
 	"https://api.kartoteka.ru":           {},
-	"https://crypset.ru":                 {},
 	"https://www.24ecp.ru": {},
 	"http://kraskript.com":               {},
 	"http://squaretrade.ru":              {},
