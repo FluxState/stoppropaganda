@@ -287,12 +287,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://syrianfinance.gov.sy": {},
 	"http://185.216.132.201":       {},
 
-	/* DDOS mitigation */
-	"https://ddos-guard.net/ru": {},
-	"https://stormwall.pro":     {},
-	"https://qrator.net/ru":     {},
-	"https://solidwall.ru":      {},
-
 	// Still operating in Russia
 	// https://yale.box.com/s/11lqy1d3yn1kf9xa3r96k9sb6w5m4qea
 	"https://www.albane.ru": {},
