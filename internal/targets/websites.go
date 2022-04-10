@@ -262,13 +262,10 @@ var TargetWebsites = map[string]struct{}{
 
 	// by banks
 	"https://belarusbank.by":              {},
-	"https://fx.bankdabrabyt.by": {},
-	"https://online.bankdabrabyt.by": {},
 	"https://belpost.by":                  {},
 	"https://api.belpost.by/api/v1/pages": {},
 
 	// by business
-	"https://bgp.by/ru":           {},
 	"https://www.rw.by":           {},
 
 	// by media
