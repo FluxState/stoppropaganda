@@ -7,7 +7,6 @@ var TargetWebsites = map[string]struct{}{
 
 	"https://bukimevieningi.lt": {},
 	"https://musutv.lt":         {},
-	"https://api.musutv.lt":     {},
 	"https://lv.sputniknews.ru": {},
 	"https://www.viada.lt": {},
 	"https://online.sberbank.kz/CSAFront/index.do": {},
@@ -40,10 +39,13 @@ var TargetWebsites = map[string]struct{}{
 	"https://omk.ru":                      {},
 	"https://regnum.ru":                   {},
 	"https://www.rambler.ru":              {},
-	"https://news.rambler.ru": {},
+	"https://www.rambler.ru/api/v4/personalized": {},
+	"https://id.rambler.ru/login-20/login": {},
 	"https://mail.rambler.ru": {},
+	"https://news.rambler.ru": {},
+	"https://peroxide.rambler.ru/v1/comments/clusters/": {},
 	"https://rabota.rambler.ru": {},
-	"https://ssp.rambler.ru/userip": {},
+	"https://rcm.rambler.ru": {},
 	"https://mail.ru":                     {},
 	"https://www.astrobl.ru":              {},
 	"https://apparat.lenobl.ru":           {},
@@ -81,7 +83,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://vcs.rostec.ru":              {},
 	"https://vks3.rostec.ru":             {},
 	"https://kontur.ru":                  {},
-	"https://help.kontur.ru/vnc":         {},
+	"https://help.kontur.ru/ke": {},
 
 	// Banks
 	"https://www.sberbank.ru":                                        {},
@@ -159,11 +161,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://bitokk.biz":              {},
 	"https://www.netex24.net":         {},
 	"https://flashobmen.com":          {},
-	"https://ychanger.net":            {},  // recaptcha
-	"https://multichange.net":         {},  // recaptcha
-	"https://royal.cash":              {},  // recaptcha
-	"https://prostocash.com":          {},  // recaptcha
-	"https://baksman.org":             {},  // recaptcha
 	"https://yoomoney.ru":             {},
 	"https://yookassa.ru":             {},
 
@@ -195,6 +192,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://parus-s.ru":                 {},
 	"http://www.icentr.ru":               {},
 	"https://api.kartoteka.ru":           {},
+	"https://etp.kartoteka.ru/index.html": {},
 	"https://www.24ecp.ru": {},
 	"http://kraskript.com":               {},
 	"http://squaretrade.ru":              {},
@@ -280,7 +278,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://ont.by":              {},
 	"https://www.024.by":          {},
 	"https://www.belnovosti.by":   {},
-	"https://alfaradio.by":        {},
 	"https://radiomir.by":         {},
 	"https://api.radiomir.by":     {},
 	"https://www.tvrmogilev.by":   {},
@@ -344,7 +341,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://portal.fss.ru":           {},
 	"https://data.fss.ru/open":        {},
 	"http://docs.fss.ru":              {},
-	"https://pfrf.ru":                 {},
 	"https://hosting.pfrf.ru":         {},
 	"https://school.pfrf.ru":          {},
 	"https://es.pfrf.ru":              {},
@@ -381,7 +377,6 @@ var TargetWebsites = map[string]struct{}{
     "https://www.doski.ru": {},
     "https://www.farpost.ru": {},
     "https://www.unibo.ru": {},
-	"https://youla.ru": {},
 	"https://api.youla.io/api/v1/search/suggestions": {},
 
 	// https://t.me/itarmyofukraine2022/275
