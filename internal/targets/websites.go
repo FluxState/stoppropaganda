@@ -201,7 +201,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://api.kartoteka.ru":           {},
 	"https://etp.kartoteka.ru/index.html": {},
 	"https://www.24ecp.ru": {},
-	"https://kraskript.com":               {},
 	"https://squaretrade.ru":              {},
 	"https://www.cit-ufa.ru":              {},
 	"https://api.cit-ufa.ru":              {},
@@ -235,7 +234,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// Cinemas
 	"https://cinemastar.ru":     {},
-	"https://kinoteatr.ru":      {},
 	"https://karofilm.ru":       {},
 	"https://kinomax.ru":        {},
 	"https://pioner-cinema.ru":  {},
