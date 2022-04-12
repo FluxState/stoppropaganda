@@ -205,7 +205,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://squaretrade.ru":              {},
 	"https://www.cit-ufa.ru":              {},
 	"https://api.cit-ufa.ru":              {},
-	"http:s//www.icvibor.ru":              {},
+	"https//www.icvibor.ru": {},
 	"https://1c.icvibor.ru": {},
 	"http://mcspro.ru":                   {},
 	"https://iecp.ru/ep/ep-verification": {},
