@@ -47,12 +47,21 @@ var TargetWebsites = map[string]struct{}{
 	"https://rabota.rambler.ru": {},
 	"https://rcm.rambler.ru": {},
 	"https://mail.ru":                     {},
-	"https://www.astrobl.ru":              {},
+	"https://astrobl.ru": {},
+	"https://www2.astrobl.ru": {},
+	"https://adm.astrobl.ru": {},
 	"https://apparat.lenobl.ru":           {},
 	"https://mosreg.ru":                   {},
+	"https://easuz.mosreg.ru": {},
+	"https://login.school.mosreg.ru": {},
+	"https://uslugi.mosreg.ru": {},
 	"https://ulgov.ru":                    {},
 	"https://transport.cheladmin.ru": {},
 	"https://stavregion.ru": {},
+	"http://dostup.stavregion.ru/dsreda/login": {},
+	"http://lk.stavregion.ru": {},
+	"https://torgi.stavregion.ru/application/": {},
+	"https://transport.stavregion.ru": {},
 	"https://rg.ru":                       {},
 
 	// Business corporations
@@ -70,7 +79,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://sber-am.ru":                 {},
 	"https://www.vtbcapital-pr.ru":       {},
 	"https://www.ingosinvest.ru":         {},
-	"http://gruzovozkin.pro":             {},
+	"https://gruzovozkin.pro":             {},
 	"https://ok.ru":                      {},
 	"http://5.61.23.11":                  {},
 	"http://217.20.155.13":               {},
@@ -107,7 +116,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://acs6.sbrf.ru":                                           {},
 	"https://acs7.sbrf.ru":                                           {},
 	"https://acs8.sbrf.ru":                                           {},
-	"https://my.bank-hlynov.ru":                                      {},
+	"https://my.bank-hlynov.ru/login/":                                      {},
 	"https://enter.unicredit.ru/v2/cgi/bsi.dll?T=RT_2Auth.BF":        {},
 	"https://online.sberbank.ru/CSAFront/index.do":                   {},
 	"https://online.gpb.ru/login":                                    {},
@@ -126,7 +135,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://pfr.gov.ru":                       {},
 	"https://rkn.gov.ru":                       {},
 	"https://gosuslugi41.ru":                   {},
-	"https://gosuslugi.astrobl.ru":             {},
 	"https://otpravka.pochta.ru": {},
 	"https://passport.pochta.ru/oauth2/authorize": {},
 	"https://tariff.pochta.ru": {},
@@ -137,9 +145,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://belarus.mid.ru":  {},
 
 	// Others
-	"https://mvd.gov.ru":             {},
-	"https://stroi.gov.ru":           {},
-	"https://proverki.gov.ru":        {},
+	"https://proverki-gov.ru": {},
 	"https://www.glonass-iac.ru":     {},
 	"https://market.dme.ru": {},
 	"https://rabota.dme.ru": {},
@@ -190,15 +196,17 @@ var TargetWebsites = map[string]struct{}{
 	"https://kk.bank":                    {},
 	"https://structure.mil.ru":           {},
 	"https://parus-s.ru":                 {},
-	"http://www.icentr.ru":               {},
+	"https://www.icentr.ru": {},
+	"https://www.kartoteka.ru":           {},
 	"https://api.kartoteka.ru":           {},
 	"https://etp.kartoteka.ru/index.html": {},
 	"https://www.24ecp.ru": {},
-	"http://kraskript.com":               {},
-	"http://squaretrade.ru":              {},
-	"http://www.cit-ufa.ru":              {},
-	"http://api.cit-ufa.ru":              {},
-	"http://www.icvibor.ru":              {},
+	"https://kraskript.com":               {},
+	"https://squaretrade.ru":              {},
+	"https://www.cit-ufa.ru":              {},
+	"https://api.cit-ufa.ru":              {},
+	"http:s//www.icvibor.ru":              {},
+	"https://1c.icvibor.ru": {},
 	"http://mcspro.ru":                   {},
 	"https://iecp.ru/ep/ep-verification": {},
 	"https://e-trust.gosuslugi.ru":       {},
@@ -257,7 +265,7 @@ var TargetWebsites = map[string]struct{}{
 	// by gov
 	"https://president.gov.by/ru":    {},
 	"https://www.kgb.by/ru":           {},
-	"http://mfa.gov.by":              {},
+	"https://mfa.gov.by":              {},
 	"https://russia.mfa.gov.by":      {},
 
 	// by banks
@@ -298,10 +306,9 @@ var TargetWebsites = map[string]struct{}{
 	"https://sd.burgerking.ru/HEAT/SaaSExternalSessionRenew.aspx": {},
 	"https://www.decathlon.ru": {},
 	"https://ecco.ru": {},
-	"https://www.leroymerlin.ru": {},
-	"https://www.loccitane.ru": {},  // recaptcha
+	"https://leroymerlin.ru": {},
 	"https://lladro.ru": {},
-	"https://mega.ru/online/": {},  // Ingka
+	"https://mega.ru": {},  // Ingka
 	"https://modshairrussia.ru": {},
 	"https://mymodshair.ru": {},
 	"https://natr.ru": {},
@@ -327,7 +334,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// https://t.me/itarmyofukraine2022/243
 	"https://fss.gov.ru":               {},
-	"https://wiki.fss.ru":              {},
 	"https://autodiscover.fss.ru/owa": {},
 	"https://portal.fss.ru":           {},
 	"https://data.fss.ru/open":        {},
@@ -351,7 +357,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://payanyway.ru/info/w/ru/public/welcome.htm": {},
 
 	// https://t.me/itarmyofukraine2022/253
-	"https://hh.ru":           {},
 	"https://www.superjob.ru": {},
 	"https://rabota.vk.com":   {},
 	"https://www.avito.ru":    {},
@@ -367,7 +372,7 @@ var TargetWebsites = map[string]struct{}{
     // https://t.me/itarmyofukraine2022/273
     "https://www.doski.ru": {},
     "https://www.farpost.ru": {},
-    "https://www.unibo.ru": {},
+    "https://unibo.ru": {},
 	"https://api.youla.io/api/v1/search/suggestions": {},
 
 	// https://t.me/itarmyofukraine2022/275
@@ -380,7 +385,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://api.sb.mdlp.crpt.ru": {},
 	"https://nrz.api.sb.mdlp.crpt.ru": {},
 	"https://milk.crpt.ru": {},
-	"https://suzgrid.crpt.ru/login": {},
+	"https://suzgrid.crpt.ru": {},
 
     // https://t.me/itarmyofukraine2022/287
 	"https://www.amediateka.ru": {},
@@ -396,10 +401,21 @@ var TargetWebsites = map[string]struct{}{
     "https://cm.1tv.ru": {},
     "https://kino.1tv.ru": {},
     "https://api.kino.1tv.ru/1.4/getChannels": {},
-    "https://stage.1tv.ru": {},
     "https://stream.1tv.ru/api/playlist/1tvch-v1_as_array.json": {},
-    "https://subscr.1tv.ru": {},
     "https://users.1tv.ru": {},
-	"https://kino-teatr.ru": {},
 	"https://mt.kino-teatr.ru": {},
+
+	// https://t.me/itarmyofukraine2022/290
+    "https://api.kontur.ru/csi/support/v1/public/integrations/zakupki": {},
+    "https://auth.kontur.ru": {},
+    "https://ca.kontur.ru/": {},
+    "https://developer.kontur.ru": {},
+    "https://elbank.kontur.ru/AccessControl/Login": {},
+    "https://focus.kontur.ru": {},
+    "https://focus.kontur.ru/api/lists/all": {},
+    "https://install.kontur.ru/kekep": {},
+    "https://pf.kontur.ru": {},
+    "https://zakupki.kontur.ru": {},
+    "https://www.b-kontur.ru/": {},
+    "https://www.kontur-extern.ru": {},
 }
