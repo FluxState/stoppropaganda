@@ -47,7 +47,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://rabota.rambler.ru": {},
 	"https://rcm.rambler.ru": {},
 	"https://mail.ru":                     {},
-	"https://astrobl.ru": {},
+	"https://www.astrobl.ru": {},
 	"https://www2.astrobl.ru": {},
 	"https://adm.astrobl.ru": {},
 	"https://apparat.lenobl.ru":           {},
@@ -55,6 +55,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://easuz.mosreg.ru": {},
 	"https://login.school.mosreg.ru": {},
 	"https://uslugi.mosreg.ru": {},
+	"https://edu-mosreg.ru": {},
 	"https://ulgov.ru":                    {},
 	"https://transport.cheladmin.ru": {},
 	"https://stavregion.ru": {},
@@ -66,7 +67,7 @@ var TargetWebsites = map[string]struct{}{
 
 	// Business corporations
 	"https://lukoil.ru":                  {},
-	"https://www.evraz.com/ru":           {},
+	"https://www.evraz.com/ru/":           {},
 	"https://nlmk.com":                   {},
 	"https://www.wildberries.ru":         {},
 	"https://www.ozon.ru":                {},
@@ -86,7 +87,6 @@ var TargetWebsites = map[string]struct{}{
 	"http://217.20.147.1":                {},
 	"http://www.yemelya.ru":              {},
 	"https://www.nornickel.com":          {},
-	"https://www.evraz.com":              {},
 	"https://rostec.ru":                  {},
 	"https://scloud.rostec.ru/login":     {},
 	"https://vcs.rostec.ru":              {},
@@ -103,7 +103,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.vtb.ru":                                             {},
 	"https://api.vtb.ru":                                             {},
 	"https://www.moex.com":                                           {},
-	"https://iss.moex.com/iss/reference":                             {},
+	"https://iss.moex.com/iss/reference/": {},
 	"https://messaging.moex.com/init":                                {},
 	"https://passport.moex.com/login":                                {},
 	"http://www.fsb.ru":                                              {},
@@ -121,11 +121,13 @@ var TargetWebsites = map[string]struct{}{
 	"https://online.sberbank.ru/CSAFront/index.do":                   {},
 	"https://online.gpb.ru/login":                                    {},
 	"https://alfabank.ru":                                            {},
-	"https://alfabank.ru/api/v1/geco-ip":                             {}, // throws 500. flood their loggers
+	"https://alfabank.ru/api/v1/geco-ip/": {}, // throws 500. flood their loggers
 	"https://www.rshb.ru":                                            {},
 	"https://online.rshb.ru/b1/ib6/wf2/retail/ib/loginretaildefault": {},
 	"https://online.sovcombank.ru":                                   {},
 	"https://online.mkb.ru":                                          {},
+	"https://www.tinkoff.ru":                                         {},
+	"https://www.tinkoff.ru/api/common/v1/webuser": {},
 	"https://id.tinkoff.ru/auth/step":                                {},
 	"https://178.248.236.218":                                        {},
 
@@ -236,7 +238,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://cinemastar.ru":     {},
 	"https://karofilm.ru":       {},
 	"https://kinomax.ru":        {},
-	"https://pioner-cinema.ru":  {},
 	"https://www.mirage.ru":     {},
 
 	// Others
@@ -264,7 +265,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://president.gov.by/ru":    {},
 	"https://www.kgb.by/ru":           {},
 	"https://mfa.gov.by":              {},
-	"https://russia.mfa.gov.by":      {},
+	"https://russia.mfa.gov.by/ru/": {},
 
 	// by banks
 	"https://belarusbank.by":              {},
@@ -275,7 +276,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.rw.by":           {},
 
 	// by media
-	"https://belta.by":            {},
+	"https://www.belta.by": {},
 	"https://www.sb.by":           {},
 	"https://www.belarus.by":      {},
 	"https://ont.by":              {},
@@ -337,8 +338,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://data.fss.ru/open":        {},
 	"http://docs.fss.ru":              {},
 	"https://hosting.pfrf.ru":         {},
-	"https://school.pfrf.ru":          {},
-	"https://es.pfrf.ru":              {},
+	"https://school.pfr.gov.ru": {},
+	"https://es-pfrf.ru/": {},
 
 	// https://t.me/itarmyofukraine2022/247
 	"https://qiwi.com":          {},
@@ -349,7 +350,8 @@ var TargetWebsites = map[string]struct{}{
 
 	// https://t.me/itarmyofukraine2022/248
 	"https://digital.gov.ru":      {},
-	"https://minfin.gov.ru/ru":    {},
+	"https://minfin.gov.ru/ru/": {},
+	"https://minstroyrf.gov.ru": {},
 
 	// https://t.me/itarmyofukraine2022/251
 	"https://payanyway.ru/info/w/ru/public/welcome.htm": {},
@@ -377,7 +379,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.crpt.ru": {},
 	"https://ismp.crpt.ru": {},
 	"https://kb.crpt.ru": {},
-	"https://mail.crpt.ru/owa/auth/logon.aspx": {},
 	"https://markirovka.crpt.ru/login-kep": {},
 	"https://api.mdlp.crpt.ru": {},
 	"https://api.sb.mdlp.crpt.ru": {},
@@ -396,7 +397,6 @@ var TargetWebsites = map[string]struct{}{
     "https://25.1tv.ru": {},
     "https://admin.kino.1tv.ru": {},
     "https://api.1tv.ru/v2/special/channels.json": {},
-    "https://cm.1tv.ru": {},
     "https://kino.1tv.ru": {},
     "https://api.kino.1tv.ru/1.4/getChannels": {},
     "https://stream.1tv.ru/api/playlist/1tvch-v1_as_array.json": {},
@@ -406,7 +406,7 @@ var TargetWebsites = map[string]struct{}{
 	// https://t.me/itarmyofukraine2022/290
     "https://api.kontur.ru/csi/support/v1/public/integrations/zakupki": {},
     "https://auth.kontur.ru": {},
-    "https://ca.kontur.ru/": {},
+    "https://ca.kontur.ru": {},
     "https://developer.kontur.ru": {},
     "https://elbank.kontur.ru/AccessControl/Login": {},
     "https://focus.kontur.ru": {},
@@ -414,6 +414,6 @@ var TargetWebsites = map[string]struct{}{
     "https://install.kontur.ru/kekep": {},
     "https://pf.kontur.ru": {},
     "https://zakupki.kontur.ru": {},
-    "https://www.b-kontur.ru/": {},
+    "https://www.b-kontur.ru": {},
     "https://www.kontur-extern.ru": {},
 }
