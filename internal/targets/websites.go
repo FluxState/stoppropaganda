@@ -222,7 +222,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://zakupki.tektorg.ru": {},
 	"https://aaa-srt-cs.lukoil.com/logon/LogonPoint/tmindex.html": {},
 	"https://ar.lukoil.com/login": {},
-	"https://gazprom.ru":                                          {},
 	"https://b2b.sibur.ru":                                        {},
 	"https://onlinecontract.ru":                                   {},
 	"https://uralchem.com":                                        {},
@@ -269,8 +268,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// by banks
 	"https://belarusbank.by":              {},
-	"https://belpost.by":                  {},
-	"https://api.belpost.by/api/v1/pages": {},
 
 	// by business
 	"https://www.rw.by":           {},
@@ -284,7 +281,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.belnovosti.by":   {},
 	"https://radiomir.by":         {},
 	"https://api.radiomir.by":     {},
-	"https://www.tvrmogilev.by":   {},
 	"https://grodnonews.by":       {},
 
 	/* Syria */
