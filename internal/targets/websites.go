@@ -291,9 +291,6 @@ var TargetWebsites = map[string]struct{}{
 	// https://yale.box.com/s/11lqy1d3yn1kf9xa3r96k9sb6w5m4qea
 	"https://www.albane.ru": {},
 	"https://www.auchan.ru": {},
-	"https://www.blablacar.ru": {},
-	"https://auth.blablacar.ru": {},
-	"https://edge.blablacar.ru/location/suggestions": {},
 	"https://burgerkingrus.ru": {},
 	"https://burgerkingrus.ru/api-web-front/api/v3/restaurant/list": {},
 	"https://delonghi.ru": {},
