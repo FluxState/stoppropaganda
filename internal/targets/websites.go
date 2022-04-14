@@ -83,7 +83,7 @@ var TargetWebsites = map[string]struct{}{
 	// Business corporations
 	"https://lukoil.ru":                  {},
 	"https://www.evraz.com/ru/":           {},
-	"https://nlmk.com/ru/": },
+	"https://nlmk.com/ru/": {},
 	"https://www.wildberries.ru":         {},
 	"https://www.ozon.ru":                {},
 	"https://www.ozon.ru/api/composer-api.bx/page/json/v2": {},
