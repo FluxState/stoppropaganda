@@ -27,6 +27,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://pikabu.ru":                   {},
 	"https://api.pikabu.ru":               {},
 	"https://i.kommersant.ru": {},
+	"https://omk-job.ru": {},
+	"https://omksteel.com": {},
 	"https://www.rambler.ru":              {},
 	"https://www.rambler.ru/api/v4/personalized": {},
 // 	"https://id.rambler.ru/login-20/login": {}, // TODO fix small read buffer
@@ -54,7 +56,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://rg.ru":                       {},
 
 	// https://www.state.gov/russias-pillars-of-disinformation-and-propaganda-report/
-	"http://www.geopolitica.ru": {},
+	"http://www.geopolitika.ru": {},
 	"https://www.globalresearch.ca": {},
 	"https://katehon.com": {},
 	"https://news-front.info": {},
@@ -96,11 +98,18 @@ var TargetWebsites = map[string]struct{}{
 	"https://help.kontur.ru/ke": {},
 
 	// Banks
+	"https://sber.ru": {},
+	"https://api.developer.sber.ru/product/SberbankID": {},
+	"https://promo.sber.ru/sberserenity": {},
+	"https://sberprime.sber.ru": {},
+	"https://www.sberbank.com/ru": {},
 	"https://www.sberbank.ru":                                        {},
 	"https://online.sberbank.ru":                                     {},
 	"https://api.sberbank.ru/prod/tokens/v2":                         {},
 	"https://api.sberbank.ru/prod/tokens/v2/oauth":                   {},
 	"https://api.sberbank.ru/prod/tokens/v2/oidc":                    {},
+	"https://online.sberbank.ru/CSAFront/index.do": {},
+	"https://osago.sberbank.ru": {},
 	"https://www.vtb.ru":                                             {},
 	"https://cl.vtb.ru": {},
 	"https://ipoteka.vtb.ru/ipoteka/1": {},
@@ -122,7 +131,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://acs7.sbrf.ru":                                           {},
 	"https://acs8.sbrf.ru":                                           {},
 	"https://enter.unicredit.ru/v2/cgi/bsi.dll?T=RT_2Auth.BF":        {},
-	"https://online.sberbank.ru/CSAFront/index.do":                   {},
 	"https://online.gpb.ru/login":                                    {},
 	"https://www.rshb.ru":                                            {},
 	"https://online.rshb.ru/b1/ib6/wf2/retail/ib/loginretaildefault": {},
@@ -190,6 +198,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://msp.roseltorg.ru":           {},
 	"https://vtb.roseltorg.ru":           {},
 	"https://rosinvoice.ru/auth":         {},
+	"https://kb.kubankredit.ru/login": {},
 	"https://structure.mil.ru":           {},
 	"https://parus-s.ru":                 {},
 	"https://www.icentr.ru": {},
