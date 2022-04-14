@@ -7,7 +7,6 @@ var TargetWebsites = map[string]struct{}{
 
 	"https://bukimevieningi.lt": {},
 	"https://musutv.lt":         {},
-	"https://lv.sputniknews.ru": {},
 	"https://www.viada.lt": {},
 	"https://online.sberbank.kz/CSAFront/index.do": {},
 
@@ -15,29 +14,19 @@ var TargetWebsites = map[string]struct{}{
 
 	// Propaganda
 	"https://ria.ru":                     {},
-	"https://www.rbc.ru":                  {},
-	"https://smotrim.ru":                  {},
-	"https://api.smotrim.ru":              {},
 	"https://tass.ru":                     {},
 	"https://tass.ru/userApi/getNewsFeed": {},
 	"https://tvzvezda.ru":                 {},
-	"https://www.vesti.ru":                {},
-	"https://er.ru":                       {},
 	"https://www.rzd.ru":                  {},
 	"https://rzdlog.ru":                   {},
 	"https://vgtrk.ru":                    {},
-	"https://www.interfax.ru":             {},
 	"https://vz.ru":                       {},
-	"https://sputniknews.ru":              {},
 	"https://www.kp.ru":                   {},
 	"https://riafan.ru":                   {},
 	"https://api.riafan.ru":               {},
 	"https://pikabu.ru":                   {},
 	"https://api.pikabu.ru":               {},
-	"https://www.kommersant.ru":           {},
 	"https://i.kommersant.ru": {},
-	"https://omk.ru":                      {},
-	"https://regnum.ru":                   {},
 	"https://www.rambler.ru":              {},
 	"https://www.rambler.ru/api/v4/personalized": {},
 // 	"https://id.rambler.ru/login-20/login": {}, // TODO fix small read buffer
@@ -50,7 +39,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.astrobl.ru": {},
 	"https://www2.astrobl.ru": {},
 	"https://adm.astrobl.ru": {},
-	"https://apparat.lenobl.ru":           {},
 	"https://mosreg.ru":                   {},
 	"https://easuz.mosreg.ru": {},
 	"https://login.school.mosreg.ru": {},
@@ -81,7 +69,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.voltairenet.org": {},
 
 	// Business corporations
-	"https://lukoil.ru":                  {},
 	"https://www.evraz.com/ru/":           {},
 	"https://nlmk.com/ru/": {},
 	"https://www.wildberries.ru":         {},
@@ -95,7 +82,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://sber-am.ru":                 {},
 	"https://www.vtbcapital-pr.ru":       {},
 	"https://www.ingosinvest.ru":         {},
-	"https://gruzovozkin.pro":             {},
 	"https://ok.ru":                      {},
 	"http://5.61.23.11":                  {},
 	"http://217.20.155.13":               {},
@@ -135,20 +121,14 @@ var TargetWebsites = map[string]struct{}{
 	"https://acs6.sbrf.ru":                                           {},
 	"https://acs7.sbrf.ru":                                           {},
 	"https://acs8.sbrf.ru":                                           {},
-	"https://my.bank-hlynov.ru/login/":                                      {},
 	"https://enter.unicredit.ru/v2/cgi/bsi.dll?T=RT_2Auth.BF":        {},
 	"https://online.sberbank.ru/CSAFront/index.do":                   {},
 	"https://online.gpb.ru/login":                                    {},
-	"https://alfabank.ru":                                            {},
-	"https://alfabank.ru/api/v1/geco-ip/": {}, // throws 500. flood their loggers
 	"https://www.rshb.ru":                                            {},
 	"https://online.rshb.ru/b1/ib6/wf2/retail/ib/loginretaildefault": {},
 	"https://online.sovcombank.ru":                                   {},
 	"https://online.mkb.ru":                                          {},
-	"https://www.tinkoff.ru":                                         {},
-	"https://www.tinkoff.ru/api/common/v1/webuser": {},
 	"https://id.tinkoff.ru/auth/step":                                {},
-	"https://178.248.236.218":                                        {},
 
 	//The state
 	"https://mil.ru":                           {},
@@ -169,7 +149,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://proverki-gov.ru": {},
 	"https://www.glonass-iac.ru":     {},
 	"https://market.dme.ru": {},
-	"https://rabota.dme.ru": {},
 	"https://www.tickets.dme.ru": {},
 
 	// Payments
@@ -178,8 +157,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://ds1.mirconnect.ru":           {},
 	"https://ds2.mirconnect.ru":           {},
 	"https://wats.mirconnect.ru":          {},
-	"https://nspk.com":                    {},
-	"https://etpgpb.ru":                   {},
 	"https://passport.etpgpb.ru":          {},
 	"https://bki-okb.ru":                  {},
 
@@ -213,11 +190,9 @@ var TargetWebsites = map[string]struct{}{
 	"https://msp.roseltorg.ru":           {},
 	"https://vtb.roseltorg.ru":           {},
 	"https://rosinvoice.ru/auth":         {},
-	"https://kk.bank":                    {},
 	"https://structure.mil.ru":           {},
 	"https://parus-s.ru":                 {},
 	"https://www.icentr.ru": {},
-	"https://www.kartoteka.ru":           {},
 	"https://etp.kartoteka.ru/index.html": {},
 	"https://www.24ecp.ru": {},
 	"https://squaretrade.ru":              {},
@@ -241,17 +216,14 @@ var TargetWebsites = map[string]struct{}{
 	"https://ar.lukoil.com/login": {},
 	"https://b2b.sibur.ru/pages_new_en/faces/index.jspx": {},
 	"https://onlinecontract.ru":                                   {},
-	"https://uralchem.com":                                        {},
 	"https://acron.ru":                                            {},
 
 	// Food delivery services
 	"https://sbermarket.ru":        {},
 	"https://chibbis.ru":           {},
 	"https://samokat.ru":           {},
-	"https://localkitchen.ru":      {},
 
 	// Cinemas
-	"https://cinemastar.ru":     {},
 	"https://karofilm.ru":       {},
 	"https://kinomax.ru":        {},
 	"https://www.mirage.ru":     {},
@@ -262,7 +234,6 @@ var TargetWebsites = map[string]struct{}{
 	// Various websites by ip
 	"https://91.213.144.193": {},
 	"https://91.213.144.237": {},
-	"https://178.248.238.24": {},
 	"https://212.24.38.190":  {},
 	"https://78.47.115.99":   {},
 	"https://194.190.37.226": {},
@@ -307,7 +278,6 @@ var TargetWebsites = map[string]struct{}{
 	// Still operating in Russia
 	// https://yale.box.com/s/11lqy1d3yn1kf9xa3r96k9sb6w5m4qea
 	"https://www.albane.ru": {},
-	"https://www.auchan.ru": {},
 	"https://burgerkingrus.ru": {},
 	"https://burgerkingrus.ru/api-web-front/api/v3/restaurant/list": {},
 	"https://delonghi.ru": {},
@@ -315,7 +285,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://sd.burgerking.ru/HEAT/SaaSExternalSessionRenew.aspx": {},
 	"https://www.decathlon.ru": {},
 	"https://ecco.ru": {},
-	"https://leroymerlin.ru": {},
 	"https://lladro.ru": {},
 	"https://mega.ru": {},  // Ingka
 	"https://modshairrussia.ru": {},
@@ -364,7 +333,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://sc.digital.gov.ru/home": {},
 	"https://minenergo.gov.ru":    {},
 	"https://minfin.gov.ru/ru/": {},
-	"https://minstroyrf.gov.ru": {},
 
 	// https://t.me/itarmyofukraine2022/251
 	"https://payanyway.ru/info/w/ru/public/welcome.htm": {},
