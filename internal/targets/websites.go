@@ -120,7 +120,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://ipoteka.vtb.ru/ipoteka/1": {},
 // 	"https://online.vtb.ru/login": {}, // TODO small read buffer
 	"https://school.vtb.ru": {},
-	"https://siteapi.vtb.ru/api/sitepages/component-types": {},                                {},
+	"https://siteapi.vtb.ru/api/sitepages/component-types": {},
 	"https://www.moex.com":                                           {},
 	"https://iss.moex.com/iss/reference/": {},
 	"https://messaging.moex.com/init":                                {},
