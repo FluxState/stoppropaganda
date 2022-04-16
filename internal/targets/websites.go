@@ -53,7 +53,11 @@ var TargetWebsites = map[string]struct{}{
 	"http://lk.stavregion.ru":                           {},
 	"https://torgi.stavregion.ru/application/":          {},
 	"https://transport.stavregion.ru":                   {},
-	"https://rg.ru":                                     {},
+	"https://rg.ru":                                     {},                                     {},
+	"https://crimea-news.com":                           {},
+	"https://eadaily.com/ru/dossier":                    {},
+	"https://eadaily.com/ru/rss/index.xml":              {},
+	"https://lug-info.com":
 
 	// https://www.state.gov/russias-pillars-of-disinformation-and-propaganda-report/
 	"http://www.geopolitika.ru":                 {},
@@ -137,6 +141,25 @@ var TargetWebsites = map[string]struct{}{
 	"https://online.sovcombank.ru":                                   {},
 	"https://online.mkb.ru":                                          {},
 	"https://id.tinkoff.ru/auth/step":                                {},
+	"https://131.ru":                                                 {},
+	"https://developer.131.ru":                                       {},
+	"https://online.131.ru":                                          {},
+	"https://online.131.ru/json/auth/login":                          {},
+	"https://www.akbars.ru":                                          {},
+	"https://bankok.akbars.ru/AkbarsOnlineAuth/SavedLoginInfo":       {},
+	"https://invest.akbars.ru":                                       {},
+	"https://invest.akbars.ru/api/o":                                 {},
+	"https://online.akbars.ru":                                       {},
+	"https://altbank.ru/v2/s/bsi.dll":                                {},
+	"https://apkbank.ru/ru/msk/":                                     {},
+	"https://www.aresbank.ru":                                        {},
+	"https://www.baikalcredobank.ru":                                 {},
+	"https://www.banki.ru":                                           {},
+	"https://www.banki.ru/ng/api/v1.0/public/banners":                {},
+	"https://faktura.ru":                                             {},
+	"https://bank.faktura.ru":                                        {},
+	"https://business.faktura.ru/f2b/":                               {},
+	"https://elf.faktura.ru/elf/app/":                                {},
 
 	//The state
 	"https://mil.ru":                              {},
@@ -147,6 +170,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://otpravka.pochta.ru":                  {},
 	"https://passport.pochta.ru/oauth2/authorize": {},
 	"https://tariff.pochta.ru":                    {},
+	"https://sozd.duma.gov.ru":                    {},
+	"https://wagnera.ru":                          {},
 
 	// Embassies
 	// Do not duplicate the IPs: https://github.com/erkexzcx/stoppropaganda/pull/110#issuecomment-1059960305
@@ -207,7 +232,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://squaretrade.ru":              {},
 	"https://www.cit-ufa.ru":              {},
 	"https://api.cit-ufa.ru":              {},
-	"https//www.icvibor.ru":               {},
+	"https://icvibor.ru":                  {},
 	"https://1c.icvibor.ru":               {},
 	"http://mcspro.ru":                    {},
 	"https://iecp.ru/ep/ep-verification":  {},
@@ -236,6 +261,36 @@ var TargetWebsites = map[string]struct{}{
 	"https://karofilm.ru":   {},
 	"https://kinomax.ru":    {},
 	"https://www.mirage.ru": {},
+
+	// Transport and logistics
+	"https://a-groupp.com":                     {},
+	"https://atec-logistic.ru":                 {},
+	"https://ati.su":                           {},
+	"https://forums.ati.su/Forum/Default.aspx": {},
+	"https://help.ati.su":                      {},
+	"https://news.ati.su/index/":               {},
+	"https://s1.ati.su/api/6/envelope":         {},
+	"https://trace.ati.su":                     {},
+	"https://trucks.ati.su":                    {},
+	"https://trucks.ati.su/webapi/public/v1.0/loads/dictionaries/get_deals_dicts": {},
+	"https://userdata.ati.su/api/iewv_r":                                          {},
+	"https://zen.ati.su":                                                          {},
+	"https://zen.ati.su/api/v1/top/tags":                                          {},
+	"https://avtobus-raspisanie.ru":                                               {},
+	"https://avtobus.flydex.ru":                                                   {},
+	"https://avtobus.flydex.ru/ajax/suggest/buses":                                {},
+	"https://avtoperevozki-rostov.ru":                                             {},
+	"https://azlog.ru":                                                            {},
+	"https://bilet.aero":                                                          {},
+	"https://avia.bilet.aero/api/guide/airports/MOW":                              {},
+	"https://busnovoyas.ru":                                                       {},
+	"https://www.dellin.ru":                                                       {},
+	"https://www.dellin.ru/api/calculation/v1/products":                           {},
+	"https://kogda.by":                                                            {},
+	"https://www.tutu.ru":                                                         {},
+	"https://bus.tutu.ru/api/v1/geo/suggest":                                      {},
+	"https://id.tutu.ru/sdk_api/session":                                          {},
+	"https://story-proxy.tutu.ru/main_page_posts/":                                {},
 
 	// Others
 	"http://217.12.104.100":  {},
@@ -355,7 +410,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// https://t.me/itarmyofukraine2022/269
 	"https://cdek.by/ru/":           {},
-	"https://www.cdek.ru/ru/":       {},
 	"https://id.ds.cdek.ru":         {},
 	"https://lk.cdek.ru/user/login": {},
 	"https://www.cdek.ru/graphql":   {},
