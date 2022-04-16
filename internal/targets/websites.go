@@ -239,6 +239,7 @@ var TargetWebsites = map[string]struct{}{
 
 	// Others
 	"http://217.12.104.100": {},
+	"https://toxic-repos.ru": {},
 
 	// Various websites by ip
 	"https://91.213.144.193": {},
