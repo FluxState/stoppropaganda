@@ -57,7 +57,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://crimea-news.com":                           {},
 	"https://eadaily.com/ru/dossier":                    {},
 	"https://eadaily.com/ru/rss/index.xml":              {},
-	"https://lug-info.com":
+	"https://lug-info.com":                              {},
 
 	// https://www.state.gov/russias-pillars-of-disinformation-and-propaganda-report/
 	"http://www.geopolitika.ru":                 {},
