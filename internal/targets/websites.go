@@ -53,7 +53,7 @@ var TargetWebsites = map[string]struct{}{
 	"http://lk.stavregion.ru":                           {},
 	"https://torgi.stavregion.ru/application/":          {},
 	"https://transport.stavregion.ru":                   {},
-	"https://rg.ru":                                     {},                                     {},
+	"https://rg.ru":                                     {},
 	"https://crimea-news.com":                           {},
 	"https://eadaily.com/ru/dossier":                    {},
 	"https://eadaily.com/ru/rss/index.xml":              {},
