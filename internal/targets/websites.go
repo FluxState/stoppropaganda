@@ -13,22 +13,16 @@ var TargetWebsites = map[string]struct{}{
 	/* Russia */
 
 	// Propaganda
-	"https://ria.ru":                             {},
 	"https://tass.ru":                            {},
 	"https://tass.ru/userApi/getNewsFeed":        {},
-	"https://tvzvezda.ru":                        {},
 	"https://www.rzd.ru":                         {},
 	"https://rzdlog.ru":                          {},
-	"https://vgtrk.ru":                           {},
 	"https://vz.ru":                              {},
-	"https://www.kp.ru":                          {},
-	"https://riafan.ru":                          {},
 	"https://api.riafan.ru":                      {},
 	"https://pikabu.ru":                          {},
 	"https://api.pikabu.ru":                      {},
 	"https://i.kommersant.ru":                    {},
 	"https://omk-job.ru":                         {},
-	"https://omksteel.com":                       {},
 	"https://www.rambler.ru":                     {},
 	"https://www.rambler.ru/api/v4/personalized": {},
 	// 	"https://id.rambler.ru/login-20/login": {}, // TODO fix small read buffer
@@ -58,6 +52,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://eadaily.com/ru/dossier":                    {},
 	"https://eadaily.com/ru/rss/index.xml":              {},
 	"https://lug-info.com":                              {},
+	"https://kuban24.tv":                                {},
+	"https://newdaynews.ru":                             {},
 
 	// https://www.state.gov/russias-pillars-of-disinformation-and-propaganda-report/
 	"http://www.geopolitika.ru":                 {},
@@ -85,7 +81,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://advego.com":                                   {},
 	"https://freelance.ru":                                 {},
 	"https://www.turbotext.ru":                             {},
-	"https://sber-am.ru":                                   {},
 	"https://www.vtbcapital-pr.ru":                         {},
 	"https://www.ingosinvest.ru":                           {},
 	"https://ok.ru":                                        {},
@@ -93,8 +88,6 @@ var TargetWebsites = map[string]struct{}{
 	"http://217.20.155.13":                                 {},
 	"http://217.20.147.1":                                  {},
 	"http://www.yemelya.ru":                                {},
-	"https://www.nornickel.com":                            {},
-	"https://rostec.ru":                                    {},
 	"https://scloud.rostec.ru/login":                       {},
 	"https://vcs.rostec.ru":                                {},
 	"https://vks3.rostec.ru":                               {},
@@ -113,7 +106,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://api.sberbank.ru/prod/tokens/v2/oauth":     {},
 	"https://api.sberbank.ru/prod/tokens/v2/oidc":      {},
 	"https://online.sberbank.ru/CSAFront/index.do":     {},
-	"https://osago.sberbank.ru":                        {},
 	"https://www.vtb.ru":                               {},
 	"https://cl.vtb.ru":                                {},
 	"https://ipoteka.vtb.ru/ipoteka/1":                 {},
@@ -138,7 +130,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://online.gpb.ru/login":                                    {},
 	"https://www.rshb.ru":                                            {},
 	"https://online.rshb.ru/b1/ib6/wf2/retail/ib/loginretaildefault": {},
-	"https://online.sovcombank.ru":                                   {},
 	"https://online.mkb.ru":                                          {},
 	"https://id.tinkoff.ru/auth/step":                                {},
 	"https://131.ru":                                                 {},
@@ -250,7 +241,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://ar.lukoil.com/login":                                 {},
 	"https://b2b.sibur.ru/pages_new_en/faces/index.jspx":          {},
 	"https://onlinecontract.ru":                                   {},
-	"https://acron.ru":                                            {},
 
 	// Food delivery services
 	"https://sbermarket.ru": {},
@@ -259,7 +249,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// Cinemas
 	"https://karofilm.ru":   {},
-	"https://kinomax.ru":    {},
 	"https://www.mirage.ru": {},
 
 	// Transport and logistics
@@ -291,6 +280,18 @@ var TargetWebsites = map[string]struct{}{
 	"https://bus.tutu.ru/api/v1/geo/suggest":                                      {},
 	"https://id.tutu.ru/sdk_api/session":                                          {},
 	"https://story-proxy.tutu.ru/main_page_posts/":                                {},
+
+	// Belgorod
+	"https://bel.ru": {},
+	"https://bel.ru/api/v1/platform/main_page":                 {},
+	"https://belgorod.igooods.ru/api/v8/cities/identify_by_ip": {},
+	"https://belgorod.farfor.ru":                               {},
+	"https://belsbyt.ru":                                       {},
+	"https://lk.belsbyt.ru/fiz/login":                          {},
+	"http://82.151.107.106:3509":                               {},
+	"https://www.go31.ru":                                      {},
+	"https://www.go31.ru/api3/auth/check-login":                {},
+	"https://perevozki31.ru":                                   {},
 
 	// Others
 	"http://217.12.104.100":  {},
@@ -405,14 +406,10 @@ var TargetWebsites = map[string]struct{}{
 	// https://t.me/itarmyofukraine2022/253
 	"https://www.superjob.ru": {},
 	"https://rabota.vk.com":   {},
-	"https://www.avito.ru":    {},
-	"https://m.avito.ru":      {},
 
 	// https://t.me/itarmyofukraine2022/269
-	"https://cdek.by/ru/":           {},
-	"https://id.ds.cdek.ru":         {},
-	"https://lk.cdek.ru/user/login": {},
-	"https://www.cdek.ru/graphql":   {},
+	"https://cdek.by/ru/":         {},
+	"https://www.cdek.ru/graphql": {},
 
 	// https://t.me/itarmyofukraine2022/273
 	"https://www.doski.ru":                           {},
@@ -438,13 +435,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://wink.ru":           {},
 
 	// https://t.me/itarmyofukraine2022/289
-	"https://www.1tv.ru":                                        {},
-	"https://25.1tv.ru":                                         {},
-	"https://api.1tv.ru/v2/special/channels.json":               {},
-	"https://kino.1tv.ru":                                       {},
-	"https://api.kino.1tv.ru/1.4/getChannels":                   {},
 	"https://stream.1tv.ru/api/playlist/1tvch-v1_as_array.json": {},
-	"https://users.1tv.ru":                                      {},
 	"https://mt.kino-teatr.ru":                                  {},
 
 	// https://t.me/itarmyofukraine2022/290
@@ -460,4 +451,12 @@ var TargetWebsites = map[string]struct{}{
 	"https://zakupki.kontur.ru":                    {},
 	"https://www.b-kontur.ru":                      {},
 	"https://www.kontur-extern.ru":                 {},
+
+	// https://t.me/itarmyofukraine2022/298
+	"https://www.tvigle.ru":          {},
+	"https://admin.tvigle.ru":        {},
+	"https://cloud.tvigle.ru":        {},
+	"https://downloader.tvigle.ru":   {},
+	"http://gr.tvigle.ru":            {},
+	"https://vendor.tvigle.ru/login": {},
 }
