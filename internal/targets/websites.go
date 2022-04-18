@@ -84,7 +84,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// Business corporations
 	"https://www.evraz.com/ru/":                            {},
-	"https://nlmk.com/ru/":                                 {},
 	"https://www.wildberries.ru":                           {},
 	"https://www.ozon.ru":                                  {},
 	"https://www.ozon.ru/api/composer-api.bx/page/json/v2": {},
@@ -298,7 +297,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// Others
 	"http://217.12.104.100":  {},
-	"https://toxic-repos.ru": {},
 
 	// Various websites by ip
 	"https://91.213.144.193": {},
@@ -406,7 +404,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// https://t.me/itarmyofukraine2022/253
 	"https://www.superjob.ru": {},
-	"https://rabota.vk.com":   {},
 
 	// https://t.me/itarmyofukraine2022/269
 	"https://cdek.by/ru/":         {},
