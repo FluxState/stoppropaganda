@@ -103,7 +103,18 @@ func NewWebsite(websiteUrlStr string) (website *Website) {
 	newReq.Header.SetMethod(fasthttp.MethodGet)
 	newReq.Header.Set("Host", websiteURL.Host)
 	newReq.Header.Set("User-Agent", *flagUserAgent)
-	newReq.Header.Set("Accept", "*/*")
+
+	newReq.Header.Set("accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9")
+	newReq.Header.Set("accept-encoding", "gzip, deflate, br")
+	newReq.Header.Set("accept-language", "ru-RU,en-US;q=0.9,en;q=0.8")
+	newReq.Header.Set("sec-ch-ua", "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"")
+	newReq.Header.Set("sec-ch-ua-mobile", "?0")
+	newReq.Header.Set("sec-ch-ua-platform", "\"Windows\"")
+	newReq.Header.Set("sec-fetch-dest", "document")
+	newReq.Header.Set("sec-fetch-mode", "navigate")
+	newReq.Header.Set("sec-fetch-site", "none")
+	newReq.Header.Set("sec-fetch-user", "?1")
+	newReq.Header.Set("upgrade-insecure-requests", "1")
 
 	website = &Website{
 		host: websiteURL.Host,

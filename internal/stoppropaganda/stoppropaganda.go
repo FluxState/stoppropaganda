@@ -32,7 +32,7 @@ var (
 	flagProxy           = fs.String("proxy", "", "list of comma separated proxies to be used for websites DOS")
 	flagProxyBypass     = fs.String("proxybypass", "", "list of comma separated IP addresses, CIDR ranges, zones (*.example.com) or a hostnames (e.g. localhost) that needs to bypass used proxy")
 	flagTimeout         = fs.Duration("timeout", 120*time.Second, "timeout of HTTP request")
-	flagUserAgent       = fs.String("useragent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36", "User agent used in HTTP requests")
+	flagUserAgent       = fs.String("useragent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4896.127 Safari/537.36", "User agent used in HTTP requests")
 	flagWorkers         = fs.Int("workers", 1000, "DOS each website with this amount of workers")
 )
 
