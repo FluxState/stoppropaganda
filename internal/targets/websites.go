@@ -449,12 +449,4 @@ var TargetWebsites = map[string]struct{}{
 	"https://zakupki.kontur.ru":                    {},
 	"https://www.b-kontur.ru":                      {},
 	"https://www.kontur-extern.ru":                 {},
-
-	// https://t.me/itarmyofukraine2022/298
-	"https://www.tvigle.ru":          {},
-	"https://admin.tvigle.ru":        {},
-	"https://cloud.tvigle.ru":        {},
-	"https://downloader.tvigle.ru":   {},
-	"http://gr.tvigle.ru":            {},
-	"https://vendor.tvigle.ru/login": {},
 }
