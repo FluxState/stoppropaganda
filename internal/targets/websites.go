@@ -153,21 +153,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://online.rshb.ru/b1/ib6/wf2/retail/ib/loginretaildefault": {},
 	"https://online.mkb.ru":                                          {},
 	"https://id.tinkoff.ru/auth/step":                                {},
-	"https://www.akbars.ru":                                          {},
-	"https://bankok.akbars.ru/AkbarsOnlineAuth/SavedLoginInfo":       {},
-	"https://invest.akbars.ru":                                       {},
-	"https://invest.akbars.ru/api/o":                                 {},
-	"https://online.akbars.ru":                                       {},
-	"https://altbank.ru/v2/s/bsi.dll":                                {},
-	"https://apkbank.ru/ru/msk/":                                     {},
-	"https://www.aresbank.ru":                                        {},
-	"https://www.baikalcredobank.ru/irk/":                            {},
-	"https://www.banki.ru":                                           {},
-	"https://www.banki.ru/ng/api/v1.0/public/banners":                {},
-	"https://faktura.ru":                                             {},
-	"https://bank.faktura.ru":                                        {},
-	"https://business.faktura.ru/f2b/":                               {},
-	"https://elf.faktura.ru/elf/app/":                                {},
 
 	//The state
 	"https://mil.ru":                              {},
@@ -268,32 +253,6 @@ var TargetWebsites = map[string]struct{}{
 	// Cinemas
 	"https://karofilm.ru":   {},
 	"https://www.mirage.ru": {},
-
-	// Transport and logistics
-	"https://a-groupp.com":                     {},
-	"https://atec-logistic.ru":                 {},
-	"https://forums.ati.su/Forum/Default.aspx": {},
-	"https://help.ati.su":                      {},
-	"https://news.ati.su/index/":               {},
-	"https://s1.ati.su/api/6/envelope":         {},
-	"https://trace.ati.su":                     {},
-	"https://trucks.ati.su":                    {},
-	"https://trucks.ati.su/webapi/public/v1.0/loads/dictionaries/get_deals_dicts": {},
-	"https://userdata.ati.su/api/iewv_r":                                          {},
-	"https://zen.ati.su":                                                          {},
-	"https://zen.ati.su/api/v1/top/tags":                                          {},
-	"https://avtobus-raspisanie.ru":                                               {},
-	"https://avtobus.flydex.ru":                                                   {},
-	"https://avtobus.flydex.ru/ajax/suggest/buses":                                {},
-	"https://avtoperevozki-rostov.ru":                                             {},
-	"https://azlog.ru":                                                            {},
-	"https://bilet.aero":                                                          {},
-	"https://avia.bilet.aero/api/guide/airports/MOW":                              {},
-	"https://www.dellin.ru":                                                       {},
-	"https://www.dellin.ru/api/calculation/v1/products":                           {},
-	"https://kogda.by":                                                            {},
-	"https://id.tutu.ru/sdk_api/session":                                          {},
-	"https://story-proxy.tutu.ru/main_page_posts/":                                {},
 
 	// Belgorod
 	"https://bel.ru": {},
@@ -461,4 +420,11 @@ var TargetWebsites = map[string]struct{}{
 	"https://zakupki.kontur.ru":                    {},
 	"https://www.b-kontur.ru":                      {},
 	"https://www.kontur-extern.ru":                 {},
+
+	// https://t.me/itarmyofukraine2022/302
+	"https://www.aeroflot.ru/ru-ru": {},
+	"https://lmsspeech.aeroflot.ru": {},
+	"https://calendar.aviasales.ru": {},
+	"https://rov.aero":              {},
+	"https://www.uralairlines.ru":   {},
 }
