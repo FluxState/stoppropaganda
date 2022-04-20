@@ -82,7 +82,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://nvo.ng.ru":                                  {},
 	"https://nnews.nnov.ru":                              {},
 	"https://newdaynews.ru":                              {},
-	"https://odnarodyna.org":                             {},
+// 	"https://odnarodyna.org":                             {}, // TODO small read buffer
 	"https://plainnews.ru":                               {},
 	"https://politcentr.ru":                              {},
 	"https://politpuzzle.ru":                             {},
@@ -104,7 +104,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://vesti-k.ru":                                 {},
 	"https://vm.ru":                                      {},
 	"http://webnovosti.info":                             {},
-	"http://wpristav.ru":                                 {},
+	"https://wpristav.ru":                                 {},
 	"https://x-true.info":                                {},
 	"https://zanamipravda.ru":                            {},
 
