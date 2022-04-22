@@ -13,11 +13,13 @@ var TargetWebsites = map[string]struct{}{
 	/* Russia */
 
 	// Propaganda
+	"https://lenta.ru":                           {},
 	"https://tass.ru":                            {},
 	"https://tass.ru/userApi/getNewsFeed":        {},
 	"https://www.rzd.ru":                         {},
 	"https://rzdlog.ru":                          {},
 	"https://vz.ru":                              {},
+	"https://www.gazeta.ru":                      {},
 	"https://api.riafan.ru":                      {},
 	"https://pikabu.ru":                          {},
 	"https://api.pikabu.ru":                      {},
@@ -35,20 +37,32 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.astrobl.ru":                             {},
 	"https://www2.astrobl.ru":                            {},
 	"https://adm.astrobl.ru":                             {},
-	"https://mosreg.ru":                                  {},
+	"https://agmo.mosreg.ru":                             {},
+	"https://br.mosreg.ru/login/auth/":                   {},
+	"https://dk.mosreg.ru":                               {},
 	"https://easuz.mosreg.ru":                            {},
+	"https://gasu.mosreg.ru":                             {},
+	"https://invest.mosreg.ru":                           {},
+	"https://pass.mosreg.ru/login":                       {},
 	"https://login.school.mosreg.ru":                     {},
+	"https://web.mail.mosreg.ru/SOGo/":                   {},
+	"https://market.mosreg.ru":                           {},
+	"https://rgis.mosreg.ru/v3/":                         {},
+	"https://sso.mosreg.ru/signin.jsp":                   {},
+	"https://support.mosreg.ru":                          {},
 	"https://uslugi.mosreg.ru":                           {},
+	"https://vmeste.mosreg.ru/login":                     {},
+	"https://welcome.mosreg.ru":                          {},
+	"http://wow.mosreg.ru/admin/":                        {},
 	"https://edu-mosreg.ru":                              {},
 	"https://ulgov.ru":                                   {},
 	"https://stavregion.ru":                              {},
 	"http://dostup.stavregion.ru/dsreda/login":           {},
 	"http://lk.stavregion.ru":                            {},
-	"https://torgi.stavregion.ru/application/":           {},
 	"https://transport.stavregion.ru":                    {},
 	"https://rg.ru":                                      {},
 	"http://allpravda.info":                              {},
-	"https://antifashist.com":                            {}, // https://antifashist.online
+	"https://antifashist.online":                         {}, // https://antifashist.com
 	"https://antimaydan.info":                            {},
 	"https://argumenti.ru":                               {},
 	"https://aurora.network":                             {},
@@ -110,7 +124,6 @@ var TargetWebsites = map[string]struct{}{
 	"http://novorossy.ru":                 {},
 	"http://novosti333.ru":                {},
 	"https://nt1941.su":                   {},
-	"http://oddr.info":                    {},
 	"https://pandoraopen.ru":              {},
 	"https://plainnews.ru":                {},
 	"https://pravdoryb.info":              {},
@@ -147,13 +160,13 @@ var TargetWebsites = map[string]struct{}{
 	"https://vesti-k.ru":                  {},
 	"https://vm.ru":                       {},
 	"https://voskhodinfo.su":              {},
-	"https://webkamerton.ru":              {},
-	"http://webnovosti.info":              {},
-	"https://wpristav.ru":                 {}, // cf
-	"https://x-true.info":                 {}, // cf
-	"http://xvesti.ru":                    {},
-	"https://zanamipravda.ru":             {},
-	"https://zavtra.ru":                   {},
+	// 	"https://webkamerton.ru":              {}, // small read buffer
+	"http://webnovosti.info":  {},
+	"https://wpristav.ru":     {}, // cf
+	"https://x-true.info":     {}, // cf
+	"http://xvesti.ru":        {},
+	"https://zanamipravda.ru": {},
+	"https://zavtra.ru":       {},
 
 	// https://www.state.gov/russias-pillars-of-disinformation-and-propaganda-report/
 	"http://www.geopolitika.ru":                 {},
@@ -174,11 +187,9 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.ozon.ru":                                  {},
 	"https://www.ozon.ru/api/composer-api.bx/page/json/v2": {},
 	"https://www.dns-shop.ru":                              {},
-	"https://aliexpress.ru":                                {},
 	"https://advego.com":                                   {},
 	"https://freelance.ru":                                 {},
 	"https://www.turbotext.ru":                             {},
-	"https://www.vtbcapital-pr.ru":                         {},
 	"https://www.ingosinvest.ru":                           {},
 	"https://ok.ru":                                        {},
 	"http://5.61.23.11":                                    {},
@@ -188,7 +199,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://vcs.rostec.ru":                                {},
 	"https://vks3.rostec.ru":                               {},
 	"https://kontur.ru":                                    {},
-	"https://help.kontur.ru/ke":                            {},
 
 	// Banks
 	"https://sber.ru": {},
@@ -201,12 +211,10 @@ var TargetWebsites = map[string]struct{}{
 	"https://api.sberbank.ru/prod/tokens/v2/oauth":     {},
 	"https://api.sberbank.ru/prod/tokens/v2/oidc":      {},
 	"https://online.sberbank.ru/CSAFront/index.do":     {},
-	"https://www.vtb.ru":                               {},
 	"https://cl.vtb.ru":                                {},
 	"https://ipoteka.vtb.ru/ipoteka/1":                 {},
 	// 	"https://online.vtb.ru/login": {}, // TODO small read buffer
 	"https://school.vtb.ru":                                          {},
-	"https://siteapi.vtb.ru/api/sitepages/component-types":           {},
 	"https://www.moex.com":                                           {},
 	"https://iss.moex.com/iss/reference/":                            {},
 	"https://messaging.moex.com/init":                                {},
@@ -222,10 +230,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://acs7.sbrf.ru":                                           {},
 	"https://acs8.sbrf.ru":                                           {},
 	"https://online.gpb.ru/login":                                    {},
-	"https://www.rshb.ru":                                            {},
-	"https://online.rshb.ru/b1/ib6/wf2/retail/ib/loginretaildefault": {},
-	"https://online.mkb.ru":                                          {},
-	"https://id.tinkoff.ru/auth/step":                                {},
 
 	//The state
 	"https://mil.ru":                              {},
@@ -253,8 +257,6 @@ var TargetWebsites = map[string]struct{}{
 	// Payments
 	"http://185.170.2.7":         {},
 	"http://185.170.3.7":         {},
-	"https://ds1.mirconnect.ru":  {},
-	"https://ds2.mirconnect.ru":  {},
 	"https://wats.mirconnect.ru": {},
 	"https://passport.etpgpb.ru": {},
 	"https://bki-okb.ru":         {},
@@ -263,38 +265,13 @@ var TargetWebsites = map[string]struct{}{
 	"https://bitokk.biz":      {},
 	"https://www.netex24.net": {}, // requires cookie through redirect to fully load
 	"https://flashobmen.com":  {},
-	"https://yoomoney.ru":     {},
-	"https://yookassa.ru":     {},
 
 	// Electronic signature services, certificate authorities, www domain names
-	"https://www.roseltorg.ru":            {},
-	"https://178fz.roseltorg.ru":          {},
-	"https://agro.roseltorg.ru":           {},
-	"https://atom2.roseltorg.ru":          {},
-	"https://bg.roseltorg.ru/auth/email":  {},
-	"https://com.roseltorg.ru":            {},
-	"https://docs.roseltorg.ru":           {},
-	"https://etp.roseltorg.ru":            {},
-	"https://fkr.roseltorg.ru":            {},
-	"https://fkr2.roseltorg.ru":           {},
-	"https://kim-atom.roseltorg.ru":       {},
-	"https://kim.roseltorg.ru":            {},
-	"https://kim-irao.roseltorg.ru":       {},
-	"https://lk.roseltorg.ru/auth":        {},
-	"https://orders.roseltorg.ru":         {},
-	"https://rosgeo.roseltorg.ru":         {},
-	"https://rosseti.roseltorg.ru":        {},
-	"https://rt.roseltorg.ru":             {},
-	"https://rushydro.roseltorg.ru":       {},
-	"https://msp.roseltorg.ru":            {},
-	"https://vtb.roseltorg.ru":            {},
-	"https://rosinvoice.ru/auth":          {},
 	"https://kb.kubankredit.ru/login":     {},
 	"https://structure.mil.ru":            {},
 	"https://parus-s.ru":                  {},
 	"https://www.icentr.ru":               {},
 	"https://etp.kartoteka.ru/index.html": {},
-	"https://www.24ecp.ru":                {},
 	"https://www.cit-ufa.ru":              {},
 	"https://api.cit-ufa.ru":              {},
 	"https://icvibor.ru":                  {},
@@ -341,18 +318,10 @@ var TargetWebsites = map[string]struct{}{
 	"http://217.12.104.100":  {},
 
 	// Various websites by ip
-	"https://91.213.144.193": {},
-	"https://91.213.144.237": {},
-	"https://78.47.115.99":   {},
-	"https://194.190.37.226": {},
-	"https://194.190.37.228": {},
 	"https://213.59.254.8":   {},
-	"https://185.194.34.142": {},
 	"https://213.59.197.65":  {},
-	"https://185.71.67.237":  {},
 	"https://82.151.111.187": {},
-	"https://91.239.5.75":    {},
-	"https://92.53.98.191":   {},
+	"https://185.58.223.206": {},
 
 	/* BELARUS */
 
@@ -375,18 +344,12 @@ var TargetWebsites = map[string]struct{}{
 	"https://ont.by":            {},
 	"https://www.024.by":        {},
 	"https://www.belnovosti.by": {},
-	"https://radiomir.by":       {},
-	"https://api.radiomir.by":   {},
-	"https://grodnonews.by":     {},
 
 	/* Syria */
 	"https://syrianfinance.gov.sy": {},
-	"http://185.216.132.201":       {},
 
 	// Still operating in Russia
 	// https://www.yalerussianbusinessretreat.com/
-	"http://api.auchan.ru":                                          {},
-	"http://api-partners.auchan.ru":                                 {},
 	"https://transport.auchan.ru/core/framework/login.cfm":          {},
 	"https://burgerkingrus.ru":                                      {},
 	"https://burgerkingrus.ru/api-web-front/api/v3/restaurant/list": {},
@@ -410,7 +373,6 @@ var TargetWebsites = map[string]struct{}{
 	// https://t.me/itarmyofukraine2022/230
 	"http://www.ved.gov.ru":      {},
 	"https://www.mid.ru":         {},
-	"https://www.economy.gov.ru": {},
 
 	// https://t.me/itarmyofukraine2022/215
 	"https://www.chechnya.online": {},
@@ -440,9 +402,6 @@ var TargetWebsites = map[string]struct{}{
 	// https://t.me/itarmyofukraine2022/251
 	"https://payanyway.ru/info/w/ru/public/welcome.htm": {},
 
-	// https://t.me/itarmyofukraine2022/253
-	"https://www.superjob.ru": {}, // requires cookie through redirect to fully load
-
 	// https://t.me/itarmyofukraine2022/269
 	"https://cdek.by/ru/":         {},
 	"https://www.cdek.ru/graphql": {},
@@ -467,7 +426,6 @@ var TargetWebsites = map[string]struct{}{
 	// https://t.me/itarmyofukraine2022/287
 	"https://www.amediateka.ru": {},
 	"https://www.okko.tv":       {},
-	"https://www.ontvtime.ru":   {},
 	"https://wink.ru":           {},
 
 	// https://t.me/itarmyofukraine2022/289
@@ -479,13 +437,12 @@ var TargetWebsites = map[string]struct{}{
 	"https://ca.kontur.ru":                         {},
 	"https://developer.kontur.ru":                  {},
 	"https://elbank.kontur.ru/AccessControl/Login": {},
-	"https://focus.kontur.ru":                      {},
-	"https://focus.kontur.ru/api/lists/all":        {},
-	"https://install.kontur.ru/kekep":              {},
-	"https://pf.kontur.ru":                         {},
-	"https://zakupki.kontur.ru":                    {},
-	"https://www.b-kontur.ru":                      {},
-	"https://www.kontur-extern.ru":                 {},
+	// 	"https://focus.kontur.ru":                      {}, // TODO read buffer size
+	"https://focus.kontur.ru/api/lists/all": {},
+	"https://pf.kontur.ru":                  {},
+	"https://zakupki.kontur.ru":             {},
+	"https://www.b-kontur.ru":               {},
+	"https://www.kontur-extern.ru":          {},
 
 	// https://t.me/itarmyofukraine2022/302
 	"https://rov.aero": {},
