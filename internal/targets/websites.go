@@ -5,9 +5,6 @@ package targets
 var TargetWebsites = map[string]struct{}{
 	/* Other countries */
 
-	"https://bukimevieningi.lt":                    {},
-	"https://musutv.lt":                            {},
-	"https://www.viada.lt":                         {},
 	"https://online.sberbank.kz/CSAFront/index.do": {},
 
 	/* Russia */
@@ -231,7 +228,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://tariff.pochta.ru":                    {},
 	"https://sozd.duma.gov.ru":                    {},
 	"https://vsednr.ru":                           {},
-	"https://wagnera.ru":                          {},
 	"https://www.admoblkaluga.ru":                        {},
 	"https://ecis.admoblkaluga.ru":                       {},
 	"https://entry.admoblkaluga.ru/Web/Login":            {},
@@ -324,8 +320,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://onlinecontract.ru":                                   {},
 
 	// Food delivery services
-	"https://sbermarket.ru": {},
-	"https://chibbis.ru":    {},
 	"https://samokat.ru":    {},
 
 	// Cinemas
@@ -335,6 +329,7 @@ var TargetWebsites = map[string]struct{}{
 	// Belgorod
 	"https://bel.ru": {},
 	"https://bel.ru/api/v1/platform/main_page":                 {},
+	"https://belgorod.chibbis.ru/":                             {},
 	"https://belgorod.igooods.ru":                              {},
 	"https://belgorod.igooods.ru/api/v8/cities/identify_by_ip": {},
 	"https://belgorod.farfor.ru":                               {},
@@ -356,7 +351,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// by gov
 	"https://president.gov.by/ru":   {},
-	"https://www.kgb.by/ru":         {},
 	"https://mfa.gov.by":            {},
 	"https://russia.mfa.gov.by/ru/": {},
 
@@ -370,7 +364,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.belta.by":        {},
 	"https://www.belarus.by/ru/":  {},
 	"https://ont.by":              {}, // should be called without params
-	"https://www.024.by":          {},
 	"https://www.belnovosti.by":   {},
 
 	/* Syria */
@@ -399,7 +392,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.yves-rocher.ru":                                    {},
 
 	// https://t.me/itarmyofukraine2022/230
-	"http://www.ved.gov.ru":      {},
 	"https://www.mid.ru":         {},
 
 	// https://t.me/itarmyofukraine2022/215
