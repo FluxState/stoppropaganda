@@ -288,7 +288,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.admoblkaluga.ru":                        {},
 	"https://ecis.admoblkaluga.ru":                       {},
 	"https://entry.admoblkaluga.ru/Web/Login":            {},
-	"https://mimz.admoblkaluga.ru" :                      {},
+	"https://mimz.admoblkaluga.ru/Menu/Page/1" :          {},
 	"https://mimz.admoblkaluga.ru/GzwSP/ContractsJson" :  {},
 	"https://pre.admoblkaluga.ru/main/":                  {},
 	"https://sadko30.admoblkaluga.ru/account/login":      {},
@@ -300,7 +300,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://mer.govdnr.ru":                              {},
 	"https://mid-dnr.su/ru/":                             {},
 	"https://midural.ru":                                 {},
-	"https://минспорт.рус":                               {},
 	"https://agmo.mosreg.ru":                             {},
 	"https://br.mosreg.ru/login/auth/":                   {},
 	"https://dk.mosreg.ru":                               {},
@@ -405,7 +404,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://esia.gosuslugi.ru":           {},
 	"https://iecp.ru/ep/ep-verification":  {},
 	"https://e-trust.gosuslugi.ru":        {},
-	"https://gu.spb.ru":                   {},
+	"https://gu.spb.ru":                   {}, // should be called without params
 	"https://iecp.ru/ep/uc-list":          {},
 
 	// Oil and gas trading companies
@@ -429,7 +428,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://api.delivery-club.ru/api1.2/experiments": {},
 	"https://m-food.ru":                               {},
 	"https://sbermarket.ru":                           {},
-	"https://chibbis.ru":                              {},
 	"https://samokat.ru":                              {},
 	"https://localkitchen.ru":                         {},
 
@@ -443,6 +441,7 @@ var TargetWebsites = map[string]struct{}{
 	// Belgorod
 	"https://bel.ru": {},
 	"https://bel.ru/api/v1/platform/main_page":                 {},
+	"https://belgorod.chibbis.ru":                              {},
 	"https://belgorod.igooods.ru":                              {},
 	"https://belgorod.igooods.ru/api/v8/cities/identify_by_ip": {},
 	"https://belgorod.farfor.ru":                               {},
@@ -552,7 +551,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.yves-rocher.ru":                                    {},
 
 	// https://t.me/itarmyofukraine2022/230
-	"http://www.ved.gov.ru":      {},
 	"https://www.mid.ru":         {},
 	"https://minobrnauki.gov.ru": {},
 
