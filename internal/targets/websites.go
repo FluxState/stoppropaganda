@@ -227,11 +227,14 @@ var TargetWebsites = map[string]struct{}{
 	"https://otpravka.pochta.ru":                  {},
 	"https://passport.pochta.ru/oauth2/authorize": {},
 	"https://tariff.pochta.ru":                    {},
+	"https://zakaznoe.pochta.ru":                  {},
+	"http://crimea-post.ru":                       {},
+	"https://ca.vks.rosguard.gov.ru":              {},
 	"https://sozd.duma.gov.ru":                    {},
 	"https://vsednr.ru":                           {},
 	"https://ecis.admoblkaluga.ru":                       {},
 	"https://entry.admoblkaluga.ru/Web/Login":            {},
-	"https://mimz.admoblkaluga.ru" :                      {},
+	"https://mimz.admoblkaluga.ru/Menu/Page/1" :          {},
 	"https://mimz.admoblkaluga.ru/GzwSP/ContractsJson" :  {},
 	"https://pre.admoblkaluga.ru/main/":                  {},
 	"https://sadko30.admoblkaluga.ru/account/login":      {},
@@ -301,7 +304,7 @@ var TargetWebsites = map[string]struct{}{
 	"http://mcspro.ru":                    {},
 	"https://iecp.ru/ep/ep-verification":  {},
 	"https://e-trust.gosuslugi.ru":        {},
-	"https://gu.spb.ru":                   {},
+	"https://gu.spb.ru":                   {}, // should be called without params
 	"https://iecp.ru/ep/uc-list":          {},
 
 	// Oil and gas trading companies
@@ -325,7 +328,7 @@ var TargetWebsites = map[string]struct{}{
 	// Belgorod
 	"https://bel.ru": {},
 	"https://bel.ru/api/v1/platform/main_page":                 {},
-	"https://belgorod.chibbis.ru/":                             {},
+	"https://belgorod.chibbis.ru":                              {},
 	"https://belgorod.igooods.ru":                              {},
 	"https://belgorod.igooods.ru/api/v8/cities/identify_by_ip": {},
 	"https://belgorod.farfor.ru":                               {},
