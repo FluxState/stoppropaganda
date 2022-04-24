@@ -31,6 +31,9 @@ var TargetDNSServers = map[string]struct{}{
 	"194.28.239.12:53":   {}, // ns2.tass.ru
 	"77.238.100.195:53":  {}, // ns1.tsargrad.tv
 	"188.64.160.163:53":  {}, // ns2.tsargrad.tv
+	"194.1.214.8:53":     {}, // ns1.wildberries.ru
+	"62.109.12.21:53":    {}, // ns2.wildberries.ru
+	"91.230.107.70:53":   {}, // ns3.wildberries.ru
 }
 
 // We need reliable IP addresses

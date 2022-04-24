@@ -3,10 +3,6 @@ package targets
 // Source: https://twitter.com/FedorovMykhailo/status/1497642156076511233
 
 var TargetWebsites = map[string]struct{}{
-	/* Other countries */
-
-	"https://online.sberbank.kz/CSAFront/index.do": {},
-
 	/* Russia */
 
 	// Propaganda
@@ -280,9 +276,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://mfa.gov.by":            {},
 	"https://russia.mfa.gov.by/ru/": {},
 
-	// by banks
-	"https://belarusbank.by": {},
-
 	// by business
 	"https://www.rw.by": {},
 
@@ -301,12 +294,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://burgerkingrus.ru/api-web-front/api/v3/restaurant/list": {},
 	"https://mic.burgerking.ru/mifs/user/login.jsp":                 {},
 	"https://sd.burgerking.ru/HEAT/SaaSExternalSessionRenew.aspx":   {},
-	"https://www.decathlon.ru":                                      {}, // should be called without params
-	"https://blog.decathlon.ru":                                     {},
 	"https://delonghi.ru":                                           {},
 	"https://ecco.ru":                                               {},
-	"https://www.jd.ru":                                             {},
-	"https://www.jd.ru/leproxy/api/carts/cart/owner-id":             {},
 	"https://mega.ru/offers/":                                       {}, // Ingka
 	"https://modshairrussia.ru":                                     {},
 	"https://mymodshair.ru":                                         {},
@@ -314,7 +303,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://papajohns.ru/moscow":                                   {},
 	"https://api.papajohns.ru/slider/list":                          {},
 	"https://subway.ru":                                             {},
-	"https://www.yves-rocher.ru":                                    {},
 
 	// https://t.me/itarmyofukraine2022/230
 	"https://www.mid.ru": {},
