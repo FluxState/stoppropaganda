@@ -18,11 +18,10 @@ var TargetWebsites = map[string]struct{}{
 	"https://api.riafan.ru":                      {},
 	"https://pikabu.ru":                          {},
 	"https://api.pikabu.ru":                      {},
-	"https://i.kommersant.ru":                    {},
-	"https://omk-job.ru":                         {},
 	"https://www.rambler.ru":                     {},
 	"https://www.rambler.ru/api/v4/personalized": {},
 	// 	"https://id.rambler.ru/login-20/login": {}, // TODO fix small read buffer
+	"https://zoomdecorate.rambler.ru":            {},
 	"https://mail.rambler.ru":                            {},
 	"https://news.rambler.ru":                            {},
 	"https://peroxide.rambler.ru/v1/comments/clusters/":  {},
@@ -174,13 +173,12 @@ var TargetWebsites = map[string]struct{}{
 	"https://suggestions.wildberries.ru/api/v2/hint":              {},
 	"https://wbxcatalog-ru.wildberries.ru/tops_tshirts/catalog":   {},
 	"https://wbxsearch.wildberries.ru/exactmatch/v2/common":       {},
-	"https://www.ozon.ru":                                         {},
+// 	"https://www.ozon.ru":                                         {}, // small read buffer
 	"https://www.ozon.ru/api/composer-api.bx/page/json/v2":        {},
 	"https://brandlab.ozon.ru":                                    {},
 	"https://docs.ozon.ru/main":                                   {},
 	"https://job.ozon.ru":                                         {},
 	"https://seller.ozon.ru":                                      {},
-	"https://www.dns-shop.ru":                                     {},
 	"https://advego.com":                                          {},
 	"https://freelance.ru":                                        {},
 	"https://new.ingosinvest.ru/Registration/Info":                {},
@@ -205,7 +203,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://tariff.pochta.ru":                         {},
 	"https://zakaznoe.pochta.ru":                       {},
 	"http://crimea-post.ru":                            {},
-	"https://ca.vks.rosguard.gov.ru":                   {},
 	"https://sozd.duma.gov.ru":                         {},
 	"https://vsednr.ru":                                {},
 	"https://ecis.admoblkaluga.ru":                     {},
@@ -242,7 +239,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://edu-mosreg.ru":                            {},
 	"https://mzdnr.ru":                                 {},
 	"https://pravdnr.ru":                               {},
-	"https://supcourt-dpr.su":                          {},
 	"https://ulgov.ru":                                 {},
 
 	// Embassies
@@ -252,10 +248,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// Others
 	"https://www.glonass-iac.ru": {},
-
-	// Electronic signature services, certificate authorities, www domain names
-	"https://etp.kartoteka.ru/index.html": {},
-	"http://mcspro.ru":                    {},
 
 	// Cinemas
 	"https://karofilm.ru":   {},
@@ -305,7 +297,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// Still operating in Russia
 	// https://www.yalerussianbusinessretreat.com/
-	"https://transport.auchan.ru/core/framework/login.cfm":          {},
 	"https://burgerkingrus.ru":                                      {},
 	"https://burgerkingrus.ru/api-web-front/api/v3/restaurant/list": {},
 	"https://mic.burgerking.ru/mifs/user/login.jsp":                 {},
@@ -336,11 +327,7 @@ var TargetWebsites = map[string]struct{}{
 	// https://t.me/itarmyofukraine2022/287
 	"https://www.amediateka.ru": {},
 	"https://www.okko.tv":       {},
-	"https://wink.ru":           {},
 
 	// https://t.me/itarmyofukraine2022/289
 	"https://stream.1tv.ru/api/playlist/1tvch-v1_as_array.json": {},
-
-	// https://t.me/itarmyofukraine2022/302
-	"https://rov.aero": {},
 }
