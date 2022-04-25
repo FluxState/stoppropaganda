@@ -89,7 +89,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://nation-news.ru":                             {},
 	"https://newizv.ru":                                  {},
 	"https://newizv.ru/api/v1/matters":                   {},
-	"http://news24today.info":                            {},
 	"https://newsland.com":                               {},
 	"https://nvo.ng.ru":                                  {},
 	"https://nnews.nnov.ru":                              {},
