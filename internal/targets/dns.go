@@ -54,7 +54,6 @@ var TargetDNSServers = map[string]struct{}{
 	"178.248.236.20:53":  {}, // ns9.sputniknews.ru
 	"178.248.233.32:53":  {}, // ns10.sputniknews.ru
 	"185.216.132.201:53": {}, // ns1.syrianfinance.gov.sy
-	"185.216.132.201:53": {}, // ns2.syrianfinance.gov.sy
 	"194.28.239.11:53":   {}, // ns1.tass.ru
 	"194.28.239.12:53":   {}, // ns2.tass.ru
 	"77.238.100.195:53":  {}, // ns1.tsargrad.tv
