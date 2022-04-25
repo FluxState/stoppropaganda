@@ -315,7 +315,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// https://t.me/itarmyofukraine2022/215
 	"https://www.chechnya.online": {},
-	"https://vaynahavia.com":      {},
 	"https://www.minfinchr.ru":    {},
 
 	// https://t.me/itarmyofukraine2022/287
