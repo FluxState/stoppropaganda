@@ -6,7 +6,6 @@ var TargetWebsites = map[string]struct{}{
 	/* Russia */
 
 	// Propaganda
-	"https://lenta.ru":                           {},
 	"https://tass.ru":                            {},
 	"https://tass.ru/userApi/getNewsFeed":        {},
 	"https://vz.ru":                              {},
@@ -58,7 +57,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://dontimes.ru":                                {},
 	"https://dosie.su":                                   {}, // cf
 	"https://eadaily.com/ru/dossier":                     {},
-	"https://eadaily.com/ru/rss/index.xml":               {},
 	"https://evening-crimea.com":                         {},
 	"https://expert.ru":                                  {},
 	"https://fine-news.ru":                               {},
@@ -188,7 +186,6 @@ var TargetWebsites = map[string]struct{}{
 	"http://www.yemelya.ru":                                {},
 	"https://vcs.rostec.ru":                                {},
 	"https://vks3.rostec.ru":                               {},
-	"https://kontur.ru":                                    {},
 	"http://app.rzd.ru":                                    {},
 	"https://team.rzd.ru":                                  {},
 	"https://rzdint.ru":                                    {},
