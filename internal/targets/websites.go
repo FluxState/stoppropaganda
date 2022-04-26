@@ -6,11 +6,12 @@ var TargetWebsites = map[string]struct{}{
 	/* Russia */
 
 	// Propaganda
-	"https://tass.ru":                            {},
-	"https://tass.ru/userApi/getNewsFeed":        {},
+	// 	"https://tass.ru":                            {}, // stormwall
+	// 	"https://tass.ru/userApi/getNewsFeed":        {}, // stormwall
 	"https://vz.ru":                              {},
 	"https://www.gazeta.ru":                      {},
 	"https://api.riafan.ru":                      {},
+	"https://mt.riafan.ru":                       {},
 	"https://pikabu.ru":                          {},
 	"https://api.pikabu.ru":                      {},
 	"https://www.rambler.ru":                     {},
@@ -35,6 +36,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://argumenti.ru":                               {},
 	"https://aurora.network":                             {},
 	"https://balrad.ru":                                  {},
+	"https://cpanel.balrad.ru":                           {},
 	"https://buzina.org":                                 {},
 	"https://www.c-inform.info":                          {},
 	"https://crimea-news.com":                            {},
@@ -45,50 +47,50 @@ var TargetWebsites = map[string]struct{}{
 	"https://cont.ws":                                    {},
 	"https://dan-news.info":                              {},
 	"https://dni.ru":                                     {},
+	"https://social.dni.ru":                              {},
 	"https://dnr24.com":                                  {},
 	"https://dnr24.su":                                   {},
 	"https://dnr-life.ru":                                {},
 	"https://dnr-pravda.ru":                              {},
-	"https://donbasstoday.ru":                            {},
-	"https://dontimes.ru":                                {},
-	"https://dosie.su":                                   {}, // cf
-	"https://eadaily.com/ru/dossier":                     {}, // cf
-	"https://evening-crimea.com":                         {},
-	"https://expert.ru":                                  {},
-	"https://fine-news.ru":                               {},
-	"https://forpostsevastopol.ru":                       {},
-	"https://front-novorossii.ru":                        {},
-	"http://globalwarnews.ru":                            {},
-	"https://gorlovka-news.su":                           {},
-	"https://gtrklnr.com":                                {},
-	"https://inforeactor.ru":                             {},
-	"https://infox.sg":                                   {},
-	"https://inlugansk.ru":                               {},
-	"https://jpgazeta.ru":                                {},
-	"https://kianews24.ru":                               {},
-	"http://k-politika.ru":                               {}, // cf
-	"https://kuban24.tv":                                 {}, // cf
-	"https://life.ru":                                    {},
-	"https://api.corr.life/public/regions/lookup":        {},
-	"https://lug-info.com":                               {},
-	"https://lugansk-online.su":                          {},
-	"https://www.m24.ru":                                 {},
-	"https://cross.m24.ru/covid/frontend/web/site/rus":   {},
-	"https://mediarepost.ru":                             {},
-	"https://www.metronews.ru":                           {},
-	"https://www.readmetro.com":                          {},
-	"https://www.mk-kalm.ru":                             {},
-	"https://mkset.ru":                                   {},
-	"http://www.moscow-post.su":                          {},
-	"https://www.nakanune.ru":                            {},
-	"https://nation-news.ru":                             {},
-	"https://newizv.ru":                                  {},
-	"https://newizv.ru/api/v1/matters":                   {},
-	"https://newsland.com":                               {}, // cf
-	"https://nvo.ng.ru":                                  {},
-	"https://nnews.nnov.ru":                              {},
-	"https://newdaynews.ru":                              {},
-	"https://www.newc.info":                              {},
+	// 	"https://donbasstoday.ru":                            {}, // stormwall
+	"https://dontimes.ru":                              {},
+	"https://dosie.su":                                 {}, // cf
+	"https://eadaily.com/ru/dossier":                   {}, // cf
+	"https://evening-crimea.com":                       {},
+	"https://expert.ru":                                {},
+	"https://fine-news.ru":                             {},
+	"https://forpostsevastopol.ru":                     {},
+	"https://front-novorossii.ru":                      {},
+	"http://globalwarnews.ru":                          {},
+	"https://gorlovka-news.su":                         {},
+	"https://gtrklnr.com":                              {},
+	"https://inforeactor.ru":                           {},
+	"https://infox.sg":                                 {},
+	"https://inlugansk.ru":                             {},
+	"https://jpgazeta.ru":                              {},
+	"https://kianews24.ru":                             {},
+	"http://k-politika.ru":                             {}, // cf
+	"https://kuban24.tv":                               {}, // cf
+	"https://life.ru":                                  {},
+	"https://lug-info.com":                             {},
+	"https://lugansk-online.su":                        {},
+	"https://www.m24.ru":                               {},
+	"https://cross.m24.ru/covid/frontend/web/site/rus": {},
+	"https://mediarepost.ru":                           {},
+	"https://www.metronews.ru":                         {},
+	"https://www.readmetro.com":                        {},
+	"https://www.mk-kalm.ru":                           {},
+	"https://mkset.ru":                                 {},
+	"http://www.moscow-post.su":                        {},
+	"https://www.nakanune.ru":                          {},
+	"https://nation-news.ru":                           {},
+	"https://newizv.ru":                                {},
+	"https://newizv.ru/api/v1/matters":                 {},
+	"https://newsland.com":                             {}, // cf
+	"https://nvo.ng.ru":                                {},
+	"https://nnews.nnov.ru":                            {},
+	"https://newdaynews.ru":                            {},
+	"https://www.newc.info":                            {},
 	// 	"https://odnarodyna.org":                             {}, // TODO small read buffer
 	"https://novorossiia.ru":              {}, // cf
 	"https://novorossiia.info":            {},
@@ -132,10 +134,10 @@ var TargetWebsites = map[string]struct{}{
 	"https://ugyalta.com":                 {}, // cf
 	"https://universe-tss.su":             {},
 	"https://utro.ru":                     {},
-	"https://www.vedomosti.ru":            {},
-	"https://vesti-k.ru":                  {},
-	"https://vm.ru":                       {},
-	"https://voskhodinfo.su":              {},
+	// 	"https://www.vedomosti.ru":            {},
+	"https://vesti-k.ru":     {},
+	"https://vm.ru":          {},
+	"https://voskhodinfo.su": {},
 	// 	"https://webkamerton.ru":              {}, // small read buffer
 	"http://webnovosti.info":  {},
 	"https://wpristav.ru":     {}, // cf
@@ -179,19 +181,13 @@ var TargetWebsites = map[string]struct{}{
 	"https://montreal.mid.ru": {},
 	"https://belarus.mid.ru":  {},
 
-	// Cinemas
-	"https://karofilm.ru":   {},
-	"https://www.mirage.ru": {},
-
 	// Belgorod
 	"https://bel.ru": {}, // cf
 	"https://bel.ru/api/v1/platform/main_page":  {}, // cf
-	"https://belgorod.chibbis.ru":               {},
 	"https://belsbyt.ru":                        {},
 	"https://lk.belsbyt.ru/fiz/login":           {},
 	"https://www.go31.ru":                       {},
 	"https://www.go31.ru/api3/auth/check-login": {},
-	"https://perevozki31.ru":                    {}, // cf
 
 	/* BELARUS */
 
@@ -199,9 +195,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://president.gov.by/ru":   {},
 	"https://mfa.gov.by":            {},
 	"https://russia.mfa.gov.by/ru/": {},
-
-	// by business
-	"https://www.rw.by": {},
 
 	// by media
 	"https://www.belta.by":       {},
