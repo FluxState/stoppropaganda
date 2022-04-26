@@ -36,7 +36,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://argumenti.ru":                               {},
 	"https://aurora.network":                             {},
 	"https://balrad.ru":                                  {},
-	"https://cpanel.balrad.ru":                           {},
 	"https://buzina.org":                                 {},
 	"https://www.c-inform.info":                          {},
 	"https://crimea-news.com":                            {},
