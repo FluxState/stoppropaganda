@@ -11,7 +11,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://vz.ru":                              {},
 	"https://www.gazeta.ru":                      {},
 	"https://api.riafan.ru":                      {},
-	"https://mt.riafan.ru":                       {},
+	"https://mt.riafan.ru/blog/latest":           {},
 	"https://pikabu.ru":                          {},
 	"https://api.pikabu.ru":                      {},
 	"https://www.rambler.ru":                     {},
@@ -52,20 +52,20 @@ var TargetWebsites = map[string]struct{}{
 	"https://dnr-life.ru":                                {},
 	"https://dnr-pravda.ru":                              {},
 	// 	"https://donbasstoday.ru":                            {}, // stormwall
-	"https://dontimes.ru":                              {},
-	"https://dosie.su":                                 {}, // cf
-	"https://eadaily.com/ru/dossier":                   {}, // cf
-	"https://evening-crimea.com":                       {},
-	"https://expert.ru":                                {},
-	"https://fine-news.ru":                             {},
-	"https://forpostsevastopol.ru":                     {},
-	"https://front-novorossii.ru":                      {},
-	"http://globalwarnews.ru":                          {},
-	"https://gorlovka-news.su":                         {},
-	"https://gtrklnr.com":                              {},
-	"https://inforeactor.ru":                           {},
-	"https://infox.sg":                                 {},
-	"https://inlugansk.ru":                             {},
+	"https://dontimes.ru":            {},
+	"https://dosie.su":               {}, // cf
+	"https://eadaily.com/ru/dossier": {}, // cf
+	"https://evening-crimea.com":     {},
+	"https://expert.ru":              {},
+	"https://fine-news.ru":           {},
+	"https://forpostsevastopol.ru":   {},
+	"https://front-novorossii.ru":    {},
+	"http://globalwarnews.ru":        {},
+	"https://gorlovka-news.su":       {},
+	"https://gtrklnr.com":            {},
+	"https://inforeactor.ru":         {},
+	"https://infox.sg":               {},
+	// 	"https://inlugansk.ru":                             {}, // cf
 	"https://jpgazeta.ru":                              {},
 	"https://kianews24.ru":                             {},
 	"http://k-politika.ru":                             {}, // cf
@@ -110,8 +110,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://rf-smi.ru":                   {},
 	"https://www.ritmeurasia.org":         {},
 	"https://rodina.news":                 {}, // cf
-	"https://rossaprimavera.ru":           {},
-	"https://rusdnepr.ru":                 {},
+	"https://rossaprimavera.ru/feed/news": {},
 	"https://rusnext.ru":                  {}, // cf
 	"https://rusnext.ru/newslistapi.json": {}, // cf
 	"http://ru-an.info":                   {},
@@ -163,17 +162,16 @@ var TargetWebsites = map[string]struct{}{
 	"https://vcs.rostec.ru":  {},
 
 	// The state
-	"https://mil.ru":            {},
-	"http://www.crimea-post.ru": {},
-	"https://sozd.duma.gov.ru":  {},
-	"https://vsednr.ru":         {},
-	"https://dnmchs.ru":         {},
-	"http://www.fsb.ru":         {},
-	"https://govdnr.ru":         {},
-	"https://mer.govdnr.ru":     {},
-	"https://mid-dnr.su/ru/":    {},
-	"https://mzdnr.ru":          {},
-	"https://pravdnr.ru":        {},
+	"https://mil.ru":                  {},
+	"https://sozd.duma.gov.ru":        {},
+	"https://vsednr.ru":               {},
+	"https://dnmchs.ru":               {},
+	"http://www.fsb.ru":               {},
+	"https://govdnr.ru":               {},
+	"https://mer.govdnr.ru/index.php": {},
+	"https://mid-dnr.su/ru/":          {},
+	"https://mzdnr.ru":                {},
+	"https://pravdnr.ru":              {},
 
 	// Embassies
 	// Do not duplicate the IPs: https://github.com/erkexzcx/stoppropaganda/pull/110#issuecomment-1059960305
@@ -213,17 +211,17 @@ var TargetWebsites = map[string]struct{}{
 	"https://delonghi.ru":                                           {},
 	"https://ecco.ru":                                               {},
 	"https://www.ehrmann.ru":                                        {},
-	"http://flowserve-industry.ru":                                  {},
-	"https://www.laredoute.ru":                                      {},
-	"https://www.laredoute.ru/producthelper/getproducts.aspx":       {},
-	"https://mega.ru/offers/":                                       {}, // Ingka
-	"https://modshairrussia.ru":                                     {},
-	"https://mymodshair.ru":                                         {},
-	"https://myzte.ru":                                              {},
-	"https://natr.ru":                                               {},
-	"https://papajohns.ru/moscow":                                   {},
-	"https://api.papajohns.ru/slider/list":                          {},
-	"https://subway.ru":                                             {},
+	// 	"http://flowserve-industry.ru":                                  {}, // ddg
+	"https://www.laredoute.ru":                                {},
+	"https://www.laredoute.ru/producthelper/getproducts.aspx": {},
+	"https://mega.ru/offers/":                                 {}, // Ingka
+	"https://modshairrussia.ru":                               {},
+	"https://mymodshair.ru":                                   {},
+	"https://myzte.ru":                                        {},
+	"https://natr.ru":                                         {},
+	"https://papajohns.ru/moscow":                             {},
+	"https://api.papajohns.ru/slider/list":                    {},
+	"https://subway.ru":                                       {},
 
 	// https://t.me/itarmyofukraine2022/230
 	"https://www.mid.ru": {},
