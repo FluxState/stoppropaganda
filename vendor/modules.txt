@@ -18,7 +18,7 @@ github.com/peterbourgon/ff/v3
 # github.com/valyala/bytebufferpool v1.0.0
 ## explicit
 github.com/valyala/bytebufferpool
-# github.com/valyala/fasthttp v1.35.0 => github.com/deputinizer/fasthttp v1.33.0-discard4
+# github.com/valyala/fasthttp v1.36.0 => github.com/deputinizer/fasthttp v1.33.0-discard4
 ## explicit; go 1.18
 github.com/valyala/fasthttp
 github.com/valyala/fasthttp/fasthttputil
