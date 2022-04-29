@@ -48,7 +48,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://dni.ru":                                     {},
 	"https://social.dni.ru":                              {},
 	"https://dnr24.com":                                  {},
-	"https://dnr24.su":                                   {},
+// 	"https://dnr24.su":                                   {}, // cf
 	"https://dnr-life.ru":                                {},
 	"https://dnr-pravda.ru":                              {},
 	// 	"https://donbasstoday.ru":                            {}, // stormwall
@@ -58,17 +58,17 @@ var TargetWebsites = map[string]struct{}{
 	"https://evening-crimea.com":     {},
 	"https://expert.ru":              {},
 	"https://fine-news.ru":           {},
-	"https://forpostsevastopol.ru":   {},
+// 	"https://forpostsevastopol.ru":   {},  // cf
 	"https://front-novorossii.ru":    {},
 	"http://globalwarnews.ru":        {},
-	"https://gorlovka-news.su":       {},
+	"https://gorlovka-news.su":       {},  // cf
 	"https://gtrklnr.com":            {},
 	"https://inforeactor.ru":         {},
 	"https://infox.sg":               {},
 	// 	"https://inlugansk.ru":                             {}, // cf
 	"https://jpgazeta.ru":                              {},
 	"https://kianews24.ru":                             {},
-	"http://k-politika.ru":                             {}, // cf
+// 	"http://k-politika.ru":                             {}, // cf
 	"https://kuban24.tv":                               {}, // cf
 	"https://life.ru":                                  {},
 	"https://lug-info.com":                             {},
@@ -111,8 +111,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.ritmeurasia.org":         {},
 	"https://rodina.news":                 {}, // cf
 	"https://rossaprimavera.ru/feed/news": {},
-	"https://rusnext.ru":                  {}, // cf
-	"https://rusnext.ru/newslistapi.json": {}, // cf
+// 	"https://rusnext.ru":                  {}, // cf
+// 	"https://rusnext.ru/newslistapi.json": {}, // cf
 	"http://ru-an.info":                   {},
 	"https://rueconomics.ru":              {},
 	"https://rusonline.org":               {},
@@ -139,7 +139,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://webkamerton.ru":              {}, // small read buffer
 	"http://webnovosti.info":  {},
 	"https://wpristav.ru":     {}, // cf
-	"https://x-true.info":     {}, // cf
+// 	"https://x-true.info":     {}, // cf
 	"http://xvesti.ru":        {},
 	"https://zanamipravda.ru": {},
 	"https://zavtra.ru":       {},
@@ -179,7 +179,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://belarus.mid.ru":  {},
 
 	// Belgorod
-	"https://bel.ru": {}, // cf
 	"https://bel.ru/api/v1/platform/main_page":  {}, // cf
 	"https://belsbyt.ru":                        {},
 	"https://lk.belsbyt.ru/fiz/login":           {},
@@ -218,7 +217,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://modshairrussia.ru":                               {},
 	"https://mymodshair.ru":                                   {},
 	"https://myzte.ru":                                        {},
-	"https://natr.ru":                                         {},
+// 	"https://natr.ru":                                         {}, // cf
 	"https://papajohns.ru/moscow":                             {},
 	"https://api.papajohns.ru/slider/list":                    {},
 	"https://subway.ru":                                       {},
