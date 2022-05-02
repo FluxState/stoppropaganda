@@ -53,7 +53,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://dnr-pravda.ru":                              {},
 	// 	"https://donbasstoday.ru":                            {}, // stormwall
 	"https://dontimes.ru":            {},
-	"https://dosie.su":               {}, // cf
+// 	"https://dosie.su":               {}, // cf
 	"https://eadaily.com/ru/dossier": {}, // cf
 	"https://www.europereloaded.com": {},
 	"https://evening-crimea.com":     {},
@@ -70,7 +70,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://jpgazeta.ru":                              {},
 	"https://kianews24.ru":                             {},
 // 	"http://k-politika.ru":                             {}, // cf
-	"https://kuban24.tv":                               {}, // cf
+// 	"https://kuban24.tv":                               {}, // cf
 	"https://life.ru":                                  {},
 	"https://lug-info.com":                             {},
 	"https://lugansk-online.su":                        {},
@@ -86,13 +86,13 @@ var TargetWebsites = map[string]struct{}{
 	"https://nation-news.ru":                           {},
 	"https://newizv.ru":                                {},
 	"https://newizv.ru/api/v1/matters":                 {},
-	"https://newsland.com":                             {}, // cf
+// 	"https://newsland.com":                             {}, // cf
 	"https://nvo.ng.ru":                                {},
 	"https://nnews.nnov.ru":                            {},
 	"https://newdaynews.ru":                            {},
 	"https://www.newc.info":                            {},
 	// 	"https://odnarodyna.org":                             {}, // TODO small read buffer
-	"https://novorossiia.ru":              {}, // cf
+// 	"https://novorossiia.ru":              {}, // cf
 	"https://novorossiia.info":            {},
 	"http://novorossy.ru":                 {},
 	"https://novosti.icu":                 {}, // cf
@@ -130,7 +130,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://thesaker.is":                 {},
 	"https://time-news.net":               {}, // cf
 	"https://trmzk.ru":                    {},
-	"https://u-f.ru":                      {}, // cf
+// 	"https://u-f.ru":                      {}, // cf
 	"https://ugyalta.com":                 {}, // cf
 	"https://universe-tss.su":             {},
 	"https://utro.ru":                     {},
