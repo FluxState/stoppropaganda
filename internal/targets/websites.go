@@ -55,6 +55,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://dontimes.ru":            {},
 	"https://dosie.su":               {}, // cf
 	"https://eadaily.com/ru/dossier": {}, // cf
+	"https://www.europereloaded.com": {},
 	"https://evening-crimea.com":     {},
 	"https://expert.ru":              {},
 	"https://fine-news.ru":           {},
@@ -126,6 +127,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://svpressa.ru":                 {},
 	"https://taurica.net":                 {},
 	"https://tehnowar.ru":                 {},
+	"https://thesaker.is":                 {},
 	"https://time-news.net":               {}, // cf
 	"https://trmzk.ru":                    {},
 	"https://u-f.ru":                      {}, // cf
