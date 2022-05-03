@@ -48,29 +48,31 @@ var TargetWebsites = map[string]struct{}{
 	"https://dni.ru":                                     {},
 	"https://social.dni.ru":                              {},
 	"https://dnr24.com":                                  {},
-// 	"https://dnr24.su":                                   {}, // cf
-	"https://dnr-life.ru":                                {},
-	"https://dnr-pravda.ru":                              {},
+	// 	"https://dnr24.su":                                   {}, // cf
+	"https://dnr-life.ru":   {},
+	"https://dnr-pravda.ru": {},
 	// 	"https://donbasstoday.ru":                            {}, // stormwall
-	"https://dontimes.ru":            {},
-// 	"https://dosie.su":               {}, // cf
+	"https://dontimes.ru": {},
+	// 	"https://dosie.su":               {}, // cf
 	"https://eadaily.com/ru/dossier": {}, // cf
 	"https://www.europereloaded.com": {},
 	"https://evening-crimea.com":     {},
 	"https://expert.ru":              {},
 	"https://fine-news.ru":           {},
-// 	"https://forpostsevastopol.ru":   {},  // cf
-	"https://front-novorossii.ru":    {},
-	"http://globalwarnews.ru":        {},
-	"https://gorlovka-news.su":       {},  // cf
-	"https://gtrklnr.com":            {},
-	"https://inforeactor.ru":         {},
-	"https://infox.sg":               {},
+	// 	"https://forpostsevastopol.ru":   {},  // cf
+	"https://front-novorossii.ru":         {},
+	"http://globalwarnews.ru":             {},
+	"https://gorlovka-news.su":            {}, // cf
+	"https://gtrklnr.com":                 {},
+	"https://infobrics.org":               {},
+	"https://infobrics.org/api/business/": {},
+	"https://inforeactor.ru":              {},
+	"https://infox.sg":                    {},
 	// 	"https://inlugansk.ru":                             {}, // cf
-	"https://jpgazeta.ru":                              {},
-	"https://kianews24.ru":                             {},
-// 	"http://k-politika.ru":                             {}, // cf
-// 	"https://kuban24.tv":                               {}, // cf
+	"https://jpgazeta.ru":  {},
+	"https://kianews24.ru": {},
+	// 	"http://k-politika.ru":                             {}, // cf
+	// 	"https://kuban24.tv":                               {}, // cf
 	"https://life.ru":                                  {},
 	"https://lug-info.com":                             {},
 	"https://lugansk-online.su":                        {},
@@ -86,13 +88,13 @@ var TargetWebsites = map[string]struct{}{
 	"https://nation-news.ru":                           {},
 	"https://newizv.ru":                                {},
 	"https://newizv.ru/api/v1/matters":                 {},
-// 	"https://newsland.com":                             {}, // cf
-	"https://nvo.ng.ru":                                {},
-	"https://nnews.nnov.ru":                            {},
-	"https://newdaynews.ru":                            {},
-	"https://www.newc.info":                            {},
+	// 	"https://newsland.com":                             {}, // cf
+	"https://nvo.ng.ru":     {},
+	"https://nnews.nnov.ru": {},
+	"https://newdaynews.ru": {},
+	"https://www.newc.info": {},
 	// 	"https://odnarodyna.org":                             {}, // TODO small read buffer
-// 	"https://novorossiia.ru":              {}, // cf
+	// 	"https://novorossiia.ru":              {}, // cf
 	"https://novorossiia.info":            {},
 	"http://novorossy.ru":                 {},
 	"https://novosti.icu":                 {}, // cf
@@ -112,36 +114,36 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.ritmeurasia.org":         {},
 	"https://rodina.news":                 {}, // cf
 	"https://rossaprimavera.ru/feed/news": {},
-// 	"https://rusnext.ru":                  {}, // cf
-// 	"https://rusnext.ru/newslistapi.json": {}, // cf
-	"http://ru-an.info":                   {},
-	"https://rueconomics.ru":              {},
-	"https://rusonline.org":               {},
-	"http://ruspravda.info":               {},
-	"https://sevnews.info":                {},
-	"https://slovodel.com":                {},
-	"https://smi2.ru":                     {},
-	"https://polls.smi2.ru/body/1/poll":   {},
-	"https://sovross.ru":                  {},
-	"http://stringer-news.com":            {},
-	"https://svpressa.ru":                 {},
-	"https://taurica.net":                 {},
-	"https://tehnowar.ru":                 {},
-	"https://thesaker.is":                 {},
-	"https://time-news.net":               {}, // cf
-	"https://trmzk.ru":                    {},
-// 	"https://u-f.ru":                      {}, // cf
-	"https://ugyalta.com":                 {}, // cf
-	"https://universe-tss.su":             {},
-	"https://utro.ru":                     {},
+	// 	"https://rusnext.ru":                  {}, // cf
+	// 	"https://rusnext.ru/newslistapi.json": {}, // cf
+	"http://ru-an.info":                 {},
+	"https://rueconomics.ru":            {},
+	"https://rusonline.org":             {},
+	"http://ruspravda.info":             {},
+	"https://sevnews.info":              {},
+	"https://slovodel.com":              {},
+	"https://smi2.ru":                   {},
+	"https://polls.smi2.ru/body/1/poll": {},
+	"https://sovross.ru":                {},
+	"http://stringer-news.com":          {},
+	"https://svpressa.ru":               {},
+	"https://taurica.net":               {},
+	"https://tehnowar.ru":               {},
+	"https://thesaker.is":               {},
+	"https://time-news.net":             {}, // cf
+	"https://trmzk.ru":                  {},
+	// 	"https://u-f.ru":                      {}, // cf
+	"https://ugyalta.com":     {}, // cf
+	"https://universe-tss.su": {},
+	"https://utro.ru":         {},
 	// 	"https://www.vedomosti.ru":            {},
 	"https://vesti-k.ru":     {},
 	"https://vm.ru":          {},
 	"https://voskhodinfo.su": {},
 	// 	"https://webkamerton.ru":              {}, // small read buffer
-	"http://webnovosti.info":  {},
-	"https://wpristav.ru":     {}, // cf
-// 	"https://x-true.info":     {}, // cf
+	"http://webnovosti.info": {},
+	"https://wpristav.ru":    {}, // cf
+	// 	"https://x-true.info":     {}, // cf
 	"http://xvesti.ru":        {},
 	"https://zanamipravda.ru": {},
 	"https://zavtra.ru":       {},
@@ -219,10 +221,10 @@ var TargetWebsites = map[string]struct{}{
 	"https://modshairrussia.ru":                               {},
 	"https://mymodshair.ru":                                   {},
 	"https://myzte.ru":                                        {},
-// 	"https://natr.ru":                                         {}, // cf
-	"https://papajohns.ru/moscow":                             {},
-	"https://api.papajohns.ru/slider/list":                    {},
-	"https://subway.ru":                                       {},
+	// 	"https://natr.ru":                                         {}, // cf
+	"https://papajohns.ru/moscow":          {},
+	"https://api.papajohns.ru/slider/list": {},
+	"https://subway.ru":                    {},
 
 	// https://t.me/itarmyofukraine2022/230
 	"https://www.mid.ru": {},
