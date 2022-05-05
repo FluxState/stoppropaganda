@@ -30,12 +30,12 @@ var TargetWebsites = map[string]struct{}{
 	"https://news.mail.ru":                               {},
 	"https://portal.mail.ru/NaviData":                    {},
 	"https://rg.ru":                                      {},
-	"http://allpravda.info":                              {},
+// 	"http://allpravda.info":                              {},
 	"https://antifashist.com":                            {}, // https://antifashist.online
 	"https://antimaydan.info":                            {},
 	"https://argumenti.ru":                               {},
 	"https://aurora.network":                             {},
-	"https://balrad.ru":                                  {},
+// 	"https://balrad.ru":                                  {},
 	"https://buzina.org":                                 {},
 	"https://www.c-inform.info":                          {},
 	"https://crimea-news.com":                            {},
@@ -49,7 +49,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://social.dni.ru":                              {},
 	"https://dnr24.com":                                  {},
 	// 	"https://dnr24.su":                                   {}, // cf
-	"https://dnr-life.ru":   {},
+// 	"https://dnr-life.ru":   {},
 	"https://dnr-pravda.ru": {},
 	// 	"https://donbasstoday.ru":                            {}, // stormwall
 	"https://dontimes.ru": {},
@@ -61,7 +61,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://fine-news.ru":           {},
 	// 	"https://forpostsevastopol.ru":   {},  // cf
 	"https://front-novorossii.ru":         {},
-	"http://globalwarnews.ru":             {},
+// 	"http://globalwarnews.ru":             {},
 	"https://gorlovka-news.su":            {}, // cf
 	"https://gtrklnr.com":                 {},
 	"https://infobrics.org":               {},
@@ -80,7 +80,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://cross.m24.ru/covid/frontend/web/site/rus": {},
 	"https://mediarepost.ru":                           {},
 	"https://www.metronews.ru":                         {},
-	"https://www.readmetro.com":                        {},
 	"https://www.mk-kalm.ru":                           {},
 	"https://mkset.ru":                                 {},
 	"http://www.moscow-post.su":                        {},
@@ -102,7 +101,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://nt1941.su":                   {},
 	"https://pandoraopen.ru":              {},
 	"https://plainnews.ru":                {}, // cf
-	"https://pravdoryb.info":              {},
+// 	"https://pravdoryb.info":              {}, // cf
 	"https://polit.info":                  {},
 	"https://politcentr.ru":               {}, // cf
 	"https://politexpert.net":             {},
@@ -120,7 +119,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://rueconomics.ru":            {},
 	"https://rusonline.org":             {},
 	"http://ruspravda.info":             {},
-	"https://sevnews.info":              {},
+// 	"https://sevnews.info":              {},
 	"https://slovodel.com":              {},
 	"https://smi2.ru":                   {},
 	"https://polls.smi2.ru/body/1/poll": {},
@@ -145,7 +144,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://wpristav.ru":    {}, // cf
 	// 	"https://x-true.info":     {}, // cf
 	"http://xvesti.ru":        {},
-	"https://zanamipravda.ru": {},
+// 	"https://zanamipravda.ru": {},
 	"https://zavtra.ru":       {},
 
 	// https://www.state.gov/russias-pillars-of-disinformation-and-propaganda-report/
@@ -162,7 +161,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.voltairenet.org":               {}, // cf
 
 	// Business corporations
-	"http://www.crimearw.ru": {},
+// 	"http://www.crimearw.ru": {},
 	"https://vcs.rostec.ru":  {},
 
 	// The state
