@@ -117,7 +117,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://rusnext.ru":                  {}, // cf
 	// 	"https://rusnext.ru/newslistapi.json": {}, // cf
 	"http://ru-an.info":                 {},
-// 	"https://rueconomics.ru":            {}, // airee waf
+	"https://rueconomics.ru":            {}, // airee
 	"https://rusonline.org":             {},
 	"http://ruspravda.info":             {},
 // 	"https://sevnews.info":              {},
@@ -196,7 +196,7 @@ var TargetWebsites = map[string]struct{}{
 
 	// by media
 	"https://www.belta.by":       {},
-// 	"https://www.belarus.by/ru/": {}, // only by/ru net
+	"https://www.belarus.by/ru/": {},
 	"https://ont.by":             {}, // should be called without params
 	"https://www.belnovosti.by":  {},
 
