@@ -30,7 +30,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://news.mail.ru":                               {},
 	"https://portal.mail.ru/NaviData":                    {},
 	"https://rg.ru":                                      {},
- 	"http://allpravda.info":                              {}, // ddg
+//  	"http://allpravda.info":                              {}, // ddg
 	"https://antifashist.com":                            {}, // https://antifashist.online
 	"https://antimaydan.info":                            {},
 	"https://argumenti.ru":                               {},
@@ -66,7 +66,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://gtrklnr.com":                 {},
 	"https://infobrics.org":               {},
 	"https://infobrics.org/api/business/": {},
-	"https://inforeactor.ru":              {},
+// 	"https://inforeactor.ru":              {}, // airee waf
 	"https://infox.sg":                    {},
 	// 	"https://inlugansk.ru":                             {}, // cf
 	"https://jpgazeta.ru":  {},
@@ -84,7 +84,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://mkset.ru":                                 {},
 	"http://www.moscow-post.su":                        {},
 	"https://www.nakanune.ru":                          {},
-	"https://nation-news.ru":                           {},
+// 	"https://nation-news.ru":                           {}, airee waf
 	"https://newizv.ru":                                {},
 	"https://newizv.ru/api/v1/matters":                 {},
 	// 	"https://newsland.com":                             {}, // cf
@@ -98,17 +98,18 @@ var TargetWebsites = map[string]struct{}{
 	"http://novorossy.ru":                 {},
 	"https://novosti.icu":                 {}, // cf
 	"http://novosti333.ru":                {},
+	"http://webnovosti.info":              {},
 	"https://nt1941.su":                   {},
 	"https://pandoraopen.ru":              {},
 	"https://plainnews.ru":                {}, // cf
 // 	"https://pravdoryb.info":              {}, // cf
-	"https://polit.info":                  {},
+// 	"https://polit.info":                  {}, // airee waf
 	"https://politcentr.ru":               {}, // cf
-	"https://politexpert.net":             {},
+// 	"https://politexpert.net":             {}, // airee waf
 	"https://politikus.info":              {}, // cf
 	"https://politikus.ru":                {},
 	"https://politpuzzle.ru":              {},
-	"https://politros.com":                {},
+// 	"https://politros.com":                {}, // airee waf
 	"https://rf-smi.ru":                   {},
 	"https://www.ritmeurasia.org":         {},
 	"https://rodina.news":                 {}, // cf
@@ -116,11 +117,11 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://rusnext.ru":                  {}, // cf
 	// 	"https://rusnext.ru/newslistapi.json": {}, // cf
 	"http://ru-an.info":                 {},
-	"https://rueconomics.ru":            {},
+// 	"https://rueconomics.ru":            {}, // airee waf
 	"https://rusonline.org":             {},
 	"http://ruspravda.info":             {},
 // 	"https://sevnews.info":              {},
-	"https://slovodel.com":              {},
+// 	"https://slovodel.com":              {}, // airee waf
 	"https://smi2.ru":                   {},
 	"https://polls.smi2.ru/body/1/poll": {},
 	"https://sovross.ru":                {},
@@ -140,10 +141,9 @@ var TargetWebsites = map[string]struct{}{
 	"https://vm.ru":          {},
 	"https://voskhodinfo.su": {},
 	// 	"https://webkamerton.ru":              {}, // small read buffer
-	"http://webnovosti.info": {},
 	"https://wpristav.ru":    {}, // cf
 	// 	"https://x-true.info":     {}, // cf
-	"http://xvesti.ru":        {},
+// 	"http://xvesti.ru":        {}, // cf
 // 	"https://zanamipravda.ru": {},
 	"https://zavtra.ru":       {},
 
@@ -166,7 +166,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// The state
 	"https://mil.ru":                  {},
-	"https://sozd.duma.gov.ru":        {},
 	"https://vsednr.ru":               {},
 	"https://dnmchs.ru":               {},
 	"http://www.fsb.ru":               {},
@@ -197,12 +196,9 @@ var TargetWebsites = map[string]struct{}{
 
 	// by media
 	"https://www.belta.by":       {},
-	"https://www.belarus.by/ru/": {},
+// 	"https://www.belarus.by/ru/": {}, // only by/ru net
 	"https://ont.by":             {}, // should be called without params
 	"https://www.belnovosti.by":  {},
-
-	/* Syria */
-	"https://syrianfinance.gov.sy": {},
 
 	// Still operating in Russia
 	// https://www.yalerussianbusinessretreat.com/
@@ -211,7 +207,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://mic.burgerking.ru/mifs/user/login.jsp":                 {},
 	"https://sd.burgerking.ru/HEAT/SaaSExternalSessionRenew.aspx":   {},
 	"https://delonghi.ru":                                           {},
-	"https://ecco.ru":                                               {},
+// 	"https://ecco.ru":                                               {}, // only ru net
 	"https://www.ehrmann.ru":                                        {},
 	// 	"http://flowserve-industry.ru":                                  {}, // ddg
 	"https://www.laredoute.ru":                                {},
@@ -230,7 +226,6 @@ var TargetWebsites = map[string]struct{}{
 
 	// https://t.me/itarmyofukraine2022/215
 	"https://www.chechnya.online": {},
-	"https://www.minfinchr.ru":    {},
 
 	// https://t.me/itarmyofukraine2022/289
 	"https://stream.1tv.ru/api/playlist/1tvch-v1_as_array.json": {},
