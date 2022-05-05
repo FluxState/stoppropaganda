@@ -30,7 +30,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://news.mail.ru":                               {},
 	"https://portal.mail.ru/NaviData":                    {},
 	"https://rg.ru":                                      {},
-// 	"http://allpravda.info":                              {},
+ 	"http://allpravda.info":                              {}, // ddg
 	"https://antifashist.com":                            {}, // https://antifashist.online
 	"https://antimaydan.info":                            {},
 	"https://argumenti.ru":                               {},
@@ -61,7 +61,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://fine-news.ru":           {},
 	// 	"https://forpostsevastopol.ru":   {},  // cf
 	"https://front-novorossii.ru":         {},
-// 	"http://globalwarnews.ru":             {},
+// 	"http://globalwarnews.ru":             {}, // ddg
 	"https://gorlovka-news.su":            {}, // cf
 	"https://gtrklnr.com":                 {},
 	"https://infobrics.org":               {},
