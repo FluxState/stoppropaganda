@@ -35,7 +35,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://antimaydan.info":                            {},
 	"https://argumenti.ru":                               {},
 	"https://aurora.network":                             {},
-// 	"https://balrad.ru":                                  {},
+ 	"https://balrad.ru":                                  {}, // only hu net
 	"https://buzina.org":                                 {},
 	"https://www.c-inform.info":                          {},
 	"https://crimea-news.com":                            {},
@@ -144,7 +144,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://wpristav.ru":    {}, // cf
 	// 	"https://x-true.info":     {}, // cf
 // 	"http://xvesti.ru":        {}, // cf
-// 	"https://zanamipravda.ru": {},
+// 	"https://zanamipravda.ru": {}, // only ru net
 	"https://zavtra.ru":       {},
 
 	// https://www.state.gov/russias-pillars-of-disinformation-and-propaganda-report/
