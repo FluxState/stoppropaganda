@@ -17,10 +17,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.rambler.ru":                     {},
 	"https://www.rambler.ru/api/v4/personalized": {},
 	// 	"https://id.rambler.ru/login-20/login": {}, // TODO fix small read buffer
-	"https://mail.rambler.ru":                           {},
 	"https://news.rambler.ru":                           {},
 	"https://peroxide.rambler.ru/v1/comments/clusters/": {},
-	"https://rabota.rambler.ru":                         {},
 	"https://rcm.rambler.ru":                            {},
 	"https://zoomdecorate.rambler.ru":                   {},
 	"https://mail.ru":                                   {},
@@ -31,8 +29,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://portal.mail.ru/NaviData":                   {},
 	"https://rg.ru":                                     {},
 	"https://360tv.ru":                                  {},
-	"https://47news.ru":                                 {},
-	"https://www.afanasy.biz":                           {},
+	// 	"https://47news.ru":                                 {}, // qrator
+	"https://www.afanasy.biz": {},
 	//  	"http://allpravda.info":                              {}, // ddg
 	"https://anews.com/tag/novosti/500/":                 {},
 	"https://antifashist.com":                            {}, // https://antifashist.online
@@ -92,8 +90,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.mk-kalm.ru":                           {},
 	"https://mkset.ru":                                 {},
 	"http://www.moscow-post.su":                        {},
-	"https://mosregtoday.ru":                           {},
-	"https://www.nakanune.ru":                          {},
+	// 	"https://mosregtoday.ru":                           {}, // cf
+	"https://www.nakanune.ru": {},
 	// 	"https://nation-news.ru":                           {}, // airee
 	"http://94.198.55.82":              {}, // nation-news.ru
 	"https://newizv.ru":                {},
@@ -149,7 +147,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://thesaker.is":               {},
 	"https://time-news.net":             {}, // cf
 	"https://trmzk.ru":                  {},
-	"https://tvzvezda.ru":               {},
+	// 	"https://tvzvezda.ru":               {}, // qrator
 	// 	"https://u-f.ru":                      {}, // cf
 	"https://ugyalta.com":      {}, // cf
 	"https://universe-tss.su":  {},
@@ -164,7 +162,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://x-true.info":     {}, // cf
 	// 	"http://xvesti.ru":        {}, // cf
 	"http://31.31.198.206": {}, // xvesti.ru
-	"https://ya62.ru":      {},
+	// 	"https://ya62.ru":      {}, // ddg
 	// 	"https://zanamipravda.ru": {}, // only ru net
 	"https://zavtra.ru": {},
 
