@@ -91,6 +91,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://mkset.ru":                                 {},
 	"http://www.moscow-post.su":                        {},
 	// 	"https://mosregtoday.ru":                           {}, // cf
+	"http://178.154.213.69":   {}, // mosregtoday.ru
 	"https://www.nakanune.ru": {},
 	// 	"https://nation-news.ru":                           {}, // airee
 	"http://94.198.55.82":              {}, // nation-news.ru
@@ -250,8 +251,4 @@ var TargetWebsites = map[string]struct{}{
 
 	// https://t.me/itarmyofukraine2022/289
 	"https://stream.1tv.ru/api/playlist/1tvch-v1_as_array.json": {},
-
-	// https://t.me/itarmyofukraine2022/333
-	"https://fabricafutbolok.ru": {},
-	"https://keltr.ru":           {},
 }
