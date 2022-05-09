@@ -87,6 +87,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://cross.m24.ru/covid/frontend/web/site/rus": {},
 	"https://mediarepost.ru":                           {},
 	"https://www.metronews.ru":                         {},
+	"https://mirtesen.ru":                              {},
 	"https://www.mk-kalm.ru":                           {},
 	"https://mkset.ru":                                 {},
 	"http://www.moscow-post.su":                        {},
@@ -125,6 +126,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://politpuzzle.ru": {},
 	// 	"https://politros.com":                {}, // airee
 	"http://152.89.219.221":               {}, // politros
+	"http://134.0.118.81":                 {}, // ptoday.ru
 	"https://rf-smi.ru":                   {},
 	"https://www.ritmeurasia.org":         {},
 	"https://rodina.news":                 {}, // cf
@@ -168,19 +170,21 @@ var TargetWebsites = map[string]struct{}{
 	"https://zavtra.ru": {},
 
 	// https://www.state.gov/russias-pillars-of-disinformation-and-propaganda-report/
-	"http://www.geopolitika.ru":                 {},
-	"https://katehon.com":                       {},
-	"https://novorosinform.org":                 {},
-	"https://www.pravda.ru":                     {}, // cf
-	"https://www.pravda.ru/ajaxed/toolbartabs/": {}, // cf
-	"https://russia-insider.com/en":             {}, // cf
-	"https://russian-faith.com":                 {},
-	"http://158.69.116.70":                      {}, // russian-faith.com russia-insider.com
-	"https://southfront.org":                    {},
-	"https://www.strategic-culture.org":         {},
-	"https://therussophile.org":                 {},
-	"https://tsargrad.tv":                       {},
-	"https://www.voltairenet.org":               {}, // cf
+	"http://www.geopolitika.ru":                           {},
+	"https://katehon.com":                                 {},
+	"https://novorosinform.org":                           {},
+	"https://www.pravda.ru":                               {}, // cf
+	"https://www.pravda.ru/ajaxed/toolbartabs/":           {}, // cf
+	"https://russia-insider.com/en":                       {}, // cf
+	"https://russian-faith.com":                           {},
+	"http://158.69.116.70":                                {}, // russian-faith.com russia-insider.com
+	"https://southfront.org":                              {},
+	"https://www.strategic-culture.org":                   {},
+	"https://therussophile.org":                           {},
+	"https://tsargrad.tv":                                 {},
+	"https://cloud.tsargrad.tv/nextcloud/index.php/login": {},
+	"https://mirtesen.tsargrad.tv":                        {},
+	"https://www.voltairenet.org":                         {}, // cf
 
 	// Business corporations
 	// 	"http://www.crimearw.ru": {},
