@@ -30,8 +30,9 @@ var TargetWebsites = map[string]struct{}{
 	"https://rg.ru":                                     {},
 	"https://360tv.ru":                                  {},
 	// 	"https://47news.ru":                                 {}, // qrator
+	"https://77.244.221.63":   {}, // 47news.ru
 	"https://www.afanasy.biz": {},
-	//  	"http://allpravda.info":                              {}, // ddg
+	//  	"http://allpravda.info":                              {}, // cf
 	"https://anews.com/tag/novosti/500/":                 {},
 	"https://antifashist.com":                            {}, // https://antifashist.online
 	"https://antimaydan.info":                            {},
@@ -51,18 +52,20 @@ var TargetWebsites = map[string]struct{}{
 	"https://dni.ru":                                     {},
 	"https://social.dni.ru":                              {},
 	"https://dnr24.com":                                  {},
-	// 	"https://dnr24.su":                                   {}, // cf
+	"https://dnr24.su":                                   {}, // cf
 	// 	"https://dnr-life.ru":   {},
-	"https://dnr-pravda.ru":   {},
-	"https://donbasstoday.ru": {}, // stormwall
-	"https://dontimes.ru":     {},
-	// 	"https://dosie.su":               {}, // cf
+	"https://dnr-pravda.ru": {},
+	// 	"https://donbasstoday.ru": {}, // stormwall
+	"https://193.233.15.62":          {}, // donbasstoday.ru
+	"https://dontimes.ru":            {},
+	"https://dosie.su":               {}, // cf
 	"https://eadaily.com/ru/dossier": {}, // cf
 	"https://www.europereloaded.com": {},
 	"https://evening-crimea.com":     {},
 	"https://expert.ru":              {},
 	"https://fine-news.ru":           {},
-	// 	"https://forpostsevastopol.ru":   {},  // cf
+	// 	"https://forpostsevastopol.ru":   {},  // cf only ru net
+	"https://81.200.119.206":      {},
 	"https://front-novorossii.ru": {},
 	// 	"http://globalwarnews.ru":             {}, // ddg
 	//     "http://213.155.21.184": {}, // globalwarnews.ru
@@ -73,7 +76,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://inforeactor.ru":              {}, // airee
 	"http://82.202.163.4": {}, // inforeactor.ru
 	"https://infox.sg":    {},
-	// 	"https://inlugansk.ru":                             {}, // cf
+	// 	"https://inlugansk.ru":                             {}, // cf only ru net
 	"https://jpgazeta.ru":  {},
 	"https://kianews24.ru": {},
 	// 	"http://k-politika.ru":                             {}, // cf
@@ -91,9 +94,9 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.mk-kalm.ru":                           {},
 	"https://mkset.ru":                                 {},
 	"http://www.moscow-post.su":                        {},
-	// 	"https://mosregtoday.ru":                           {}, // cf
-	"http://178.154.213.69":   {}, // mosregtoday.ru
-	"https://www.nakanune.ru": {},
+	"https://mosregtoday.ru":                           {}, // cf
+	"http://178.154.213.69":                            {}, // mosregtoday.ru
+	"https://www.nakanune.ru":                          {},
 	// 	"https://nation-news.ru":                           {}, // airee
 	"http://94.198.55.82":              {}, // nation-news.ru
 	"https://newizv.ru":                {},
@@ -104,7 +107,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://newdaynews.ru":            {},
 	"https://www.newc.info":            {},
 	// 	"https://odnarodyna.org":                             {}, // TODO small read buffer
-	// 	"https://novorossiia.ru":              {}, // cf
+	"https://novorossiia.ru":   {}, // cf
+	"https://87.236.16.191":    {}, // novorossiia.ru
 	"https://novorossiia.info": {},
 	"http://novorossy.ru":      {},
 	"https://novosti.icu":      {}, // cf
@@ -114,8 +118,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.osnmedia.ru":  {},
 	"https://pandoraopen.ru":   {},
 	"https://plainnews.ru":     {}, // cf
-	// 	"https://pravdoryb.info":              {}, // cf
-	"http://95.142.44.8": {}, // pravdoryb.info
+	"https://pravdoryb.info":   {}, // cf
+	"http://95.142.44.8":       {}, // pravdoryb.info
 	// 	"https://polit.info":                  {}, // airee
 	"https://152.89.217.58": {}, // polit.info
 	"https://politcentr.ru": {}, // cf
@@ -185,6 +189,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://cloud.tsargrad.tv/nextcloud/index.php/login": {},
 	"https://mirtesen.tsargrad.tv":                        {},
 	"https://www.voltairenet.org":                         {}, // cf
+	"https://65.108.13.235":                               {}, // voltairenet.org
 
 	// Business corporations
 	// 	"http://www.crimearw.ru": {},
@@ -207,7 +212,9 @@ var TargetWebsites = map[string]struct{}{
 	"https://belarus.mid.ru":  {},
 
 	// Belgorod
+	"https://bel.ru": {},
 	"https://bel.ru/api/v1/platform/main_page":  {}, // cf
+	"https://5.188.73.213":                      {}, // www.bel.ru
 	"https://belsbyt.ru":                        {},
 	"https://lk.belsbyt.ru/fiz/login":           {},
 	"https://www.go31.ru":                       {},
@@ -234,18 +241,19 @@ var TargetWebsites = map[string]struct{}{
 	"https://sd.burgerking.ru/HEAT/SaaSExternalSessionRenew.aspx":   {},
 	"https://delonghi.ru":                                           {},
 	// 	"https://ecco.ru":                                               {}, // only ru net
+	"https://95.215.182.186": {}, // ecco.ru
 	"https://www.ehrmann.ru": {},
 	// 	"http://flowserve-industry.ru":                                  {}, // ddg
-	"https://www.laredoute.ru":                                {},
-	"https://www.laredoute.ru/producthelper/getproducts.aspx": {},
-	"https://mega.ru/offers/":                                 {}, // Ingka
-	"https://modshairrussia.ru":                               {},
-	"https://mymodshair.ru":                                   {},
-	"https://myzte.ru":                                        {},
-	"https://natr.ru":                                         {},
-	"https://papajohns.ru/moscow":                             {},
-	"https://api.papajohns.ru/slider/list":                    {},
-	"https://subway.ru":                                       {},
+	// 	"https://www.laredoute.ru":                                {}, // only ru net
+	// 	"https://www.laredoute.ru/producthelper/getproducts.aspx": {},
+	"https://mega.ru/offers/":              {}, // Ingka
+	"https://modshairrussia.ru":            {},
+	"https://mymodshair.ru":                {},
+	"https://myzte.ru":                     {},
+	"https://natr.ru":                      {},
+	"https://papajohns.ru/moscow":          {},
+	"https://api.papajohns.ru/slider/list": {},
+	"https://subway.ru":                    {},
 
 	// https://t.me/itarmyofukraine2022/230
 	"https://www.mid.ru": {},
