@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/erkexzcx/stoppropaganda/internal/spdnsclient"
-	"github.com/erkexzcx/stoppropaganda/internal/targets"
+// 	"github.com/erkexzcx/stoppropaganda/internal/targets"
 	"github.com/patrickmn/go-cache"
 )
 
@@ -18,7 +18,7 @@ func MakeDNSConfig() (conf *spdnsclient.SPDNSConfig) {
 		Timeout:  5 * time.Second,
 		Attempts: 2,
 	}
-	conf.Servers = targets.ReferenceDNSServersForHTTP
+// 	conf.Servers = targets.ReferenceDNSServersForHTTP
 
 	return
 }
