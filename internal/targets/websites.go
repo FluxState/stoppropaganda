@@ -39,8 +39,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://antimaydan.info":            {},
 	"https://argumenti.ru":               {},
 	"https://aurora.network":             {},
-	"https://balrad.ru":                  {}, // cf only hu net
-	"https://79.172.252.83":              {}, // balrad.ru
+// 	"https://balrad.ru":                  {}, // cf only hu net
 	// 	"https://www.business-gazeta.ru":                     {}, // qrator
 	"https://buzina.org":                                 {},
 	"https://www.c-inform.info":                          {},
@@ -242,6 +241,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://delonghi.ru":                                           {}, // should be called without query
 	"https://ecco.ru":                                               {}, // only ru net
 	"https://95.215.182.186":                                        {}, // ecco.ru
+	"https://ecco-online.ru":                                        {},
 	"https://www.ehrmann.ru":                                        {},
 	// 	"http://flowserve-industry.ru":                                  {}, // ddg
 	// 	"https://www.laredoute.ru":                                {}, // only ru net
