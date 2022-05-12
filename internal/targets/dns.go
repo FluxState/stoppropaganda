@@ -64,7 +64,7 @@ var TargetDNSServers = map[string]struct{}{
 // just like we would've been in Russia/Belarus
 var ReferenceDNSServersForHTTP = []string{
 	// https://dns.yandex.com/
-	"77.88.8.8:53",
+	"127.0.0.11:53",
 	"77.88.8.1:53",
 	"77.88.8.2:53",
 	"77.88.8.3:53",
