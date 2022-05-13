@@ -39,7 +39,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://antimaydan.info":            {},
 	"https://argumenti.ru":               {},
 	"https://aurora.network":             {},
-// 	"https://balrad.ru":                  {}, // cf only hu net
+	// 	"https://balrad.ru":                  {}, // cf only hu net
 	// 	"https://www.business-gazeta.ru":                     {}, // qrator
 	"https://buzina.org":                                 {},
 	"https://www.c-inform.info":                          {},
@@ -74,9 +74,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://gtrklnr.com":                 {},
 	"https://infobrics.org":               {},
 	"https://infobrics.org/api/business/": {},
-	"https://inforeactor.ru":              {}, // airee
-	"http://82.202.163.4":                 {}, // inforeactor.ru
-	"https://infox.sg":                    {},
+	// 	"https://inforeactor.ru":              {}, // airee
+	"https://infox.sg": {},
 	// 	"https://inlugansk.ru":                             {}, // cf only ru net
 	"https://jpgazeta.ru": {},
 	// 	"https://kianews24.ru": {}, // dbg
@@ -98,15 +97,14 @@ var TargetWebsites = map[string]struct{}{
 	"https://mosregtoday.ru":                           {}, // cf
 	"http://178.154.213.69":                            {}, // mosregtoday.ru
 	"https://www.nakanune.ru":                          {},
-	"https://nation-news.ru":                           {}, // airee
-	"http://94.198.55.82":                              {}, // nation-news.ru
-	"https://newizv.ru":                                {},
-	"https://newizv.ru/api/v1/matters":                 {},
-	"https://newsland.com":                             {},
-	"https://nvo.ng.ru":                                {},
-	"https://nnews.nnov.ru":                            {},
-	"https://newdaynews.ru":                            {},
-	"https://www.newc.info":                            {},
+	// 	"https://nation-news.ru":                           {}, // airee
+	"https://newizv.ru":                {},
+	"https://newizv.ru/api/v1/matters": {},
+	"https://newsland.com":             {},
+	"https://nvo.ng.ru":                {},
+	"https://nnews.nnov.ru":            {},
+	"https://newdaynews.ru":            {},
+	"https://www.newc.info":            {},
 	// 	"https://odnarodyna.org":                             {}, // TODO small read buffer
 	"https://novorossiia.ru":   {}, // cf
 	"https://87.236.16.191":    {}, // novorossiia.ru
@@ -117,13 +115,11 @@ var TargetWebsites = map[string]struct{}{
 	// 	"http://webnovosti.info":   {},
 	"https://nt1941.su": {},
 	// 	"https://www.osnmedia.ru":  {}, // qrator
-	"https://pandoraopen.ru":              {}, // should be called without query
-	"https://plainnews.ru":                {}, // cf
-	"https://polit.info":                  {}, // airee
-	"https://152.89.217.58":               {}, // polit.info
-	"https://politcentr.ru":               {}, // cf
-	"https://politexpert.net":             {}, // airee
-	"http://188.127.226.136":              {}, // politexpert.net
+	"https://pandoraopen.ru": {}, // should be called without query
+	"https://plainnews.ru":   {}, // cf
+	// 	"https://polit.info":                  {}, // airee
+	"https://politcentr.ru": {}, // cf
+	// 	"https://politexpert.net":             {}, // airee
 	"https://politikus.info":              {}, // cf
 	"https://politikus.ru":                {},
 	"https://politpuzzle.ru":              {},
@@ -142,8 +138,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://rusonline.org":  {},
 	"http://ruspravda.info":  {},
 	// 	"https://sevnews.info":              {},
-	"https://slovodel.com":              {}, // airee
-	"http://94.198.50.179":              {}, // slovodel.com
+	// 	"https://slovodel.com":              {}, // airee
 	"https://smi2.ru":                   {},
 	"https://polls.smi2.ru/body/1/poll": {},
 	"https://sovross.ru":                {},
@@ -234,26 +229,71 @@ var TargetWebsites = map[string]struct{}{
 
 	// Still operating in Russia
 	// https://www.yalerussianbusinessretreat.com/
-	"https://burgerkingrus.ru":                                      {},
+	"https://ames.ru":          {}, // Nor-Maali
+	"https://burgerkingrus.ru": {},
 	"https://burgerkingrus.ru/api-web-front/api/v3/restaurant/list": {},
 	"https://mic.burgerking.ru/mifs/user/login.jsp":                 {},
 	"https://sd.burgerking.ru/HEAT/SaaSExternalSessionRenew.aspx":   {},
+	"https://www.clarins.ru":                                        {}, // cf
+	"http://91.189.114.29":                                          {}, // clarins.ru
+	"https://www.colins.ru":                                         {},
+	"https://www.xn----7sbbaeo6behzdm8c.xn--p1ai":                   {}, // doka
 	"https://delonghi.ru":                                           {}, // should be called without query
 	"https://ecco.ru":                                               {}, // only ru net
 	"https://95.215.182.186":                                        {}, // ecco.ru
 	"https://ecco-online.ru":                                        {},
 	"https://www.ehrmann.ru":                                        {},
+// 	"https://www.ela-container.ru":                                  {}, // one global server
+// 	"https://www.etam.ru":                                           {}, // cf server in fr
+	"https://fenzirussia.com":                                       {},
+	"https://fischer-russia.com":                                    {},
 	// 	"http://flowserve-industry.ru":                                  {}, // ddg
-	// 	"https://www.laredoute.ru":                                {}, // only ru net
+	"https://foraco.ru":            {},
+	"https://www.foreverliving.ru": {},
+	"https://frigoglass-shop.ru":   {},
+	"http://hardrockcafe.ru":       {},
+	"https://hardrockcafespb.ru":   {},
+	"https://hoffmann-group.ru":    {},
+	// 	"https://www.laredoute.ru":                                {}, // cd
 	// 	"https://www.laredoute.ru/producthelper/getproducts.aspx": {},
-	"https://mega.ru/offers/":              {}, // Ingka
-	"https://modshairrussia.ru":            {},
-	"https://mymodshair.ru":                {},
-	"https://myzte.ru":                     {},
-	"https://natr.ru":                      {},
-	"https://papajohns.ru/moscow":          {},
-	"https://api.papajohns.ru/slider/list": {},
-	"https://subway.ru":                    {},
+	"https://legrand.ru":                                      {},
+// 	"https://www.leptos-estates.ru":                           {}, // server in uk
+	"https://www.makita.ru":                                   {},
+	"https://mega.ru/offers/":                                 {}, // Ingka
+	"https://modshairrussia.ru":                               {},
+	"https://moutairussia.com":                                {},
+	"https://mymodshair.ru":                                   {},
+	"https://myzte.ru":                                        {},
+	"https://natr.ru":                                         {},
+	"https://www.obocom.ru":                                   {},
+	"https://oppo.ru":                                         {},
+	"https://papajohns.ru/moscow":                             {},
+	"https://api.papajohns.ru/slider/list":                    {},
+	"https://projahn-rus.ru":                                  {},
+	"https://projahn-russia.ru":                               {},
+	"https://projahn.su":                                      {},
+	"https://www.raiffeisen.ru":                               {},
+	"https://int.raiffeisen.ru/logon/LogonPoint/tmindex.html": {},
+	"https://ipoteka.raiffeisen.ru/signin":                    {},
+	"https://auth.ipoteka.raiffeisen.ru/realms/origin/protocol/openid-connect/auth": {},
+	"https://partner.ipoteka.raiffeisen.ru/kclogin":                                 {},
+	"https://online.raiffeisen.ru/login/main":                                       {},
+	"https://skidki.raiffeisen.ru":                                                  {},
+	"https://sbarro-pizza.ru":                                                       {},
+	"https://185.165.123.36":                                                        {},
+	"https://sbdr.ru":                                                               {},
+	"https://sbdr.ru/api/v1/map_point/":                                             {},
+// 	"https://www.sgs.ru":                                                            {}, // server in nl
+// 	"https://www.storck.ru/ru/":                                                     {}, // server in de
+	"https://subway.ru":                                                             {},
+	"https://swiss-krono.ru":                                                        {},
+	"https://triumphlingerie.ru":                                                    {},
+	"https://www.unicreditbank.ru/ru/personal.html":                                 {},
+	"https://enter.unicredit.ru/v2/cgi/bsi.dll":                                     {},
+	"https://login.unicredit.ru/login":                                              {},
+	"https://login.unicredit.ru/webapi-1.0/translate":                               {},
+	"https://www.wienerberger.ru":                                                   {}, // server on aws
+	"https://www.zippo.ru":                                                          {},
 
 	// https://t.me/itarmyofukraine2022/230
 	"https://www.mid.ru": {},
