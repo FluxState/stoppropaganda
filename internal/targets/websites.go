@@ -20,7 +20,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://news.rambler.ru":                           {},
 	"https://peroxide.rambler.ru/v1/comments/clusters/": {},
 	"https://rcm.rambler.ru":                            {},
-	"https://zoomdecorate.rambler.ru":                   {},
 	"https://mail.ru":                                   {},
 	"https://ad.mail.ru/adp/":                           {},
 	"https://recostream.go.mail.ru":                     {},
@@ -34,15 +33,16 @@ var TargetWebsites = map[string]struct{}{
 	"https://77.244.221.63":   {}, // 47news.ru
 	"https://www.afanasy.biz": {},
 	//  	"http://allpravda.info":                              {}, // cf
-	"https://anews.com/tag/novosti/500/": {},
-	"https://antifashist.com":            {}, // https://antifashist.online
-	"https://antimaydan.info":            {},
-	"https://argumenti.ru":               {},
-	"https://aurora.network":             {},
+	"https://anews.com":       {},
+	"https://antifashist.com": {}, // https://antifashist.online
+	"https://antimaydan.info": {},
+	"https://argumenti.ru":    {},
+	"https://aurora.network":  {},
 	// 	"https://balrad.ru":                  {}, // cf only hu net
 	// 	"https://www.business-gazeta.ru":                     {}, // qrator
 	"https://buzina.org":                                 {},
 	"https://www.c-inform.info":                          {},
+	"https://cherkessk09.ru":                             {},
 	"https://crimea-news.com":                            {},
 	"https://crimeapress.info":                           {},
 	"https://comitet.su":                                 {},
@@ -72,31 +72,29 @@ var TargetWebsites = map[string]struct{}{
 	//     "http://213.155.21.184": {}, // globalwarnews.ru
 	"https://gorlovka-news.su":            {}, // cf
 	"https://gtrklnr.com":                 {},
-	"https://infobrics.org":               {},
+	"https://infobrics.org":               {}, // dbg
 	"https://infobrics.org/api/business/": {},
 	// 	"https://inforeactor.ru":              {}, // airee
-	"https://infox.sg": {},
 	// 	"https://inlugansk.ru":                             {}, // cf only ru net
 	"https://jpgazeta.ru": {},
 	// 	"https://kianews24.ru": {}, // dbg
-	"http://k-politika.ru":                             {}, // cf
-	"http://91.228.154.78":                             {}, // k-politika.ru
-	"https://kuban24.tv":                               {}, // cf
-	"http://82.202.160.250":                            {}, // kuban24.tv
-	"https://life.ru":                                  {},
-	"https://lug-info.com":                             {},
-	"https://lugansk-online.su":                        {},
-	"https://www.m24.ru":                               {},
-	"https://cross.m24.ru/covid/frontend/web/site/rus": {},
-	"https://mediarepost.ru":                           {},
-	"https://www.metronews.ru":                         {},
-	"https://mirtesen.ru":                              {},
-	"https://www.mk-kalm.ru":                           {},
-	"https://mkset.ru":                                 {},
-	"http://www.moscow-post.su":                        {},
-	"https://mosregtoday.ru":                           {}, // cf
-	"http://178.154.213.69":                            {}, // mosregtoday.ru
-	"https://www.nakanune.ru":                          {},
+	"http://k-politika.ru":      {}, // cf
+	"http://91.228.154.78":      {}, // k-politika.ru
+	"https://kuban24.tv":        {}, // cf
+	"https://life.ru":           {},
+	"https://lug-info.com":      {},
+	"https://lugansk-online.su": {},
+	"https://www.m24.ru":        {},
+	"https://mediarepost.ru":    {},
+	"https://www.metronews.ru":  {},
+	"https://mirtesen.ru":       {},
+	"https://www.mk-kalm.ru":    {},
+	// 	"https://mkset.ru":                                 {}, // cf
+	"http://5.188.73.213":       {}, // mkset.ru
+	"http://www.moscow-post.su": {},
+	"https://mosregtoday.ru":    {}, // cf
+	"http://178.154.213.69":     {}, // mosregtoday.ru
+	"https://www.nakanune.ru":   {},
 	// 	"https://nation-news.ru":                           {}, // airee
 	"https://newizv.ru":                {},
 	"https://newizv.ru/api/v1/matters": {},
@@ -139,16 +137,15 @@ var TargetWebsites = map[string]struct{}{
 	"http://ruspravda.info":  {},
 	// 	"https://sevnews.info":              {},
 	// 	"https://slovodel.com":              {}, // airee
-	"https://smi2.ru":                   {},
-	"https://polls.smi2.ru/body/1/poll": {},
-	"https://sovross.ru":                {},
-	"http://stringer-news.com":          {},
-	"https://svpressa.ru":               {},
-	"https://taurica.net":               {},
-	"https://tehnowar.ru":               {},
-	"https://thesaker.is":               {},
-	"https://time-news.net":             {}, // cf
-	"https://trmzk.ru":                  {},
+	"https://smi2.ru":          {},
+	"https://sovross.ru":       {},
+	"http://stringer-news.com": {},
+	"https://svpressa.ru":      {},
+	"https://taurica.net":      {},
+	"https://tehnowar.ru":      {},
+	"https://thesaker.is":      {},
+	"https://time-news.net":    {}, // cf
+	"https://trmzk.ru":         {},
 	// 	"https://tvzvezda.ru":               {}, // qrator
 	// 	"https://u-f.ru":                      {}, // cf
 	"https://ugyalta.com":      {}, // cf
@@ -168,26 +165,24 @@ var TargetWebsites = map[string]struct{}{
 	"https://zavtra.ru": {},
 
 	// https://www.state.gov/russias-pillars-of-disinformation-and-propaganda-report/
-	"https://www.geopolitika.ru":                          {},
-	"https://katehon.com":                                 {},
-	"https://novorosinform.org":                           {},
-	"https://www.pravda.ru":                               {}, // cf
-	"https://www.pravda.ru/ajaxed/toolbartabs/":           {}, // cf
-	"https://russia-insider.com/en":                       {}, // cf
-	"https://russian-faith.com":                           {},
-	"http://158.69.116.70":                                {}, // russian-faith.com russia-insider.com
-	"https://southfront.org":                              {},
-	"https://www.strategic-culture.org":                   {},
-	"https://therussophile.org":                           {},
-	"https://tsargrad.tv":                                 {},
-	"https://cloud.tsargrad.tv/nextcloud/index.php/login": {},
-	"https://mirtesen.tsargrad.tv":                        {},
-	"https://www.voltairenet.org":                         {}, // cf
-	"https://65.108.13.235":                               {}, // voltairenet.org
+	"https://www.geopolitika.ru":                {},
+	"https://katehon.com":                       {},
+	"https://novorosinform.org":                 {},
+	"https://www.pravda.ru":                     {}, // cf
+	"https://www.pravda.ru/ajaxed/toolbartabs/": {}, // cf
+	"https://russia-insider.com/en":             {}, // cf
+	"https://russian-faith.com":                 {},
+	"http://158.69.116.70":                      {}, // russian-faith.com russia-insider.com
+	"https://southfront.org":                    {},
+	"https://www.strategic-culture.org":         {},
+	"https://therussophile.org":                 {},
+	"https://tsargrad.tv":                       {},
+	"https://mirtesen.tsargrad.tv":              {},
+	"https://www.voltairenet.org":               {}, // cf
+	"https://65.108.13.235":                     {}, // voltairenet.org
 
 	// Business corporations
 	// 	"http://www.crimearw.ru": {},
-	"https://vcs.rostec.ru": {},
 
 	// The state
 	"https://mil.ru":                  {},
@@ -240,13 +235,12 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.xn----7sbbaeo6behzdm8c.xn--p1ai":                   {}, // doka
 	"https://delonghi.ru":                                           {}, // should be called without query
 	"https://ecco.ru":                                               {}, // only ru net
-	"https://95.215.182.186":                                        {}, // ecco.ru
 	"https://ecco-online.ru":                                        {},
 	"https://www.ehrmann.ru":                                        {},
-// 	"https://www.ela-container.ru":                                  {}, // one global server
-// 	"https://www.etam.ru":                                           {}, // cf server in fr
-	"https://fenzirussia.com":                                       {},
-	"https://fischer-russia.com":                                    {},
+	// 	"https://www.ela-container.ru":                                  {}, // one global server
+	// 	"https://www.etam.ru":                                           {}, // cf server in fr
+	"https://fenzirussia.com":    {},
+	"https://fischer-russia.com": {},
 	// 	"http://flowserve-industry.ru":                                  {}, // ddg
 	"https://foraco.ru":            {},
 	"https://www.foreverliving.ru": {},
@@ -256,8 +250,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://hoffmann-group.ru":    {},
 	// 	"https://www.laredoute.ru":                                {}, // cd
 	// 	"https://www.laredoute.ru/producthelper/getproducts.aspx": {},
-	"https://legrand.ru":                                      {},
-// 	"https://www.leptos-estates.ru":                           {}, // server in uk
+	"https://legrand.ru": {},
+	// 	"https://www.leptos-estates.ru":                           {}, // server in uk
 	"https://www.makita.ru":                                   {},
 	"https://mega.ru/offers/":                                 {}, // Ingka
 	"https://modshairrussia.ru":                               {},
@@ -272,7 +266,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://projahn-rus.ru":                                  {},
 	"https://projahn-russia.ru":                               {},
 	"https://projahn.su":                                      {},
-	"https://www.raiffeisen.ru":                               {},
 	"https://int.raiffeisen.ru/logon/LogonPoint/tmindex.html": {},
 	"https://ipoteka.raiffeisen.ru/signin":                    {},
 	"https://auth.ipoteka.raiffeisen.ru/realms/origin/protocol/openid-connect/auth": {},
@@ -283,24 +276,20 @@ var TargetWebsites = map[string]struct{}{
 	"https://185.165.123.36":                                                        {},
 	"https://sbdr.ru":                                                               {},
 	"https://sbdr.ru/api/v1/map_point/":                                             {},
-// 	"https://www.sgs.ru":                                                            {}, // server in nl
-// 	"https://www.storck.ru/ru/":                                                     {}, // server in de
-	"https://subway.ru":                                                             {},
-	"https://swiss-krono.ru":                                                        {},
-	"https://triumphlingerie.ru":                                                    {},
-	"https://www.unicreditbank.ru/ru/personal.html":                                 {},
-	"https://enter.unicredit.ru/v2/cgi/bsi.dll":                                     {},
-	"https://login.unicredit.ru/login":                                              {},
-	"https://login.unicredit.ru/webapi-1.0/translate":                               {},
-	"https://www.wienerberger.ru":                                                   {}, // server on aws
-	"https://www.zippo.ru":                                                          {},
+	// 	"https://www.sgs.ru":                                                            {}, // server in nl
+	// 	"https://www.storck.ru/ru/":                                                     {}, // server in de
+	"https://subway.ru":                               {},
+	"https://swiss-krono.ru":                          {},
+	"https://triumphlingerie.ru":                      {},
+	"https://www.unicreditbank.ru/ru/personal.html":   {},
+	"https://login.unicredit.ru/login":                {},
+	"https://login.unicredit.ru/webapi-1.0/translate": {},
+	"https://www.wienerberger.ru":                     {}, // server on aws
+	"https://www.zippo.ru":                            {},
 
 	// https://t.me/itarmyofukraine2022/230
 	"https://www.mid.ru": {},
 
 	// https://t.me/itarmyofukraine2022/215
 	"https://www.chechnya.online": {},
-
-	// https://t.me/itarmyofukraine2022/289
-	"https://stream.1tv.ru/api/playlist/1tvch-v1_as_array.json": {},
 }
