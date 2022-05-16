@@ -107,6 +107,8 @@ func NewWebsite(websiteUrlStr string) (website *Website) {
 	newReq.Header.Set("accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9")
 	newReq.Header.Set("accept-encoding", "gzip, deflate, br")
 	newReq.Header.Set("accept-language", "ru")
+	newReq.Header.Set("cache-control", "no-cache")
+	newReq.Header.Set("pragma", "no-cache")
 	newReq.Header.Set("sec-ch-ua", "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"101\", \"Google Chrome\";v=\"101\"")
 	newReq.Header.Set("sec-ch-ua-mobile", "?0")
 	newReq.Header.Set("sec-ch-ua-platform", "\"Windows\"")
