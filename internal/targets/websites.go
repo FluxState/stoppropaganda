@@ -69,8 +69,6 @@ var TargetWebsites = map[string]struct{}{
 	// 	"http://globalwarnews.ru":             {}, // ddg
 	"https://gorlovka-news.su":            {}, // cf
 	"https://gtrklnr.com":                 {},
-	"https://infobrics.org":               {}, // dbg
-	"https://infobrics.org/api/business/": {},
 	// 	"https://inforeactor.ru":              {}, // airee
 	// 	"https://inlugansk.ru":                             {}, // cf only ru net
 	"https://jpgazeta.ru": {},
