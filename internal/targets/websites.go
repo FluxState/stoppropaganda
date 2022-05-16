@@ -223,7 +223,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.colins.ru":                                         {},
 	"https://www.xn----7sbbaeo6behzdm8c.xn--p1ai":                   {}, // doka
 	"https://delonghi.ru":                                           {}, // should be called without query
-	"https://ecco.ru":                                               {}, // only ru net
+// 	"https://ecco.ru":                                               {}, // only ru net
 	"https://ecco-online.ru":                                        {},
 	"https://www.ehrmann.ru":                                        {},
 	// 	"https://www.ela-container.ru":                                  {}, // one global server
