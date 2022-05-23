@@ -270,7 +270,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://subway.ru":           {},
 	"https://swiss-krono.ru":      {},
 	"https://triumphlingerie.ru":  {},
-	"https://www.wienerberger.ru": {}, // server on aws
+// 	"https://www.wienerberger.ru": {}, // server on aws
 	"https://www.zippo.ru":        {},
 
 	// https://t.me/itarmyofukraine2022/230
