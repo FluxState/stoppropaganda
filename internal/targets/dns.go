@@ -11,9 +11,8 @@ var TargetDNSServers = map[string]struct{}{
 	"93.84.114.38:53":    {}, // ns.belta.by
 	"194.54.153.122:53":  {}, // ns1.crimea-post.ru
 	"194.54.153.125:53":  {}, // ns2.crimea-post.ru
-	"46.22.48.162:53":    {}, // dns.ecco.ru
 	"213.24.76.2:53":     {}, // ns1.fsb.ru
-	"95.173.148.66:53":   {}, // ns2.fsb.ru
+	"185.165.123.171:53": {}, // geopolitika.ru
 	"82.209.224.62:53":   {}, // ns1.president.gov.by
 	"82.209.224.126:53":  {}, // ns2.president.gov.by
 	"82.209.224.61:53":   {}, // ns3.president.gov.by

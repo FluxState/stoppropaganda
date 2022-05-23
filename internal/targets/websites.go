@@ -32,17 +32,17 @@ var TargetWebsites = map[string]struct{}{
 	"https://77.244.221.63":                             {}, // 47news.ru
 	// 	"https://www.afanasy.biz":                           {}, // cf only ru net
 	//  	"http://allpravda.info":                              {}, // cf
-	"https://anews.com":       {},
-	"https://antifashist.com": {}, // https://antifashist.online
+	"https://anews.com": {},
+	// 	"https://antifashist.com": {}, // https://antifashist.online | only ru net
 	"https://antimaydan.info": {},
 	"https://argumenti.ru":    {},
 	"https://aurora.network":  {}, // should be called without query
 	// 	"https://balrad.ru":                  {}, // cf only hu net
 	"https://www.bnkomi.ru": {},
 	// 	"https://www.business-gazeta.ru":                     {}, // qrator
-	"https://buzina.org":                                 {},
-	"https://www.c-inform.info":                          {},
-	"https://cherkessk09.ru":                             {},
+	"https://buzina.org":        {},
+	"https://www.c-inform.info": {},
+	// 	"https://cherkessk09.ru":                             {}, // dg
 	"https://crimea-news.com":                            {},
 	"https://crimeapress.info":                           {},
 	"https://comitet.su":                                 {},
@@ -55,10 +55,10 @@ var TargetWebsites = map[string]struct{}{
 	"https://dnr24.com":                                  {},
 	"https://dnr24.su":                                   {}, // cf
 	// 	"https://dnr-life.ru":   {},
-	"https://dnr-pravda.ru":          {},
-	"https://donbasstoday.ru":        {}, // stormwall should be called without query
-	"https://dontimes.ru":            {},
-	"https://dosie.su":               {}, // cf
+	"https://dnr-pravda.ru":   {},
+	"https://donbasstoday.ru": {}, // stormwall should be called without query
+	"https://dontimes.ru":     {},
+	// 	"https://dosie.su":               {}, // cf
 	"https://eadaily.com/ru/dossier": {}, // cf
 	"https://www.europereloaded.com": {},
 	"https://evening-crimea.com":     {},
@@ -66,15 +66,15 @@ var TargetWebsites = map[string]struct{}{
 	"https://fine-news.ru":           {},
 	// 	"https://forpostsevastopol.ru":   {}, // cf only ru net
 	// 	"https://front-novorossii.ru": {},
-	// 	"http://globalwarnews.ru":             {}, // ddg
+	// 	"http://globalwarnews.ru":             {}, // dg
 	"https://gorlovka-news.su": {}, // cf
 	"https://gtrklnr.com":      {},
 	// 	"https://inforeactor.ru":              {}, // airee
 	// 	"https://inlugansk.ru":                             {}, // cf only ru net
-	"https://jpgazeta.ru": {}, // airee
-	// 	"https://kianews24.ru": {}, // dbg
-	"http://k-politika.ru":      {}, // cf
-	"https://kuban24.tv":        {}, // cf should be called without query
+	// 	"https://jpgazeta.ru": {}, // airee
+	// 	"https://kianews24.ru": {}, // dg
+	"http://k-politika.ru": {}, // cf
+	// 	"https://kuban24.tv":        {}, // cf should be called without query
 	"https://life.ru":           {},
 	"https://lug-info.com":      {},
 	"https://lugansk-online.su": {},
@@ -111,10 +111,10 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://polit.info":                  {}, // airee
 	"https://politcentr.ru": {}, // cf
 	// 	"https://politexpert.net":             {}, // airee
-	"https://politikus.info":              {}, // cf
-	"https://politikus.ru":                {},
-	"https://politpuzzle.ru":              {},
-	"https://politros.com":                {}, // airee
+	"https://politikus.info": {}, // cf
+	"https://politikus.ru":   {},
+	"https://politpuzzle.ru": {},
+	// 	"https://politros.com":                {}, // airee
 	"https://pravdoryb.info":              {}, // cf
 	"https://rf-smi.ru":                   {},
 	"https://www.ritmeurasia.org":         {},
@@ -147,10 +147,10 @@ var TargetWebsites = map[string]struct{}{
 	"https://vm.ru":            {}, // should be called without query
 	"https://voskhodinfo.su":   {},
 	// 	"https://webkamerton.ru":              {}, // small read buffer
-	"http://wpristav.ru": {}, // cf
+	"https://wpristav.com": {}, // (wpristav.ru cf)
 	// 	"https://x-true.info":     {}, // cf
 	// 		"http://xvesti.ru":        {}, // cf
-	// 	"https://ya62.ru":      {}, // ddg
+	// 	"https://ya62.ru":      {}, // dg
 	// 	"https://zanamipravda.ru": {}, // only ru net
 	"https://zavtra.ru": {},
 
@@ -220,8 +220,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.clarins.ru":                                        {}, // cf
 	"http://91.189.114.29":                                          {}, // clarins.ru
 	"https://www.colins.ru":                                         {},
-	"https://www.xn----7sbbaeo6behzdm8c.xn--p1ai":                   {}, // doka
-	"https://delonghi.ru":                                           {}, // should be called without query
+	// 	"https://www.xn----7sbbaeo6behzdm8c.xn--p1ai":                   {}, // doka | qrator
+	"https://delonghi.ru": {}, // should be called without query
 	// 	"https://ecco.ru":                                               {}, // only ru net
 	"https://ecco-online.ru": {},
 	"https://www.ehrmann.ru": {},
@@ -229,11 +229,11 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://www.etam.ru":                                           {}, // cf server in fr
 	"https://fenzirussia.com":    {},
 	"https://fischer-russia.com": {},
-	// 	"http://flowserve-industry.ru":                                  {}, // ddg
-	"https://foraco.ru":                                      {},
-	"https://www.foreverliving.ru":                           {},
-	"https://frigoglass-shop.ru":                             {},
-	"http://hardrockcafe.ru":                                 {}, // dbg
+	// 	"http://flowserve-industry.ru":                                  {}, // dg
+	"https://foraco.ru":            {},
+	"https://www.foreverliving.ru": {},
+	"https://frigoglass-shop.ru":   {},
+	// 	"http://hardrockcafe.ru":                                 {},
 	"https://hardrockcafespb.ru":                             {},
 	"https://hoffmann-group.ru":                              {},
 	"https://www.kfc.ru":                                     {},
@@ -242,22 +242,22 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://www.laredoute.ru/producthelper/getproducts.aspx": {},
 	"https://legrand.ru": {},
 	// 	"https://www.leptos-estates.ru":                           {}, // server in uk
-	"https://www.makita.ru":                                   {},
-	"https://mega.ru/offers/":                                 {}, // Ingka
-	"https://modshairrussia.ru":                               {},
-	"https://moutairussia.com":                                {},
-	"https://mymodshair.ru":                                   {},
-	"https://myzte.ru":                                        {},
-	"https://natr.ru":                                         {},
-	"https://www.obocom.ru":                                   {},
-	"https://oppo.ru":                                         {},
-	"https://papajohns.ru/moscow":                             {},
-	"https://api.papajohns.ru/slider/list":                    {},
-	"https://projahn-rus.ru":                                  {},
-	"https://projahn-russia.ru":                               {},
-	"https://projahn.su":                                      {},
-	"https://int.raiffeisen.ru/logon/LogonPoint/tmindex.html": {},
-	"https://ipoteka.raiffeisen.ru/signin":                    {},
+	"https://www.makita.ru":                {},
+	"https://mega.ru/offers/":              {}, // Ingka
+	"https://modshairrussia.ru":            {},
+	"https://moutairussia.com":             {},
+	"https://mymodshair.ru":                {},
+	"https://myzte.ru":                     {},
+	"https://natr.ru":                      {},
+	"https://www.obocom.ru":                {},
+	"https://oppo.ru":                      {},
+	"https://papajohns.ru/moscow":          {},
+	"https://api.papajohns.ru/slider/list": {},
+	"https://projahn-rus.ru":               {},
+	"https://projahn-russia.ru":            {},
+	// 	"https://projahn.su":                                      {},
+	"https://int.raiffeisen.ru/logon/LogonPoint/tmindex.html":                       {},
+	"https://ipoteka.raiffeisen.ru/signin":                                          {},
 	"https://auth.ipoteka.raiffeisen.ru/realms/origin/protocol/openid-connect/auth": {},
 	"https://partner.ipoteka.raiffeisen.ru/kclogin":                                 {},
 	"https://online.raiffeisen.ru/login/main":                                       {},
