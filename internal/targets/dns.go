@@ -57,6 +57,7 @@ var TargetDNSServers = map[string]struct{}{
 	"194.28.239.12:53":   {}, // ns2.tass.ru
 	"77.238.100.195:53":  {}, // ns1.tsargrad.tv
 	"188.64.160.163:53":  {}, // ns2.tsargrad.tv
+	"193.109.246.53:53":  {}, // wpristav.com
 }
 
 // We need reliable IP addresses
