@@ -12,7 +12,6 @@ var TargetDNSServers = map[string]struct{}{
 	"194.54.153.122:53":  {}, // ns1.crimea-post.ru
 	"194.54.153.125:53":  {}, // ns2.crimea-post.ru
 	"213.24.76.2:53":     {}, // ns1.fsb.ru
-	"185.165.123.171:53": {}, // geopolitika.ru
 	"82.209.224.62:53":   {}, // ns1.president.gov.by
 	"82.209.224.126:53":  {}, // ns2.president.gov.by
 	"82.209.224.61:53":   {}, // ns3.president.gov.by
@@ -47,7 +46,6 @@ var TargetDNSServers = map[string]struct{}{
 	"194.190.37.16:53":   {}, // ns3.rg.ru
 	"194.190.37.15:53":   {}, // ns4.rg.ru
 	"194.190.23.68:53":   {}, // ns5.rg.ru
-	"93.125.113.67:53":   {}, // ns.rw.by
 	"195.93.247.59:53":   {}, // ns7.sputniknews.ru
 	"195.93.247.60:53":   {}, // ns8.sputniknews.ru
 	"178.248.236.20:53":  {}, // ns9.sputniknews.ru
@@ -57,14 +55,12 @@ var TargetDNSServers = map[string]struct{}{
 	"194.28.239.12:53":   {}, // ns2.tass.ru
 	"77.238.100.195:53":  {}, // ns1.tsargrad.tv
 	"188.64.160.163:53":  {}, // ns2.tsargrad.tv
-	"193.109.246.53:53":  {}, // wpristav.com
 }
 
 // We need reliable IP addresses
 // just like we would've been in Russia/Belarus
 var ReferenceDNSServersForHTTP = []string{
 	// https://dns.yandex.com/
-	"77.88.8.8:53",
 	"77.88.8.1:53",
 	"77.88.8.2:53",
 	"77.88.8.3:53",

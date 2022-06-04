@@ -13,7 +13,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://api.riafan.ru":                      {},
 	"https://mt.riafan.ru/blog/latest":           {},
 	"https://pikabu.ru":                          {},
-	"https://api.pikabu.ru":                      {},
 	"https://www.rambler.ru":                     {},
 	"https://www.rambler.ru/api/v4/personalized": {},
 	// 	"https://id.rambler.ru/login-20/login": {}, // TODO fix small read buffer
@@ -34,7 +33,7 @@ var TargetWebsites = map[string]struct{}{
 	//  	"http://allpravda.info":                              {}, // cf
 	"https://anews.com": {},
 	// 	"https://antifashist.com": {}, // https://antifashist.online | only ru net
-	"https://antimaydan.info": {},
+	"https://antimaydan.info": {}, // should be called without query
 	"https://argumenti.ru":    {},
 	"https://aurora.network":  {}, // should be called without query
 	// 	"https://balrad.ru":                  {}, // cf only hu net
@@ -93,7 +92,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://newsland.com":             {},
 	"https://nvo.ng.ru":                {},
 	"https://newdaynews.ru":            {},
-	"https://www.newc.info":            {},
+// 	"https://www.newc.info":            {},
 	// 	"https://odnarodyna.org":                             {}, // TODO small read buffer
 	"https://novorossiia.ru":   {}, // cf
 	"https://novorossiia.info": {},
@@ -115,7 +114,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://politikus.ru":   {},
 	"https://politpuzzle.ru": {},
 	// 	"https://politros.com":                {}, // airee
-	"https://pravdoryb.info":              {}, // cf
+// 	"https://pravdoryb.info":              {}, // cf
 	"https://rf-smi.ru":                   {},
 	"https://www.ritmeurasia.org":         {},
 	"https://rodina.news":                 {}, // cf
@@ -123,14 +122,13 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://rusnext.ru":                  {}, // cf
 	// 	"https://rusnext.ru/newslistapi.json": {}, // cf
 	// 	"https://ru-an.info":     {}, // cf
-	"https://rueconomics.ru": {}, // airee
+// 	"https://rueconomics.ru": {}, // airee
 	"https://rusonline.org":  {},
-	"http://ruspravda.info":  {},
-	// 	"https://sevnews.info":              {},
+// 	"http://ruspravda.info":  {}, // cf
 	// 	"https://slovodel.com":              {}, // airee
 	"https://smi2.ru":          {},
 	"https://sovross.ru":       {},
-	"http://stringer-news.com": {},
+	"http://stringer-news.com": {}, // redirect with set-cookie
 	"https://svpressa.ru":      {},
 	"https://taurica.net":      {},
 	"https://tehnowar.ru":      {},
@@ -191,7 +189,6 @@ var TargetWebsites = map[string]struct{}{
 	// Belgorod
 	"https://bel.ru": {}, // cf
 	"https://bel.ru/api/v1/platform/main_page": {}, // cf
-	"https://5.188.73.213":                     {}, // www.bel.ru
 	"https://belsbyt.ru":                       {},
 	"https://lk.belsbyt.ru/fiz/login":          {},
 	// 	"https://www.go31.ru":                       {}, // cf only ru net
@@ -200,7 +197,7 @@ var TargetWebsites = map[string]struct{}{
 	/* BELARUS */
 
 	// by gov
-	"https://president.gov.by/ru":   {},
+	"https://president.gov.by/ru":   {}, // should be called without query
 	"https://mfa.gov.by":            {},
 	"https://russia.mfa.gov.by/ru/": {},
 
@@ -255,8 +252,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://api.papajohns.ru/slider/list": {},
 	"https://projahn-rus.ru":               {},
 	"https://projahn-russia.ru":            {},
-	// 	"https://projahn.su":                                      {},
-	"https://int.raiffeisen.ru/logon/LogonPoint/tmindex.html":                       {},
+	"https://projahn.su":                   {},
 	"https://ipoteka.raiffeisen.ru/signin":                                          {},
 	"https://auth.ipoteka.raiffeisen.ru/realms/origin/protocol/openid-connect/auth": {},
 	"https://partner.ipoteka.raiffeisen.ru/kclogin":                                 {},
@@ -269,7 +265,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://www.storck.ru/ru/":                                                     {}, // server in de
 	"https://subway.ru":           {},
 	"https://swiss-krono.ru":      {},
-	"https://triumphlingerie.ru":  {},
+// 	"https://triumphlingerie.ru":  {},
 // 	"https://www.wienerberger.ru": {}, // server on aws
 	"https://www.zippo.ru":        {},
 

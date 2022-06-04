@@ -39,11 +39,6 @@ var BypassIPs = []BypassWebsite{
 		},
 	},
 	{
-		Host: "pravdoryb.info", IPs: []net.IPAddr{
-			*mustResolveIPAddr("95.142.44.8"),
-		},
-	},
-	{
 		Host: "russia-insider.com", IPs: []net.IPAddr{
 			*mustResolveIPAddr("158.69.116.70"),
 		},
@@ -56,6 +51,11 @@ var BypassIPs = []BypassWebsite{
 	{
 		Host: "www.voltairenet.org", IPs: []net.IPAddr{
 			*mustResolveIPAddr("65.108.13.235"),
+		},
+	},
+	{
+		Host: "wpristav.ru", IPs: []net.IPAddr{
+			*mustResolveIPAddr("193.109.246.53"),
 		},
 	},
 }
