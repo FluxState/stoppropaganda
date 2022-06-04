@@ -37,7 +37,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://argumenti.ru":    {},
 	"https://aurora.network":  {}, // should be called without query
 	// 	"https://balrad.ru":                  {}, // cf only hu net
-	"https://www.bnkomi.ru": {},
+	"https://bloknot-rostov.ru": {},
+	"https://www.bnkomi.ru":     {},
 	// 	"https://www.business-gazeta.ru":                     {}, // qrator
 	"https://buzina.org":        {},
 	"https://www.c-inform.info": {},
@@ -55,7 +56,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://dnr24.su":                                   {}, // cf
 	// 	"https://dnr-life.ru":   {},
 	"https://dnr-pravda.ru":   {},
-	"https://donbasstoday.ru": {}, // stormwall should be called without query
+	"https://donbasstoday.ru": {}, // stormwall | should be called without query
+	"https://www.donnews.ru":  {},
 	"https://dontimes.ru":     {},
 	// 	"https://dosie.su":               {}, // cf
 	"https://eadaily.com/ru/dossier": {}, // cf
@@ -92,7 +94,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://newsland.com":             {},
 	"https://nvo.ng.ru":                {},
 	"https://newdaynews.ru":            {},
-// 	"https://www.newc.info":            {},
+	// 	"https://www.newc.info":            {},
 	// 	"https://odnarodyna.org":                             {}, // TODO small read buffer
 	"https://novorossiia.ru":   {}, // cf
 	"https://novorossiia.info": {},
@@ -114,17 +116,20 @@ var TargetWebsites = map[string]struct{}{
 	"https://politikus.ru":   {},
 	"https://politpuzzle.ru": {},
 	// 	"https://politros.com":                {}, // airee
-// 	"https://pravdoryb.info":              {}, // cf
+	// 	"https://pravdoryb.info":              {}, // cf
 	"https://rf-smi.ru":                   {},
+	"https://riamo.ru":                    {},
 	"https://www.ritmeurasia.org":         {},
 	"https://rodina.news":                 {}, // cf
 	"https://rossaprimavera.ru/feed/news": {},
+	"https://rostovgazeta.ru":             {}, // cf
 	// 	"https://rusnext.ru":                  {}, // cf
 	// 	"https://rusnext.ru/newslistapi.json": {}, // cf
 	// 	"https://ru-an.info":     {}, // cf
-// 	"https://rueconomics.ru": {}, // airee
-	"https://rusonline.org":  {},
-// 	"http://ruspravda.info":  {}, // cf
+	// 	"https://rueconomics.ru": {}, // airee
+	"https://rusonline.org": {},
+	// 	"http://ruspravda.info":  {}, // cf
+	"https://russia58.tv/projects/zamir/": {},
 	// 	"https://slovodel.com":              {}, // airee
 	"https://smi2.ru":          {},
 	"https://sovross.ru":       {},
@@ -253,7 +258,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://projahn-rus.ru":               {},
 	"https://projahn-russia.ru":            {},
 	"https://projahn.su":                   {},
-	"https://ipoteka.raiffeisen.ru/signin":                                          {},
+	"https://ipoteka.raiffeisen.ru/signin": {},
 	"https://auth.ipoteka.raiffeisen.ru/realms/origin/protocol/openid-connect/auth": {},
 	"https://partner.ipoteka.raiffeisen.ru/kclogin":                                 {},
 	"https://online.raiffeisen.ru/login/main":                                       {},
@@ -263,11 +268,11 @@ var TargetWebsites = map[string]struct{}{
 	"https://sbdr.ru/api/v1/map_point/":                                             {},
 	// 	"https://www.sgs.ru":                                                            {}, // server in nl
 	// 	"https://www.storck.ru/ru/":                                                     {}, // server in de
-	"https://subway.ru":           {},
-	"https://swiss-krono.ru":      {},
-// 	"https://triumphlingerie.ru":  {},
-// 	"https://www.wienerberger.ru": {}, // server on aws
-	"https://www.zippo.ru":        {},
+	"https://subway.ru":      {},
+	"https://swiss-krono.ru": {},
+	// 	"https://triumphlingerie.ru":  {},
+	// 	"https://www.wienerberger.ru": {}, // server on aws
+	"https://www.zippo.ru": {},
 
 	// https://t.me/itarmyofukraine2022/230
 	"https://www.mid.ru": {},

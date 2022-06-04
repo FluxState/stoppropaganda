@@ -19,6 +19,11 @@ var BypassIPs = []BypassWebsite{
 		},
 	},
 	{
+		Host: "www.donnews.ru", IPs: []net.IPAddr{
+			*mustResolveIPAddr("185.179.190.159"),
+		},
+	},
+	{
 		Host: "fine-news.ru", IPs: []net.IPAddr{
 			*mustResolveIPAddr("213.139.208.57"),
 		},
