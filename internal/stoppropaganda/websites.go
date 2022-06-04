@@ -304,7 +304,9 @@ func doSingleRequest(ws *Website, req *fasthttp.Request, resp *fasthttp.Response
 		req.URI().QueryArgs().Reset()
 		req.Header.DelAllCookies()
 
-		randomString := rng.String(6, 20)
+        randomLength := rng.Uint32n(3, 20)
+		randomString := rng.String(3, randomLength)
+
 		req.URI().QueryArgs().Add(randomString, randomString)
 		req.Header.SetCookie(randomString, randomString)
 	}

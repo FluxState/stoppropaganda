@@ -25,11 +25,15 @@ func New(maxStringLength int) *RNG {
 	return r
 }
 
-var randomRunesList = []byte("abcdefghijklmnopqrstuvwxyz")
+var randomRunesList = []byte("abcdefghijklmnopqrstuvwxyz_")
 var randomRunesListLength = uint32(len(randomRunesList))
 
+func (r *RNG) Uint32n(min, max uint32) uint32 {
+    return r.rng.Uint32n(max-min) + min;
+}
+
 func (r *RNG) slice(min, max uint32) []byte {
-	r.number = r.rng.Uint32n(max-min) + min
+	r.number = r.Uint32n(min, max)
 	r.buff = r.buff[:r.number]
 	for r.number > 0 {
 		r.number--

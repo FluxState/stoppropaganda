@@ -3,14 +3,14 @@ module github.com/erkexzcx/stoppropaganda
 go 1.18
 
 require (
-	github.com/miekg/dns v1.1.48
+	github.com/miekg/dns v1.1.49
 	github.com/peterbourgon/ff/v3 v3.1.2
 	github.com/valyala/fastrand v1.1.0
 )
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
-	github.com/klauspost/compress v1.15.1 // indirect
+	github.com/klauspost/compress v1.15.6 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 )
 
