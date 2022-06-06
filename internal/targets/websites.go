@@ -26,9 +26,11 @@ var TargetWebsites = map[string]struct{}{
 	"https://news.mail.ru":                              {},
 	"https://portal.mail.ru/NaviData":                   {},
 	"https://rg.ru":                                     {},
+	"https://12-kanal.ru":                               {},
 	"https://360tv.ru":                                  {}, // should be called without query
 	"https://47news.ru":                                 {}, // qrator
 	"https://77.244.221.63":                             {}, // 47news.ru
+	"https://78.ru":                                     {},
 	// 	"https://www.afanasy.biz":                           {}, // cf only ru net
 	//  	"http://allpravda.info":                              {}, // cf
 	"https://anews.com": {},
@@ -76,18 +78,19 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://kianews24.ru": {}, // dg
 	"http://k-politika.ru": {}, // cf
 	// 	"https://kuban24.tv":        {}, // cf should be called without query
-	"https://life.ru":           {},
-	"https://lug-info.com":      {},
-	"https://lugansk-online.su": {},
-	"https://www.m24.ru":        {},
-	"https://mediarepost.ru":    {},
-	"https://www.metronews.ru":  {},
-	"https://mirtesen.ru":       {},
-	"https://www.mk-kalm.ru":    {},
+	"https://life.ru":                   {},
+	"https://lug-info.com":              {},
+	"https://lugansk-online.su":         {},
+	"https://www.m24.ru":                {},
+	"https://mediarepost.ru":            {},
+	"https://www.metronews.ru":          {},
+	"https://mirbelogorya.ru/index.php": {},
+	"https://mirtesen.ru":               {},
 	// 	"https://mkset.ru":                                 {}, // cf only ru net
-	"http://www.moscow-post.su": {},
-	"https://mosregtoday.ru":    {}, // cf
-	"https://www.nakanune.ru":   {},
+	"https://www.mordovmedia.ru": {},
+	"http://www.moscow-post.su":  {},
+	"https://mosregtoday.ru":     {}, // cf
+	"https://www.nakanune.ru":    {},
 	// 	"https://nation-news.ru":                           {}, // airee
 	"https://newizv.ru":                {},
 	"https://newizv.ru/api/v1/matters": {},
@@ -95,7 +98,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://nvo.ng.ru":                {},
 	"https://newdaynews.ru":            {},
 	// 	"https://www.newc.info":            {},
-	// 	"https://odnarodyna.org":                             {}, // TODO small read buffer
 	"https://novorossiia.ru":   {}, // cf
 	"https://novorossiia.info": {},
 	"http://novorossy.ru":      {},
@@ -103,6 +105,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"http://novosti333.ru":     {},
 	// 	"http://webnovosti.info":   {},
 	"https://nt1941.su": {},
+	// 	"https://odnarodyna.org":                             {}, // TODO small read buffer
 	// 	"https://www.osnmedia.ru":  {}, // qrator
 	"https://pandoraopen.ru":                {}, // should be called without query
 	"https://pg11.ru":                       {},
@@ -140,8 +143,10 @@ var TargetWebsites = map[string]struct{}{
 	"https://thesaker.is":      {},
 	"https://time-news.net":    {}, // cf
 	"https://trmzk.ru":         {},
+	"https://tvr24.tv/top-100": {},
 	// 	"https://tvzvezda.ru":               {}, // qrator
 	// 	"https://u-f.ru":                      {}, // cf
+	"https://ufanotes.ru":      {},
 	"https://ugyalta.com":      {}, // cf
 	"https://universe-tss.su":  {},
 	"https://utro.ru":          {},
@@ -196,8 +201,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://bel.ru/api/v1/platform/main_page": {}, // cf
 	"https://belsbyt.ru":                       {},
 	"https://lk.belsbyt.ru/fiz/login":          {},
-	// 	"https://www.go31.ru":                       {}, // cf only ru net
-	// 	"https://www.go31.ru/api3/auth/check-login": {},
 
 	/* BELARUS */
 
@@ -225,7 +228,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://www.xn----7sbbaeo6behzdm8c.xn--p1ai":                   {}, // doka | qrator
 	"https://delonghi.ru": {}, // should be called without query
 	// 	"https://ecco.ru":                                               {}, // only ru net
-	"https://ecco-online.ru": {},
+	"https://obyv-online.ru": {}, // ecco
 	"https://www.ehrmann.ru": {},
 	// 	"https://www.ela-container.ru":                                  {}, // one global server
 	// 	"https://www.etam.ru":                                           {}, // cf server in fr

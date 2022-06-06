@@ -9,6 +9,11 @@ type BypassWebsite struct {
 
 var BypassIPs = []BypassWebsite{
 	{
+		Host: "12-kanal.ru", IPs: []net.IPAddr{
+			*mustResolveIPAddr("109.194.112.233"),
+		},
+	},
+	{
 		Host: "47news.ru", IPs: []net.IPAddr{
 			*mustResolveIPAddr("77.244.221.63"),
 		},
