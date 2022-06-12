@@ -14,6 +14,11 @@ var BypassIPs = []BypassWebsite{
 		},
 	},
 	{
+		Host: "360tv.ru", IPs: []net.IPAddr{
+			*mustResolveIPAddr("95.213.164.20"),
+		},
+	},
+	{
 		Host: "47news.ru", IPs: []net.IPAddr{
 			*mustResolveIPAddr("77.244.221.63"),
 		},
@@ -64,7 +69,7 @@ var BypassIPs = []BypassWebsite{
 		},
 	},
 	{
-		Host: "wpristav.ru", IPs: []net.IPAddr{
+		Host: "wpristav.com", IPs: []net.IPAddr{
 			*mustResolveIPAddr("193.109.246.53"),
 		},
 	},

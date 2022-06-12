@@ -26,8 +26,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://news.mail.ru":                              {},
 	"https://portal.mail.ru/NaviData":                   {},
 	"https://rg.ru":                                     {},
-	"https://12-kanal.ru":                               {},
-	"https://360tv.ru":                                  {}, // should be called without query
+	"https://109.194.112.233":                           {}, // 12-kanal.ru
+	"https://360tv.ru":                                  {}, // q | should be called without query
 	"https://47news.ru":                                 {}, // qrator
 	"https://77.244.221.63":                             {}, // 47news.ru
 	"https://78.ru":                                     {},
@@ -57,7 +57,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://dnr24.com":                                  {},
 	"https://dnr24.su":                                   {}, // cf
 	// 	"https://dnr-life.ru":   {},
-	"https://dnr-pravda.ru":   {},
+	"https://dnr-pravda.ru":   {}, // sw
 	"https://donbasstoday.ru": {}, // stormwall | should be called without query
 	"https://www.donnews.ru":  {},
 	"https://dontimes.ru":     {},
@@ -87,10 +87,10 @@ var TargetWebsites = map[string]struct{}{
 	"https://mirbelogorya.ru/index.php": {},
 	"https://mirtesen.ru":               {},
 	// 	"https://mkset.ru":                                 {}, // cf only ru net
-	"https://www.mordovmedia.ru": {},
-	"http://www.moscow-post.su":  {},
-	"https://mosregtoday.ru":     {}, // cf
-	"https://www.nakanune.ru":    {},
+	// 	"https://www.mordovmedia.ru": {}, // cf
+	"http://www.moscow-post.su": {}, // sw
+	"https://mosregtoday.ru":    {}, // cf
+	"https://www.nakanune.ru":   {},
 	// 	"https://nation-news.ru":                           {}, // airee
 	"https://newizv.ru":                {},
 	"https://newizv.ru/api/v1/matters": {},
@@ -107,13 +107,13 @@ var TargetWebsites = map[string]struct{}{
 	"https://nt1941.su": {},
 	// 	"https://odnarodyna.org":                             {}, // TODO small read buffer
 	// 	"https://www.osnmedia.ru":  {}, // qrator
-	"https://pandoraopen.ru":                {}, // should be called without query
-	"https://pg11.ru":                       {},
+	"https://pandoraopen.ru": {}, // should be called without query
+	// 	"https://pg11.ru":                       {}, // only ru net
 	"https://pizzahut.ru":                   {},
 	"https://pizzahut.ru/ajax/menu-groups/": {},
 	"https://plainnews.ru":                  {}, // cf
 	// 	"https://polit.info":                  {}, // airee
-	"https://politcentr.ru": {}, // cf
+	// 	"https://politcentr.ru": {}, // cf
 	// 	"https://politexpert.net":             {}, // airee
 	"https://politikus.info": {}, // cf
 	"https://politikus.ru":   {},
@@ -146,14 +146,14 @@ var TargetWebsites = map[string]struct{}{
 	"https://tvr24.tv/top-100": {},
 	// 	"https://tvzvezda.ru":               {}, // qrator
 	// 	"https://u-f.ru":                      {}, // cf
-	"https://ufanotes.ru":      {},
-	"https://ugyalta.com":      {}, // cf
-	"https://universe-tss.su":  {},
+	// 	"https://ufanotes.ru":      {},
+	"https://ugyalta.com": {}, // cf
+	// 	"https://universe-tss.su":  {},
 	"https://utro.ru":          {},
 	"https://www.vedomosti.ru": {},
 	"https://vesti-k.ru":       {},
-	"https://vm.ru":            {}, // should be called without query
-	"https://voskhodinfo.su":   {},
+	// 	"https://vm.ru":            {}, // dg | should be called without query
+	"https://voskhodinfo.su": {},
 	// 	"https://webkamerton.ru":              {}, // small read buffer
 	"https://wpristav.com": {}, // (wpristav.ru cf)
 	// 	"https://x-true.info":     {}, // cf
@@ -181,10 +181,10 @@ var TargetWebsites = map[string]struct{}{
 	// 	"http://www.crimearw.ru": {},
 
 	// The state
-	"https://mil.ru":                  {}, // should be called without query
-	"https://vsednr.ru":               {},
-	"https://dnmchs.ru":               {},
-	"http://www.fsb.ru":               {},
+	"https://mil.ru":    {}, // should be called without query
+	"https://vsednr.ru": {},
+	"https://dnmchs.ru": {},
+	// 	"http://www.fsb.ru":               {}, // only ru net
 	"https://govdnr.ru":               {},
 	"https://mer.govdnr.ru/index.php": {},
 	"https://mid-dnr.su/ru/":          {},
@@ -224,7 +224,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://sd.burgerking.ru/HEAT/SaaSExternalSessionRenew.aspx":   {},
 	"https://www.clarins.ru":                                        {}, // cf
 	"http://91.189.114.29":                                          {}, // clarins.ru
-	"https://www.colins.ru":                                         {},
+	// 	"https://www.colins.ru":                                         {}, // only ru net
 	// 	"https://www.xn----7sbbaeo6behzdm8c.xn--p1ai":                   {}, // doka | qrator
 	"https://delonghi.ru": {}, // should be called without query
 	// 	"https://ecco.ru":                                               {}, // only ru net
@@ -275,7 +275,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://swiss-krono.ru": {},
 	// 	"https://triumphlingerie.ru":  {},
 	// 	"https://www.wienerberger.ru": {}, // server on aws
-	"https://www.zippo.ru": {},
+	// 	"https://www.zippo.ru": {}, // only ru net
 
 	// https://t.me/itarmyofukraine2022/230
 	"https://www.mid.ru": {},
