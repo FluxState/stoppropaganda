@@ -3,22 +3,22 @@ package targets
 // Source: https://twitter.com/FedorovMykhailo/status/1497642156076511233
 
 var TargetDNSServers = map[string]struct{}{
-	"95.173.148.51:53":   {}, // 95.* => Federal Guard Service of the Russian Federation
-	"95.173.148.50:53":   {},
-	"178.124.194.92:53":  {}, // bf.belta.by
-	"86.57.255.226:53":   {}, // gate.belta.by
-	"86.57.255.235:53":   {}, // llm2.belta.by
-	"93.84.114.38:53":    {}, // ns.belta.by
-	"194.54.153.122:53":  {}, // ns1.crimea-post.ru
-	"194.54.153.125:53":  {}, // ns2.crimea-post.ru
-	"213.24.76.2:53":     {}, // ns1.fsb.ru
-	"82.209.224.62:53":   {}, // ns1.president.gov.by
-	"82.209.224.126:53":  {}, // ns2.president.gov.by
-	"82.209.224.61:53":   {}, // ns3.president.gov.by
-	"82.209.224.125:53":  {}, // ns4.president.gov.by
-	"95.173.128.77:53":   {}, // ns.gov.ru
-	"95.173.130.4:53":    {}, // ns1.duma.gov.ru
-	"95.173.130.5:53":    {}, // ns2.duma.gov.ru
+	"95.173.148.51:53":  {}, // 95.* => Federal Guard Service of the Russian Federation
+	"95.173.148.50:53":  {},
+	"178.124.194.92:53": {}, // bf.belta.by
+	"86.57.255.226:53":  {}, // gate.belta.by
+	"86.57.255.235:53":  {}, // llm2.belta.by
+	"93.84.114.38:53":   {}, // ns.belta.by
+	"194.54.153.122:53": {}, // ns1.crimea-post.ru
+	"194.54.153.125:53": {}, // ns2.crimea-post.ru
+	"213.24.76.2:53":    {}, // ns1.fsb.ru
+	"82.209.224.62:53":  {}, // ns1.president.gov.by
+	"82.209.224.126:53": {}, // ns2.president.gov.by
+	"82.209.224.61:53":  {}, // ns3.president.gov.by
+	"82.209.224.125:53": {}, // ns4.president.gov.by
+	"95.173.128.77:53":  {}, // ns.gov.ru
+	// 	"95.173.130.4:53":    {}, // ns1.duma.gov.ru
+	// 	"95.173.130.5:53":    {}, // ns2.duma.gov.ru
 	"84.47.152.226:53":   {}, // ns.expert.ru
 	"93.95.103.178:53":   {}, // ns3.expert.ru
 	"185.12.92.62:53":    {}, // ns1.journal-neo.org
@@ -30,6 +30,7 @@ var TargetDNSServers = map[string]struct{}{
 	"93.157.56.216:53":   {}, // ns3.mid.ru
 	"93.157.9.250:53":    {}, // ns1.mid-dnr.su
 	"212.66.32.66:53":    {}, // ns2.mid-dnr.su
+	"87.242.66.130:53":   {}, // ns1.mil.ru
 	"87.242.66.230:53":   {}, // ns2.mil.ru
 	"87.242.66.95:53":    {}, // ns4.mil.ru
 	"213.243.109.4:53":   {}, // ns.ng.ru

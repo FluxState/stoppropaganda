@@ -8,29 +8,23 @@ var TargetWebsites = map[string]struct{}{
 	// Propaganda
 	// 	"https://tass.ru":                            {}, // stormwall
 	// 	"https://tass.ru/userApi/getNewsFeed":        {}, // stormwall
-	"https://vz.ru":                              {},
-	"https://www.gazeta.ru":                      {},
-	"https://api.riafan.ru":                      {},
-	"https://mt.riafan.ru/blog/latest":           {},
-	"https://pikabu.ru":                          {},
-	"https://www.rambler.ru":                     {},
-	"https://www.rambler.ru/api/v4/personalized": {},
+	"https://vz.ru":                               {},
+	"https://www.gazeta.ru":                       {},
+	"https://pikabu.ru":                           {},
+	"https://www.rambler.ru":                      {},
+	"https://www.rambler.ru/api/v4/personalized/": {},
 	// 	"https://id.rambler.ru/login-20/login": {}, // TODO fix small read buffer
-	"https://news.rambler.ru":                           {},
-	"https://peroxide.rambler.ru/v1/comments/clusters/": {},
-	"https://rcm.rambler.ru":                            {},
-	"https://mail.ru":                                   {},
-	"https://ad.mail.ru/adp/":                           {},
-	"https://recostream.go.mail.ru":                     {},
-	"https://suggests.go.mail.ru/sg_main":               {},
-	"https://news.mail.ru":                              {},
-	"https://portal.mail.ru/NaviData":                   {},
-	"https://rg.ru":                                     {},
-	"https://109.194.112.233":                           {}, // 12-kanal.ru
-	"https://360tv.ru":                                  {}, // q | should be called without query
-	"https://47news.ru":                                 {}, // qrator
-	"https://77.244.221.63":                             {}, // 47news.ru
-	"https://78.ru":                                     {},
+	"https://news.rambler.ru":                              {},
+	"https://peroxide.rambler.ru/v1/tops/common/clusters/": {},
+	"https://rcm.rambler.ru":                               {},
+	"https://mail.ru":                                      {},
+	"https://news.mail.ru":                                 {},
+	"https://rg.ru":                                        {},
+	"https://12-kanal.ru":                                  {}, //
+	"https://360tv.ru":                                     {}, // q | should be called without query
+	"https://47news.ru":                                    {}, // qrator
+	"https://77.244.221.63":                                {}, // 47news.ru
+	"https://78.ru":                                        {},
 	// 	"https://www.afanasy.biz":                           {}, // cf only ru net
 	//  	"http://allpravda.info":                              {}, // cf
 	"https://anews.com": {},
@@ -45,17 +39,16 @@ var TargetWebsites = map[string]struct{}{
 	"https://buzina.org":        {},
 	"https://www.c-inform.info": {},
 	// 	"https://cherkessk09.ru":                             {}, // dg
-	"https://crimea-news.com":                            {},
-	"https://crimeapress.info":                           {},
-	"https://comitet.su":                                 {},
-	"https://compromat.group":                            {},
-	"https://compromat.group/engine/ajax/checkViews.php": {},
-	"https://cont.ws":                                    {},
-	"https://dan-news.info":                              {},
-	"https://dni.ru":                                     {},
-	"https://social.dni.ru":                              {},
-	"https://dnr24.com":                                  {},
-	"https://dnr24.su":                                   {}, // cf
+	"https://crimea-news.com":  {},
+	"https://crimeapress.info": {},
+	"https://comitet.su":       {},
+	"https://compromat.group":  {},
+	"https://cont.ws":          {},
+	"https://dan-news.info":    {},
+	"https://dni.ru":           {},
+	"https://social.dni.ru":    {},
+	"https://dnr24.com":        {},
+	"https://dnr24.su":         {}, // cf
 	// 	"https://dnr-life.ru":   {},
 	"https://dnr-pravda.ru":   {}, // sw
 	"https://donbasstoday.ru": {}, // stormwall | should be called without query
@@ -64,7 +57,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://dosie.su":               {}, // cf
 	"https://eadaily.com/ru/dossier": {}, // cf
 	"https://www.europereloaded.com": {},
-	"https://evening-crimea.com":     {},
+	"https://evening-crimea.com":     {}, // should be called without query
 	"https://expert.ru":              {},
 	"https://fine-news.ru":           {},
 	// 	"https://forpostsevastopol.ru":   {}, // cf only ru net
@@ -76,7 +69,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://inlugansk.ru":                             {}, // cf only ru net
 	// 	"https://jpgazeta.ru": {}, // airee
 	// 	"https://kianews24.ru": {}, // dg
-	"http://k-politika.ru": {}, // cf
+	// 	"http://k-politika.ru": {}, // cf
 	// 	"https://kuban24.tv":        {}, // cf should be called without query
 	"https://life.ru":                   {},
 	"https://lug-info.com":              {},
@@ -99,7 +92,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://newdaynews.ru":            {},
 	// 	"https://www.newc.info":            {},
 	"https://novorossiia.ru":   {}, // cf
-	"https://novorossiia.info": {},
+	"https://novorossiia.info": {}, // should be called without query
 	"http://novorossy.ru":      {},
 	"https://novosti.icu":      {}, // cf
 	// 	"http://novosti333.ru":     {},
@@ -121,6 +114,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://politros.com":                {}, // airee
 	// 	"https://pravdoryb.info":              {}, // cf
 	"https://rf-smi.ru":                   {},
+	"https://riafan.ru":                   {}, // q
 	"https://riamo.ru":                    {},
 	"https://www.ritmeurasia.org":         {},
 	"https://rodina.news":                 {}, // cf
@@ -151,7 +145,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://universe-tss.su":  {},
 	"https://utro.ru":          {},
 	"https://www.vedomosti.ru": {},
-	"https://vesti-k.ru":       {},
+	"https://vesti-k.ru":       {}, // only ru net?
 	// 	"https://vm.ru":            {}, // dg | should be called without query
 	"https://voskhodinfo.su": {},
 	// 	"https://webkamerton.ru":              {}, // small read buffer
@@ -160,22 +154,22 @@ var TargetWebsites = map[string]struct{}{
 	// 		"http://xvesti.ru":        {}, // cf
 	// 	"https://ya62.ru":      {}, // dg
 	// 	"https://zanamipravda.ru": {}, // only ru net
-	"https://zavtra.ru": {},
+	// 	"https://zavtra.ru": {}, // cf | only ru net
 
 	// https://www.state.gov/russias-pillars-of-disinformation-and-propaganda-report/
-	"https://www.geopolitika.ru":                {},
-	"https://katehon.com":                       {},
-	"https://novorosinform.org":                 {},
-	"https://www.pravda.ru":                     {}, // cf
-	"https://www.pravda.ru/ajaxed/toolbartabs/": {}, // cf
-	"https://russia-insider.com/en":             {}, // cf
-	"https://russian-faith.com":                 {},
-	"https://southfront.org":                    {},
-	"https://www.strategic-culture.org":         {},
-	"https://therussophile.org":                 {},
-	"https://tsargrad.tv":                       {},
-	"https://mirtesen.tsargrad.tv":              {},
-	"https://www.voltairenet.org":               {}, // cf should be called without params
+	"https://www.geopolitika.ru": {},
+	"https://katehon.com":        {},
+	"https://novorosinform.org":  {},
+	// 	"https://www.pravda.ru":                     {}, // cf
+	// 	"https://www.pravda.ru/ajaxed/toolbartabs/": {}, // cf
+	"https://russia-insider.com/en":     {}, // cf
+	"https://russian-faith.com":         {},
+	"https://southfront.org":            {},
+	"https://www.strategic-culture.org": {}, // redirect with cookie
+	"https://therussophile.org":         {},
+	"https://tsargrad.tv":               {},
+	"https://mirtesen.tsargrad.tv":      {},
+	"https://www.voltairenet.org":       {}, // cf should be called without params
 
 	// Business corporations
 	// 	"http://www.crimearw.ru": {},
@@ -185,11 +179,11 @@ var TargetWebsites = map[string]struct{}{
 	"https://vsednr.ru": {},
 	"https://dnmchs.ru": {},
 	// 	"http://www.fsb.ru":               {}, // only ru net
-	"https://govdnr.ru":               {},
+	"https://govdnr.ru":               {}, // only ru net?
 	"https://mer.govdnr.ru/index.php": {},
 	"https://mid-dnr.su/ru/":          {},
-	"https://mzdnr.ru":                {},
-	"https://pravdnr.ru":              {},
+	// 	"https://mzdnr.ru":                {}, // cf | only ru net
+	"https://pravdnr.ru": {}, // only ru net?
 
 	// Embassies
 	// Do not duplicate the IPs: https://github.com/erkexzcx/stoppropaganda/pull/110#issuecomment-1059960305
@@ -233,13 +227,13 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://www.ela-container.ru":                                  {}, // one global server
 	// 	"https://www.etam.ru":                                           {}, // cf server in fr
 	"https://fenzirussia.com":    {},
-	"https://fischer-russia.com": {},
+	"https://fischer-russia.com": {}, // only ru net?
 	// 	"http://flowserve-industry.ru":                                  {}, // dg
 	"https://foraco.ru":            {},
 	"https://www.foreverliving.ru": {},
 	"https://frigoglass-shop.ru":   {},
 	// 	"http://hardrockcafe.ru":                                 {},
-	"https://hardrockcafespb.ru":                             {},
+	// 	"https://hardrockcafespb.ru":                             {}, // cf
 	"https://hoffmann-group.ru":                              {},
 	"https://www.kfc.ru":                                     {},
 	"https://api.kfc.com/api/store/v2/store.get_restaurants": {},
