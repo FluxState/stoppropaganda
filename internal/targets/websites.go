@@ -6,25 +6,11 @@ var TargetWebsites = map[string]struct{}{
 	/* Russia */
 
 	// Propaganda
-	// 	"https://tass.ru":                            {}, // stormwall
-	// 	"https://tass.ru/userApi/getNewsFeed":        {}, // stormwall
-	"https://vz.ru":                               {},
-	"https://www.gazeta.ru":                       {},
-	"https://pikabu.ru":                           {},
-	"https://www.rambler.ru":                      {},
-	"https://www.rambler.ru/api/v4/personalized/": {},
-	// 	"https://id.rambler.ru/login-20/login": {}, // TODO fix small read buffer
-	"https://news.rambler.ru":                              {},
-	"https://peroxide.rambler.ru/v1/tops/common/clusters/": {},
-	"https://rcm.rambler.ru":                               {},
-	"https://mail.ru":                                      {},
-	"https://news.mail.ru":                                 {},
-	"https://rg.ru":                                        {},
-	"https://12-kanal.ru":                                  {}, //
-	"https://360tv.ru":                                     {}, // q | should be called without query
-	"https://47news.ru":                                    {}, // qrator
-	"https://77.244.221.63":                                {}, // 47news.ru
-	"https://78.ru":                                        {},
+	"https://12-kanal.ru":   {}, //
+	"https://360tv.ru":      {}, // q | should be called without query
+	"https://47news.ru":     {}, // qrator
+	"https://77.244.221.63": {}, // 47news.ru
+	"https://78.ru":         {},
 	// 	"https://www.afanasy.biz":                           {}, // cf only ru net
 	//  	"http://allpravda.info":                              {}, // cf
 	"https://anews.com": {},
@@ -33,8 +19,11 @@ var TargetWebsites = map[string]struct{}{
 	"https://argumenti.ru":    {},
 	"https://aurora.network":  {}, // should be called without query
 	// 	"https://balrad.ru":                  {}, // cf only hu net
-	"https://bloknot-rostov.ru": {},
-	"https://www.bnkomi.ru":     {},
+	"https://bel.ru": {}, // cf
+	"https://bel.ru/api/v1/platform/main_page": {}, // cf
+	"https://bk55.ru":                          {},
+	"https://bloknot-rostov.ru":                {},
+	"https://www.bnkomi.ru":                    {},
 	// 	"https://www.business-gazeta.ru":                     {}, // qrator
 	"https://buzina.org":        {},
 	"https://www.c-inform.info": {},
@@ -62,6 +51,7 @@ var TargetWebsites = map[string]struct{}{
 	"https://fine-news.ru":           {},
 	// 	"https://forpostsevastopol.ru":   {}, // cf only ru net
 	// 	"https://front-novorossii.ru": {},
+	"https://www.gazeta.ru": {},
 	// 	"http://globalwarnews.ru":             {}, // dg
 	"https://gorlovka-news.su": {}, // cf
 	"https://gtrklnr.com":      {},
@@ -75,6 +65,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://lug-info.com":              {},
 	"https://lugansk-online.su":         {},
 	"https://www.m24.ru":                {},
+	"https://mail.ru":                   {},
+	"https://news.mail.ru":              {},
 	"https://mediarepost.ru":            {},
 	"https://www.metronews.ru":          {},
 	"https://mirbelogorya.ru/index.php": {},
@@ -102,6 +94,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://www.osnmedia.ru":  {}, // qrator
 	"https://pandoraopen.ru": {}, // should be called without query
 	// 	"https://pg11.ru":                       {}, // only ru net
+	"https://pikabu.ru":                     {},
 	"https://pizzahut.ru":                   {},
 	"https://pizzahut.ru/ajax/menu-groups/": {},
 	"https://plainnews.ru":                  {}, // cf
@@ -113,13 +106,20 @@ var TargetWebsites = map[string]struct{}{
 	"https://politpuzzle.ru": {},
 	// 	"https://politros.com":                {}, // airee
 	// 	"https://pravdoryb.info":              {}, // cf
-	"https://rf-smi.ru":                   {},
-	"https://riafan.ru":                   {}, // q
-	"https://riamo.ru":                    {},
-	"https://www.ritmeurasia.org":         {},
-	"https://rodina.news":                 {}, // cf
-	"https://rossaprimavera.ru/feed/news": {},
-	"https://rostovgazeta.ru":             {}, // cf
+	"https://www.rambler.ru":                      {},
+	"https://www.rambler.ru/api/v4/personalized/": {},
+	// 	"https://id.rambler.ru/login-20/login": {}, // TODO fix small read buffer
+	"https://news.rambler.ru":                              {},
+	"https://peroxide.rambler.ru/v1/tops/common/clusters/": {},
+	"https://rcm.rambler.ru":                               {},
+	"https://rf-smi.ru":                                    {},
+	"https://rg.ru":                                        {},
+	"https://riafan.ru":                                    {}, // q
+	"https://riamo.ru":                                     {},
+	"https://www.ritmeurasia.org":                          {},
+	"https://rodina.news":                                  {}, // cf
+	"https://rossaprimavera.ru/feed/news":                  {},
+	"https://rostovgazeta.ru":                              {}, // cf
 	// 	"https://rusnext.ru":                  {}, // cf
 	// 	"https://rusnext.ru/newslistapi.json": {}, // cf
 	// 	"https://ru-an.info":     {}, // cf
@@ -132,6 +132,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://sovross.ru":       {},
 	"http://stringer-news.com": {}, // redirect with set-cookie
 	"https://svpressa.ru":      {},
+	// 	"https://tass.ru":                            {}, // sw
+	// 	"https://tass.ru/userApi/getNewsFeed":        {}, // sw
 	"https://taurica.net":      {},
 	"https://tehnowar.ru":      {},
 	"https://thesaker.is":      {},
@@ -145,7 +147,9 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://universe-tss.su":  {},
 	"https://utro.ru":          {},
 	"https://www.vedomosti.ru": {},
-	"https://vesti-k.ru":       {}, // only ru net?
+	// 	"https://vesti-k.ru":       {}, // only ru net
+	"https://vestnickprimanich.ru": {},
+	"https://vkirove.ru":           {},
 	// 	"https://vm.ru":            {}, // dg | should be called without query
 	"https://voskhodinfo.su": {},
 	// 	"https://webkamerton.ru":              {}, // small read buffer
@@ -169,7 +173,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://therussophile.org":         {},
 	"https://tsargrad.tv":               {},
 	"https://mirtesen.tsargrad.tv":      {},
-	"https://www.voltairenet.org":       {}, // cf should be called without params
+	// 	"https://www.voltairenet.org":       {}, // fi hetzner | cf | should be called without params
+	"https://vz.ru": {},
 
 	// Business corporations
 	// 	"http://www.crimearw.ru": {},
@@ -189,12 +194,6 @@ var TargetWebsites = map[string]struct{}{
 	// Do not duplicate the IPs: https://github.com/erkexzcx/stoppropaganda/pull/110#issuecomment-1059960305
 	"https://montreal.mid.ru": {},
 	"https://belarus.mid.ru":  {},
-
-	// Belgorod
-	"https://bel.ru": {}, // cf
-	"https://bel.ru/api/v1/platform/main_page": {}, // cf
-	"https://belsbyt.ru":                       {},
-	"https://lk.belsbyt.ru/fiz/login":          {},
 
 	/* BELARUS */
 
@@ -226,8 +225,8 @@ var TargetWebsites = map[string]struct{}{
 	"https://www.ehrmann.ru": {},
 	// 	"https://www.ela-container.ru":                                  {}, // one global server
 	// 	"https://www.etam.ru":                                           {}, // cf server in fr
-	"https://fenzirussia.com":    {},
-	"https://fischer-russia.com": {}, // only ru net?
+	"https://fenzirussia.com": {},
+	// 	"https://fischer-russia.com": {}, // only ru net
 	// 	"http://flowserve-industry.ru":                                  {}, // dg
 	"https://foraco.ru":            {},
 	"https://www.foreverliving.ru": {},
