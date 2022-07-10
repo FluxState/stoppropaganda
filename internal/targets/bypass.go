@@ -69,6 +69,11 @@ var BypassIPs = []BypassWebsite{
 		},
 	},
 	{
+		Host: "thesaker.is", IPs: []net.IPAddr{
+			*mustResolveIPAddr("23.111.129.34"),
+		},
+	},
+	{
 		Host: "www.voltairenet.org", IPs: []net.IPAddr{
 			*mustResolveIPAddr("65.108.13.235"),
 		},
