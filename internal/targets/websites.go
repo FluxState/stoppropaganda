@@ -21,7 +21,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://balrad.ru":                  {}, // cf only hu net
 	"https://bel.ru": {}, // cf
 	"https://bel.ru/api/v1/platform/main_page": {}, // cf
-	"https://bk55.ru":                          {},
+// 	"https://bk55.ru":                          {}, // sw
 	"https://bloknot-rostov.ru":                {},
 	"https://www.bnkomi.ru":                    {},
 	// 	"https://www.business-gazeta.ru":                     {}, // qrator
@@ -155,7 +155,7 @@ var TargetWebsites = map[string]struct{}{
 	// 	"https://webkamerton.ru":              {}, // small read buffer
 	"https://wpristav.com": {}, // (wpristav.ru cf)
 	// 	"https://x-true.info":     {}, // cf
-	// 		"http://xvesti.ru":        {}, // cf
+	// 	"http://xvesti.ru":        {}, // cf
 	// 	"https://ya62.ru":      {}, // dg
 	// 	"https://zanamipravda.ru": {}, // only ru net
 	// 	"https://zavtra.ru": {}, // cf | only ru net
@@ -261,7 +261,6 @@ var TargetWebsites = map[string]struct{}{
 	"https://skidki.raiffeisen.ru":                                                  {},
 	"https://sbarro-pizza.ru":                                                       {},
 	"https://sbdr.ru":                                                               {},
-	"https://sbdr.ru/api/v1/map_point/":                                             {},
 	// 	"https://www.sgs.ru":                                                            {}, // server in nl
 	// 	"https://www.storck.ru/ru/":                                                     {}, // server in de
 	"https://subway.ru":      {},

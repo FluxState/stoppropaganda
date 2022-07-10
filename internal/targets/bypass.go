@@ -34,6 +34,11 @@ var BypassIPs = []BypassWebsite{
 		},
 	},
 	{
+		Host: "www.europereloaded.com", IPs: []net.IPAddr{
+			*mustResolveIPAddr("147.135.97.116"),
+		},
+	},
+	{
 		Host: "fine-news.ru", IPs: []net.IPAddr{
 			*mustResolveIPAddr("213.139.208.57"),
 		},
